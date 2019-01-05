@@ -8,3 +8,27 @@ Definition of SOW:
         A statement of work (SoW) is a document routinely employed in the field of project management. It defines 
 project-specific activities, deliverables and timelines for a vendor providing services to the client. The SOW 
 typically also includes detailed requirements and pricing, with standard regulatory and governance terms and conditions
+
+1. State the problem and the solution.
+Currently, the integration of the Sightline Landing Aid for end users is problematic because of the difficulties of wire 
+connections, software barrier, skills of users, and so on. Understandably, end-users bought the Landing Aid kits from 
+Sightline want to just plug-in a piece of hardware and the drone would fly their mission, so they don’t need to have 
+experience or any kind of special skills. Now, Sightline has been developing a good set of benefit for precision landing 
+aid which includes working in degraded and denied GPS environments, supporting landing on moving platforms, not affected 
+by bring sun and low light condition. Recognizing the need from the end-users and the current developed benefits, Sightline
+want to develop a plug and play precision landing aid for UAVs and expect that this new project will be highly valuable to 
+a wide range of multi-copter integrators.
+
+2. Project requirements
+Develop a set of electrical sub-assemblies that will allow integration of Sightline Precision Landing Aid (1500 OEM + Airborne 
+Camera + accessories) for PX4 running on Pixhawk 4 autopilot.
+Design and produce a prototype enclosure for the hardware. The enclosure should be smaller than 3” x 2” x 2”
+Develop documentation and software installers to meet plug and play expectations
+
+3. Project Design Specifications
+Use Pixhawk 4 autopilot which is powered using 9V batteries
+Use PX4 as an open source flight control software for drones
+Use QGROUNDCONTROL as a ground control station and mission planning
+1500 OEM and its accessories are powered using 5V output from the Pixhawk 4 kits.
+Use RS-232 or 3.3V TTL to communicate between hardware and autopilot
+Use DJI Flame Wheel F450 quadcopter
