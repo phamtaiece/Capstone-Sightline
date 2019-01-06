@@ -18,7 +18,9 @@ Meeting location: Circuit lounge (If our advisor/sponsor need to attend the meet
 01/06/2019
  
 Hello everyone, 
+
 This capstone is 4 credits class, please organize your schedule to work on the project about 8 hours or more a week. Time goes very fast, so please don't wait.
+
 We are currently working on the Statement Of Work (SOW), please go to "General Documents" folder to contribute.
  
 See you all on Wednesday.
