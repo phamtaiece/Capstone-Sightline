@@ -10,7 +10,7 @@ Let's have fun together.
  Weekly meeting is held on Wednesday, 10:00 - 11:00 AM. If we have capstone class on Wednesday, a short meeting will be held after class from 11:00 - 11:30 AM.
 Meeting location: Circuit lounge (If our advisor/sponsor need to attend the meeting, the location will be different)
  
-              ********************************************************************************************              
+              ********************************************************************************************         
  01/06/2019
  
  Hello everyone, 
