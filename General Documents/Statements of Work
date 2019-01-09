@@ -49,4 +49,66 @@ Use DJI Flame Wheel F450 quadcopter
 .
 
 7. Project timelines
+Tentative schedule: 
+Winter term 2019:
+
+Week 1: 01/07 – 01/13
+Complete the Statement of Work
+Ask question?
+
+Week 2: 01/14 – 01/20
+Qgroundcontrol learning
+Code understanding
+How to fly indoor safely 
+Review Jeremy question in Docs
+Ask question?
+
+Week 3: 01/21 – 01/27 
+Code understanding (cont)
+Quadcopter understanding
+Qgroundcontrol learning (cont)
+Ask Question?
+
+Week 4: 01/28 – 02/03
+Code understanding (cont)
+Qgroundcontrol learning (cont)
+Draw schematic for new board
+Pixhawk 4 learning
+Ask question?
+
+Week 5: 02/04 – 02/10
+Draw schematic for new board (cont)
+Start working with quadcopter + Pixhawk 4 + Qgroundcontrol
+Code writing
+Ask question?
+
+Week 6: 02/11 – 02/17
+Send schematic for manufacture
+Start working with quadcopter + Pixhawk 4 + Qgroundcontrol (cont)
+Code writing (cont)
+Ask question?
+
+Week 7: 02/18 – 02/24
+Start working with quadcopter + Pixhawk 4 + Qgroundcontrol (cont)
+Code writing (cont)
+Working with simulation model
+Ask question?
+
+Week 8: 02/25 – 03/03
+Schematic test and debug
+Code writing (test)
+ Working with simulation model
+Ask question?
+
+Week 9: 03/03 – 03/10
+Schematic test and debug
+Enclosure 3D model create
+Working with simulation model
+Ask question?
+
+Week 10: 03/11- 03/17
+Schematic test and debug (cont)
+Enclosure 3D model create (cont)
+First demo
+
 
