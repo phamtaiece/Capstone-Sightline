@@ -26,6 +26,7 @@ We are currently working on the Statement Of Work (SOW), please go to "General D
 See you all on Wednesday.
  
 -Tai
+
           ****************************************************************************
  01/15/2019
  
