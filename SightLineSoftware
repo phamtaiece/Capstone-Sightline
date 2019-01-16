@@ -1,1 +1,7 @@
-
+* SightLine Example code is located in SLALandingApp
+* It was based on sources we provide on our web site http://sightlineapplications.com
+* It corresponds to a SightLine firmware release 2.24
+* SightLine will merge more code to bring the SLALandingApp up to date with SLA firmware 2.25
+* Sample code compiles and runs on the ARM of the 1500-OEM
+* Include code for PX4 and ArduCopter
+* Includes relevant MAVLINK sources
