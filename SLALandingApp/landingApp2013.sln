@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SLALandingAppPX4", "SLALandingAppPixhawk\landingAppPX4.vcxproj", "{6A7B417A-0353-4FD6-BE00-96DE398C4E9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SLALandingAppArduCopter", "SLALandingAppPixhawk\landingAppArduCopter.vcxproj", "{17989D0D-35D4-4AB2-8603-0D553A1AF99A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7B417A-0353-4FD6-BE00-96DE398C4E9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A7B417A-0353-4FD6-BE00-96DE398C4E9C}.Debug|Win32.Build.0 = Debug|Win32
+		{6A7B417A-0353-4FD6-BE00-96DE398C4E9C}.Release|Win32.ActiveCfg = Release|Win32
+		{6A7B417A-0353-4FD6-BE00-96DE398C4E9C}.Release|Win32.Build.0 = Release|Win32
+		{17989D0D-35D4-4AB2-8603-0D553A1AF99A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17989D0D-35D4-4AB2-8603-0D553A1AF99A}.Debug|Win32.Build.0 = Debug|Win32
+		{17989D0D-35D4-4AB2-8603-0D553A1AF99A}.Release|Win32.ActiveCfg = Release|Win32
+		{17989D0D-35D4-4AB2-8603-0D553A1AF99A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{fe1d2498-8ff8-4680-91c5-3c99becaeee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SLheaders">
+      <UniqueIdentifier>{f629b2b1-03d7-41ac-ad6f-c08aabcee2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APMAutopilot">
+      <UniqueIdentifier>{1807e4a9-d309-443a-8809-29cf15286221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APMAutopilot\headers">
+      <UniqueIdentifier>{db69165e-4007-4f9a-b3b7-361b132efb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APMAutopilot\sources">
+      <UniqueIdentifier>{04e980b1-9e6f-4a99-b15f-9e79a29664e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="laPX4.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laMain.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laSla.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laVtRes.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\laAutopilot.h">
+      <Filter>SLheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laSla.h">
+      <Filter>SLheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laVtRes.h">
+      <Filter>SLheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\checksum.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\common.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="laAPM.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\mavlink_conversions.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\mavlink_helpers.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_attitude.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_attitude_quaternion.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_attitude_quaternion_cov.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_attitude_target.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_auth_key.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_autopilot_version.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_battery_status.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_change_operator_control.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_change_operator_control_ack.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_command_ack.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_command_int.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_command_long.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_data_stream.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_data_transmission_handshake.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_debug.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_debug_vect.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_distance_sensor.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_encapsulated_data.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_file_transfer_protocol.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_global_position_int.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_global_position_int_cov.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_global_vision_position_estimate.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_gps2_raw.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_gps2_rtk.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_gps_global_origin.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_gps_inject_data.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_gps_raw_int.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_gps_rtk.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_gps_status.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_heartbeat.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_highres_imu.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_hil_controls.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_hil_gps.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_hil_optical_flow.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_hil_rc_inputs_raw.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_hil_sensor.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_hil_state.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_hil_state_quaternion.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_local_position_ned.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_local_position_ned_cov.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_local_position_ned_system_global_offset.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_log_data.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_log_entry.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_log_erase.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_log_request_data.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_log_request_end.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_log_request_list.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_manual_control.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_manual_setpoint.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_memory_vect.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_ack.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_clear_all.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_count.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_current.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_item.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_item_int.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_item_reached.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_request.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_request_list.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_request_partial_list.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_set_current.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_mission_write_partial_list.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_named_value_float.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_named_value_int.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_nav_controller_output.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_optical_flow.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_optical_flow_rad.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_param_request_list.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_param_request_read.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_param_set.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_param_value.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_ping.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_position_target_global_int.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_position_target_local_ned.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_power_status.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_radio_status.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_raw_imu.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_raw_pressure.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_rc_channels.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_rc_channels_override.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_rc_channels_raw.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_rc_channels_scaled.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_request_data_stream.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_safety_allowed_area.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_safety_set_allowed_area.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_scaled_imu.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_scaled_imu2.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_scaled_pressure.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_serial_control.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_servo_output_raw.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_set_attitude_target.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_set_gps_global_origin.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_set_mode.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_set_position_target_global_int.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_set_position_target_local_ned.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_sim_state.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_statustext.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_sys_status.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_system_time.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_terrain_check.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_terrain_data.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_terrain_report.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_terrain_request.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_timesync.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_v2_extension.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_vfr_hud.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_vicon_position_estimate.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_vision_position_estimate.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\mavlink_msg_vision_speed_estimate.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\mavlink_types.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\protocol.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\stdint.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\testsuite.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APMcopterInterface\mavlink\common\version.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

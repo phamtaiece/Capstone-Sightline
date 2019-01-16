@@ -1,0 +1,4 @@
+The mavlink code was downloaded from "https://github.com/mavlink/c_library".   This  software is licensed under the terms of the LGPLv3.  See "https://github.com/mavlink/mavlink" for more details.
+
+License
+MAVLink is licensed under the terms of the Lesser General Public License (version 3) of the Free Software Foundation (LGPLv3). The C-language version of MAVLink is a header-only library, and as such compiling an application with it is considered "using the library", not a derived work. MAVLink can therefore be used without limits in any closed-source application without publishing the source code of the closed-source application."
