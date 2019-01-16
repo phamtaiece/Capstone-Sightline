@@ -26,6 +26,14 @@ We are currently working on the Statement Of Work (SOW), please go to "General D
 See you all on Wednesday.
  
 -Tai
+
+          ****************************************************************************
+ 01/15/2019
+ 
+ - All hardware arrived at Sightline
+ - Individual schedule is updated in general document.
+ - Q & A questions are updated in general document.
+ - Meeting with advisor and sponsor at PSU at 10 AM 01/16/2019
  
  
  
