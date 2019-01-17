@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{b76fcf4c-4ab9-4515-abb7-1cfe3ce24248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SLheaders">
+      <UniqueIdentifier>{71e1d448-944a-4ca2-8571-8a8e18a2d1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APMAutopilot">
+      <UniqueIdentifier>{b0dc18fa-931e-43ec-9c1a-9b9f7e4ef5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APMAutopilot\headers">
+      <UniqueIdentifier>{fc6cfe36-8343-4fba-8ec1-e6db6757f17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APMAutopilot\sources">
+      <UniqueIdentifier>{33491321-9d58-4388-8420-50a09cd11248}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="laArduCopter.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laMain.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laSla.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laVtRes.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\laAutopilot.h">
+      <Filter>SLheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laSla.h">
+      <Filter>SLheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laVtRes.h">
+      <Filter>SLheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="laArduCopter.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APMcopterInterface\mavlink\mavlink_helpers.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APMcopterInterface\mavlink\common\mavlink_msg_command_long.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APMcopterInterface\stdint.h">
+      <Filter>APMAutopilot\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
