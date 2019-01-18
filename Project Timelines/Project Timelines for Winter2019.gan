@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-01-05" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-01-06" view-index="0" gantt-divider-location="714" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="167" order="0"/>
-        <field id="tpd4" name="Begin date" width="65" order="1"/>
-        <field id="tpd5" name="End date" width="64" order="2"/>
-        <timeline><![CDATA[45,0,21,24,12]]></timeline>
-        <option id="color.recent"><![CDATA[#ff0066 #00ffff #660033 #f4f4f4 #ffff00 #9999ff #33ffff #66ff66 #ff6666 #33ff33]]></option>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="508" order="0"/>
+        <field id="tpd4" name="Begin date" width="111" order="1"/>
+        <field id="tpd5" name="End date" width="91" order="2"/>
+        <timeline><![CDATA[56,12,38,40,0,45,54,24]]></timeline>
+        <option id="color.recent"><![CDATA[#999999 #ff0066 #00ffff #660033 #f4f4f4 #ffff00 #9999ff #33ffff #66ff66 #ff6666]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -35,36 +35,41 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Statement of Work" color="#33ff33" meeting="false" start="2019-01-07" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="1" expand="true">
-            <task id="10" name="1st draft of SOW" color="#66ff66" meeting="false" start="2019-01-07" duration="7" complete="0" thirdDate="2019-01-03" thirdDate-constraint="0" expand="true"/>
-            <task id="12" name="Complete SOW" color="#66ff66" meeting="false" start="2019-01-14" duration="7" complete="0" thirdDate="2019-01-03" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Statement of Work" color="#33ff33" meeting="false" start="2019-01-07" duration="14" complete="77" thirdDate="2019-01-07" thirdDate-constraint="1" expand="true">
+            <task id="10" name="1st draft of SOW" color="#66ff66" meeting="false" start="2019-01-07" duration="7" complete="100" thirdDate="2019-01-03" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Complete SOW" color="#66ff66" meeting="false" start="2019-01-14" duration="7" complete="54" thirdDate="2019-01-03" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="15" name="Qgroundcontrol learning" color="#ff6666" meeting="false" start="2019-01-07" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="Qgroundcontrol learning" color="#ff6666" meeting="false" start="2019-01-07" duration="14" complete="52" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
         <task id="17" name="Pixhawk 4 learning" color="#3333ff" meeting="false" start="2019-01-14" duration="21" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
             <task id="19" name="Pixhawk 4 Learning" color="#3333ff" meeting="false" start="2019-01-14" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
-            <task id="21" name="Pixhawk 4 arrive at Sightline" color="#3333ff" meeting="false" start="2019-01-27" duration="8" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
             <task id="23" name="Working with Pixhawk 4" color="#3333ff" meeting="false" start="2019-01-27" duration="8" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="24" name="Quadcopter learning" color="#33ffff" meeting="false" start="2019-01-21" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
-            <task id="26" name="Expect Quadcopter arrive at Sightline" color="#33ffff" meeting="false" start="2019-01-21" duration="7" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
             <task id="28" name="Working with Quadcopter" color="#33ffff" meeting="false" start="2019-01-21" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="30" name="Code wring" color="#9999ff" meeting="false" start="2019-01-21" duration="49" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
             <task id="43" name="Learn from sample code" color="#9999ff" meeting="false" start="2019-01-21" duration="14" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
-            <task id="45" name="Start wring a new code and debug" color="#9999ff" meeting="false" start="2019-02-05" duration="34" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Start wring a new code and debug" color="#9999ff" meeting="false" start="2019-02-04" duration="35" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="32" name="Create a new schematic for AB board" color="#ffff00" meeting="false" start="2019-01-28" duration="49" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
-            <task id="34" name="Start drawing a schematic for AB board" color="#ffff00" meeting="false" start="2019-01-28" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
-            <task id="38" name="Send schematic for manufacturing" color="#ffff00" meeting="false" start="2019-02-11" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
-            <task id="40" name="Schematic test and debug" color="#ffff00" meeting="false" start="2019-02-25" duration="21" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+        <task id="32" name="Create a new schematic for AB board" color="#999999" meeting="false" start="2019-01-28" duration="49" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
+            <task id="34" name="Start drawing a schematic for AB board" color="#999999" meeting="false" start="2019-01-28" duration="21" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="38" name="Send schematic for manufacturing" color="#999999" meeting="false" start="2019-02-18" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="Send BOM for order" color="#999999" meeting="false" start="2019-02-18" duration="14" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Schematic layout" color="#999999" meeting="false" start="2019-03-04" duration="7" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="Schematic test and debug" color="#999999" meeting="false" start="2019-03-04" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="47" name="Test and simulate indoor (Pixhawk 4 + Qground Control +Quadcopter)" color="#660033" meeting="false" start="2019-02-04" duration="35" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true">
-            <task id="49" name="Learn how to connect all hardware together" color="#660033" meeting="false" start="2019-02-04" duration="7" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
-            <task id="51" name="Hardware + simulation model using Qgroundcontrol" color="#660033" meeting="false" start="2019-02-11" duration="21" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
-            <task id="53" name="Indoor test" color="#660033" meeting="false" start="2019-03-04" duration="7" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
+        <task id="47" name="Test and simulate indoor (Pixhawk 4 + Qground Control +Quadcopter)" color="#660033" meeting="false" start="2019-01-21" duration="42" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true">
+            <task id="49" name="1500 OEM testing" color="#660033" meeting="false" start="2019-01-21" duration="14" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
+            <task id="51" name="Hardware + simulation model using Qgroundcontrol" color="#660033" meeting="false" start="2019-02-04" duration="28" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="54" name="3D enclosure create" color="#00ffff" meeting="false" start="2019-03-04" duration="14" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
-        <task id="56" name="First demo" color="#ff0066" meeting="false" start="2019-03-11" duration="7" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
+        <task id="56" name="First demo" color="#ff0066" meeting="false" start="2019-03-18" duration="7" complete="0" thirdDate="2019-01-06" thirdDate-constraint="0" expand="true"/>
+        <task id="64" name="Test/Debug/Code writing/Complete Enclose" color="#3333ff" meeting="false" start="2019-03-25" duration="14" complete="0" thirdDate="2019-01-27" thirdDate-constraint="0" expand="true"/>
+        <task id="66" name="Second Demo" color="#3333ff" meeting="false" start="2019-04-08" duration="14" complete="0" thirdDate="2019-01-27" thirdDate-constraint="0" expand="true"/>
+        <task id="69" name="Third Demo" color="#3333ff" meeting="false" start="2019-04-22" duration="14" complete="0" thirdDate="2019-01-27" thirdDate-constraint="0" expand="true"/>
+        <task id="71" name="Complete design and Outdoor test" color="#3333ff" meeting="false" start="2019-05-06" duration="14" complete="0" thirdDate="2019-01-27" thirdDate-constraint="0" expand="true"/>
+        <task id="74" name="Generate all required documents/ Prepare presentation" color="#3333ff" meeting="false" start="2019-05-20" duration="14" complete="0" thirdDate="2019-01-27" thirdDate-constraint="0" expand="true"/>
+        <task id="76" name="Final project presentation at PSU" color="#3333ff" meeting="false" start="2019-06-03" duration="5" complete="0" thirdDate="2019-01-27" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
