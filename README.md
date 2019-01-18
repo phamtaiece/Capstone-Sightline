@@ -18,5 +18,6 @@ Meeting location: Circuit lounge (If our advisor/sponsor need to attend the meet
 01/18/2019
 
 Update SOW in General Documents folder
+
 Update Project Timelines in Project Timelines folder
 
