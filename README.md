@@ -15,25 +15,8 @@ Weekly meeting is held on Wednesday, 10:00 - 11:00 AM. If we have capstone class
 Meeting location: Circuit lounge (If our advisor/sponsor need to attend the meeting, the location will be different)
  
               ********************************************************************************************         
-01/06/2019
- 
-Hello everyone, 
+01/18/2019
 
-This capstone is 4 credits class, please organize your schedule to work on the project about 8 hours or more a week. Time goes very fast, so please don't wait.
+Update SOW in General Documents folder
+Update Project Timelines in Project Timelines folder
 
-We are currently working on the Statement Of Work (SOW), please go to "General Documents" folder to contribute.
- 
-See you all on Wednesday.
- 
--Tai
-
-          ****************************************************************************
- 01/15/2019
- 
- - All hardware arrived at Sightline
- - Individual schedule is updated in general document.
- - Q & A questions are updated in general document.
- - Meeting with advisor and sponsor at PSU at 10 AM 01/16/2019
- 
- 
- 
