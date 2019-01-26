@@ -15,9 +15,11 @@ Weekly meeting is held on Wednesday, 10:00 - 11:00 AM. If we have capstone class
 Meeting location: Circuit lounge (If our advisor/sponsor need to attend the meeting, the location will be different)
  
               ********************************************************************************************         
-01/18/2019
+01/25/2019
 
-Update SOW in General Documents folder
+Update SOW(final) in General Documents folder
 
-Update Project Timelines in Project Timelines folder
+Update "Sightline Project working space" in "Project Working Space" folder. The project progress will be updated in this folder.
+
+Meet with Andrew on 01/30/2019 at 12:00 @ Adjuct office 85-03
 
