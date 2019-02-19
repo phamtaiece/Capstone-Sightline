@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -617,6 +617,69 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <rectangle x1="0.375" y1="0.375" x2="0.875" y2="1" layer="21"/>
 <rectangle x1="1.625" y1="0.375" x2="2.125" y2="1" layer="21"/>
 </package>
+<package name="SOT-223-6-PIN">
+<smd name="6" x="0" y="3.1" dx="3.5" dy="2.2" layer="1"/>
+<smd name="3" x="0" y="-3.1" dx="0.74" dy="2.34" layer="1"/>
+<smd name="5" x="2.54" y="-3.1" dx="0.74" dy="2.34" layer="1"/>
+<smd name="4" x="1.27" y="-3.1" dx="0.74" dy="2.34" layer="1"/>
+<smd name="1" x="-2.54" y="-3.1" dx="0.74" dy="2.34" layer="1" rot="R180"/>
+<smd name="2" x="-1.27" y="-3.1" dx="0.74" dy="2.34" layer="1"/>
+<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.254" layer="51"/>
+<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.254" layer="51"/>
+<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.254" layer="51"/>
+<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.2032" layer="51"/>
+<wire x1="-1.97" y1="2.015" x2="-3.505" y2="2.015" width="0.254" layer="21"/>
+<wire x1="-3.505" y1="2.015" x2="-3.525" y2="1.995" width="0.254" layer="21"/>
+<wire x1="-3.525" y1="1.995" x2="-3.525" y2="-1.995" width="0.254" layer="21"/>
+<wire x1="-3.525" y1="-1.995" x2="-3.105" y2="-1.995" width="0.254" layer="21"/>
+<wire x1="-3.105" y1="-1.995" x2="-3.085" y2="-2.015" width="0.254" layer="21"/>
+<wire x1="2.01" y1="1.995" x2="3.525" y2="1.995" width="0.254" layer="21"/>
+<wire x1="3.525" y1="1.995" x2="3.525" y2="-1.975" width="0.254" layer="21"/>
+<wire x1="3.525" y1="-1.975" x2="3.505" y2="-1.995" width="0.254" layer="21"/>
+<wire x1="3.505" y1="-1.995" x2="3.11" y2="-1.995" width="0.254" layer="21"/>
+<text x="2.505" y="2.495" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.5" y="-4.01" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="TI-SC70-5">
+<smd name="5" x="-0.65" y="1.1" dx="0.4" dy="0.9" layer="1"/>
+<smd name="4" x="0.65" y="1.1" dx="0.4" dy="0.9" layer="1"/>
+<smd name="1" x="-0.65" y="-1.1" dx="0.4" dy="0.9" layer="1"/>
+<smd name="2" x="0" y="-1.1" dx="0.4" dy="0.9" layer="1"/>
+<smd name="3" x="0.65" y="-1.1" dx="0.4" dy="0.9" layer="1"/>
+<wire x1="-1.075" y1="-0.7" x2="1.075" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.075" y1="-0.7" x2="1.075" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.075" y1="0.7" x2="-1.075" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="0.7" x2="-1.075" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-0.9" y1="0.8" x2="-1.2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="0.8" x2="-1.2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-0.8" x2="-0.9" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.8" x2="1.2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-0.8" x2="1.2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.2" y1="0.8" x2="0.9" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.127" layer="21"/>
+<text x="-1.5" y="-3.3" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.8" y="-3.3" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SOT-25">
+<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="1" x="-0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
+<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1"/>
+<wire x1="-1.55" y1="-0.85" x2="1.55" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="1.55" y1="-0.85" x2="1.55" y2="0.85" width="0.127" layer="51"/>
+<wire x1="1.55" y1="0.85" x2="-1.55" y2="0.85" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="1" x2="-1.7" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="1" x2="-1.7" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="-1" x2="-1.4" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.4" y1="-1" x2="1.7" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.7" y1="-1" x2="1.7" y2="1" width="0.127" layer="51"/>
+<wire x1="1.7" y1="1" x2="1.4" y2="1" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.127" layer="51"/>
+<text x="-2.1" y="-3.2" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.2" y="-3.2" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0201" urn="urn:adsk.eagle:package:26117/2" type="model">
@@ -820,6 +883,46 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
 <text x="-2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;MOLEX 53398-04</text>
+</symbol>
+<symbol name="TPS73633DCQR">
+<pin name="IN" x="-15.24" y="2.54" length="middle"/>
+<pin name="EN" x="-15.24" y="0" length="middle"/>
+<pin name="NR" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="OUT" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND0" x="-12.7" y="-2.54" length="short"/>
+<pin name="GND1" x="12.7" y="-2.54" length="short" rot="R180"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="7.62" size="1.778" layer="96">&gt;TPS73633DCQR</text>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.6096" layer="94"/>
+</symbol>
+<symbol name="TPS71518DCKR">
+<pin name="IN" x="-12.7" y="2.54" length="middle"/>
+<pin name="OUT" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="NC" x="-10.16" y="-2.54" length="short" direction="nc"/>
+<pin name="FB/NC" x="12.7" y="-2.54" length="short" direction="nc" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.6096" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;TPS71518DCKR</text>
+</symbol>
+<symbol name="AP7331-WG-7">
+<pin name="IN" x="-7.62" y="7.62" length="middle"/>
+<pin name="EN" x="-7.62" y="5.08" length="middle"/>
+<pin name="GND" x="5.08" y="-7.62" length="middle" rot="R90"/>
+<pin name="ADJ" x="7.62" y="-7.62" length="middle" rot="R90"/>
+<pin name="OUT" x="15.24" y="7.62" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="10.16" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.6096" layer="94"/>
+<text x="-2.54" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="12.7" size="1.778" layer="96">&gt;AP7331-WG-7</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1084,7 +1187,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74AUC1G17" prefix="IC" uservalue="yes">
+<deviceset name="SN74AUC1G17" prefix="U" uservalue="yes">
 <description>&lt;li&gt;&lt;b&gt;SN74AUC1G17-SOT23-5&lt;/b&gt;
 &lt;li&gt; IC, BUFFER, SINGLE SCHMITT-TRIGGER, 9mA, 0.8V TO 2.7V, SOT23-5
 &lt;/li&gt;
@@ -1202,6 +1305,97 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <attribute name="DESCRIPTION" value="MOLEX 53398-04 4-PIN SMT CONNECTOR" constant="no"/>
 <attribute name="MANF" value="MOLEX" constant="no"/>
 <attribute name="MANF#" value="53398-0471" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS73633DCQR" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;TPS73633DCQR&lt;/b&gt;
+&lt;li&gt; Cap-Free, NMOS, 400-mA Low-Dropout Regulator with Reverse Current
+Protection 5.5 to 3.3V, SOT-223 6-pin, 6.5 x 3.5 mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="http://www.ti.com/lit/ds/symlink/tps736.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;TPS73633DCQR DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS73633DCQR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-223-6-PIN">
+<connects>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="GND0" pad="6"/>
+<connect gate="G$1" pin="GND1" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NR" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Cap-Free, NMOS, 400-mA Low-Dropout Regulator with Reverse Current Protection 5.5 to 3.3V, SOT-223 6-pin, 6.5 x 3.5 mm" constant="no"/>
+<attribute name="MANF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MANF#" value="TPS73633DCQR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS71518DCKR" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;TPS71518DCKR&lt;/b&gt;
+&lt;li&gt;50-mA, 24-V, 3.2-μA Supply Current Low-Dropout Linear Regulator
+in SC70 5-Pin Package, 3.3 to 1.8V, 2.15 x 1.4mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="http://www.ti.com/lit/ds/symlink/tps715.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;TPS71518DCKR DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS71518DCKR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TI-SC70-5">
+<connects>
+<connect gate="G$1" pin="FB/NC" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="50-mA, 24-V, 3.2-μA Supply Current Low-Dropout Linear Regulator in SC70 5-Pin Package, 3.3 to 1.8V, 2.15 x 1.4mm" constant="no"/>
+<attribute name="MANF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MANF#" value="TPS71518DCKR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP7331-WG-7" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;AP7331-WG-7&lt;/b&gt;
+&lt;li&gt; 300mA, LOW QUIESCENT CURRENT, FAST TRANSIENT
+LOW DROPOUT LINEAR REGULATOR, ADJUSTABLE OUTPUT, 5V to 2.8V, 3.1 x 1.7mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="https://www.diodes.com/assets/Datasheets/AP7331.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;AP7331 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="AP7331-WG-7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-25">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 300mA, LOW QUIESCENT CURRENT, FAST TRANSIENT LOW DROPOUT LINEAR REGULATOR, ADJUSTABLE OUTPUT, 5V to 2.8V, 3.1 x 1.7mm" constant="no"/>
+<attribute name="MANF" value="DIODES INCORPORATED" constant="no"/>
+<attribute name="MANF#" value="AP7331-WG-7" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1635,7 +1829,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="OSC1" library="Sightline" deviceset="KC2520B-27MHZ" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC1" library="Sightline" deviceset="SN74AUC1G17" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="33"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1657,6 +1850,10 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="J4" library="Sightline" deviceset="MOLEX_53398-04" device=""/>
 <part name="J5" library="Sightline" deviceset="MOLEX_53398-04" device="" value="MOLEX 53398-04"/>
 <part name="J6" library="Sightline" deviceset="MOLEX_53398-04" device=""/>
+<part name="U2" library="Sightline" deviceset="TPS73633DCQR" device=""/>
+<part name="U3" library="Sightline" deviceset="TPS71518DCKR" device=""/>
+<part name="U4" library="Sightline" deviceset="AP7331-WG-7" device=""/>
+<part name="U5" library="Sightline" deviceset="SN74AUC1G17" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1739,9 +1936,6 @@ WITH PIXHAWK</text>
 <instance part="GND10" gate="1" x="15.24" y="164.94125" smashed="yes">
 <attribute name="VALUE" x="12.7" y="162.40125" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="76.2" y="185.42" smashed="yes">
-<attribute name="NAME" x="78.308" y="196.522" size="1.778" layer="95"/>
-</instance>
 <instance part="GND11" gate="1" x="76.2" y="165.1" smashed="yes">
 <attribute name="VALUE" x="73.66" y="162.56" size="1.778" layer="96"/>
 </instance>
@@ -1807,6 +2001,18 @@ WITH PIXHAWK</text>
 </instance>
 <instance part="J6" gate="G$1" x="309.88" y="73.66" smashed="yes" rot="MR180">
 <attribute name="NAME" x="307.34" y="63.5" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="U2" gate="G$1" x="231.14" y="246.38" smashed="yes">
+<attribute name="NAME" x="220.98" y="256.54" size="1.778" layer="95"/>
+</instance>
+<instance part="U3" gate="G$1" x="266.7" y="246.38" smashed="yes">
+<attribute name="NAME" x="259.08" y="256.54" size="1.778" layer="95"/>
+</instance>
+<instance part="U4" gate="G$1" x="302.26" y="241.3" smashed="yes">
+<attribute name="NAME" x="299.72" y="256.54" size="1.778" layer="95"/>
+</instance>
+<instance part="U5" gate="G$1" x="76.2" y="185.42" smashed="yes">
+<attribute name="NAME" x="78.308" y="196.522" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -1995,8 +2201,8 @@ WITH PIXHAWK</text>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="76.2" y1="167.64" x2="76.2" y2="172.7" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -2397,13 +2603,12 @@ WITH PIXHAWK</text>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="G$1" pin="A"/>
 <wire x1="63.5" y1="185.42" x2="66.0715625" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="VDD_IO_LS" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="76.2" y1="198.084375" x2="76.2" y2="207.883125" width="0.1524" layer="91"/>
 <label x="76.2" y="210.899375" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="C17" gate="G$1" pin="P$1"/>
@@ -2413,13 +2618,14 @@ WITH PIXHAWK</text>
 <wire x1="76.04125" y1="208.1609375" x2="76.04125" y2="207.883125" width="0.1524" layer="91"/>
 <wire x1="76.04125" y1="207.883125" x2="76.2" y2="207.883125" width="0.1524" layer="91"/>
 <junction x="76.2" y="207.883125"/>
+<pinref part="U5" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="Y"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="86.368125" y1="185.42" x2="88.9" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="Y"/>
 </segment>
 </net>
 <net name="N$14" class="0">
