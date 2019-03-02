@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -955,6 +955,43 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.6096" layer="94"/>
 </symbol>
+<symbol name="HEADER_V2">
+<wire x1="0" y1="7.62" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="101.6" y1="17.78" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<text x="5.08" y="20.32" size="2.54" layer="94">Title</text>
+<text x="25.4" y="20.32" size="2.54" layer="94">SLA-1500-CAM</text>
+<text x="68.58" y="20.32" size="2.54" layer="94">REV 2.0</text>
+<wire x1="22.86" y1="17.78" x2="66.04" y2="17.78" width="0.254" layer="94"/>
+<wire x1="66.04" y1="17.78" x2="101.6" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<text x="5.08" y="10.16" size="2.54" layer="94">Date</text>
+<wire x1="22.86" y1="15.24" x2="66.04" y2="15.24" width="0.254" layer="94"/>
+<wire x1="66.04" y1="15.24" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<text x="68.58" y="10.16" size="2.54" layer="94">Sheet 1 of 1</text>
+<text x="25.4" y="10.16" size="2.54" layer="94">03/01/2019</text>
+<text x="5.08" y="2.54" size="2.54" layer="94">File </text>
+<text x="25.4" y="2.54" size="2.54" layer="94">SLA_1500_CAM_V2.sch</text>
+<wire x1="0" y1="17.78" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="25.4" x2="66.04" y2="25.4" width="0.254" layer="94"/>
+<wire x1="66.04" y1="25.4" x2="101.6" y2="25.4" width="0.254" layer="94"/>
+<wire x1="101.6" y1="25.4" x2="101.6" y2="17.78" width="0.254" layer="94"/>
+<wire x1="66.04" y1="17.78" x2="66.04" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="66.04" y2="7.62" width="0.254" layer="94"/>
+<wire x1="66.04" y1="7.62" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<wire x1="66.04" y1="7.62" x2="66.04" y2="15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="7.62" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CAP0201" prefix="C" uservalue="yes">
@@ -1472,6 +1509,18 @@ LOW DROPOUT LINEAR REGULATOR, ADJUSTABLE OUTPUT, 5V to 2.8V, 3.1 x 1.7mm&lt;/li&
 <attribute name="MANF" value="Texas Instruments" constant="no"/>
 <attribute name="MANF#" value="SN74AUC1G08DBVR " constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER_V2">
+<gates>
+<gate name="G$1" symbol="HEADER_V2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5167,7 +5216,9 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device="">
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="C7" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2" value="100nf"/>
 <part name="C8" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2" value="100nf"/>
 <part name="C9" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2" value="100nf"/>
@@ -5262,6 +5313,7 @@ Source: www.kingbright.com</description>
 <part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="680OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="680"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="Sightline" deviceset="HEADER_V2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5287,11 +5339,6 @@ WITH PIXHAWK</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0.2" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="325.12" y="0.2" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="337.82" y="1.47" size="2.54" layer="94"/>
-<attribute name="SHEET" x="411.48" y="1.47" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="342.9" y="19.25" size="2.54" layer="94"/>
-</instance>
 <instance part="C7" gate="G$1" x="327.66" y="246.38" smashed="yes"/>
 <instance part="C8" gate="G$1" x="317.5" y="246.38" smashed="yes"/>
 <instance part="C9" gate="G$1" x="63.5" y="246.38" smashed="yes"/>
@@ -5321,7 +5368,7 @@ WITH PIXHAWK</text>
 <attribute name="VALUE" x="198.12" y="91.44" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="256.54" y="129.54" smashed="yes">
-<attribute name="NAME" x="254" y="157.48" size="1.778" layer="95" rot="R180" align="top-right"/>
+<attribute name="NAME" x="241.3" y="165.1" size="1.778" layer="95" rot="R180" align="top-right"/>
 </instance>
 <instance part="GND8" gate="1" x="281.94" y="91.44" smashed="yes">
 <attribute name="VALUE" x="279.4" y="88.9" size="1.778" layer="96"/>
@@ -5587,6 +5634,7 @@ WITH PIXHAWK</text>
 <instance part="GND31" gate="1" x="360.68" y="226.06" smashed="yes">
 <attribute name="VALUE" x="358.14" y="223.52" size="1.778" layer="96"/>
 </instance>
+<instance part="U$1" gate="G$1" x="322.58" y="2.54" smashed="yes"/>
 </instances>
 <busses>
 </busses>

@@ -846,17 +846,17 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </symbol>
 <symbol name="TPS73633DCQR">
 <pin name="IN" x="-15.24" y="2.54" length="middle"/>
-<pin name="EN" x="-15.24" y="-5.08" length="middle"/>
-<pin name="NR" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="EN" x="-15.24" y="0" length="middle"/>
+<pin name="NR" x="15.24" y="0" length="middle" rot="R180"/>
 <pin name="OUT" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="GND0" x="-2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="GND1" x="2.54" y="-12.7" length="middle" rot="R90"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.6096" layer="94"/>
+<pin name="GND0" x="-12.7" y="-2.54" length="short"/>
+<pin name="GND1" x="12.7" y="-2.54" length="short" rot="R180"/>
 <text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="7.62" size="1.778" layer="96">&gt;TPS73633DCQR</text>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.6096" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
