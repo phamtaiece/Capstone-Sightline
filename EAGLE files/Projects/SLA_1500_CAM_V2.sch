@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7336,6 +7336,33 @@ FOR TESTING</text>
 <wire x1="149.86" y1="142.24" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
 <junction x="147.32" y="142.24"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="+"/>
+<wire x1="172.72" y1="254" x2="172.72" y2="250.19" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="254" x2="172.72" y2="256.54" width="0.1524" layer="91"/>
+<junction x="172.72" y="254"/>
+<wire x1="172.72" y1="254" x2="160.02" y2="254" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="254" x2="157.48" y2="254" width="0.1524" layer="91"/>
+<junction x="160.02" y="254"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="160.02" y1="250.19" x2="160.02" y2="254" width="0.1524" layer="91"/>
+<label x="172.72" y="256.54" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="C10" gate="G$1" pin="P$1"/>
+<wire x1="180.374375" y1="251.37125" x2="180.34" y2="251.37125" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="251.37125" x2="180.34" y2="254" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="254" x2="172.72" y2="254" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="P$1"/>
+<wire x1="187.994375" y1="251.37125" x2="187.994375" y2="254" width="0.1524" layer="91"/>
+<wire x1="187.994375" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="254" x2="180.34" y2="254" width="0.1524" layer="91"/>
+<junction x="180.34" y="254"/>
+<pinref part="C12" gate="G$1" pin="P$1"/>
+<wire x1="195.614375" y1="251.37125" x2="195.58" y2="251.37125" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="251.37125" x2="195.58" y2="254" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
+<junction x="187.96" y="254"/>
+</segment>
 </net>
 <net name="VAA_PIX" class="0">
 <segment>
@@ -8067,35 +8094,6 @@ FOR TESTING</text>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="335.28" y1="139.7" x2="368.30125" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="368.30125" y1="139.7" x2="368.30125" y2="139.700625" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<pinref part="C18" gate="G$1" pin="+"/>
-<wire x1="172.72" y1="254" x2="172.72" y2="250.19" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="254" x2="172.72" y2="256.54" width="0.1524" layer="91"/>
-<junction x="172.72" y="254"/>
-<wire x1="172.72" y1="254" x2="160.02" y2="254" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="254" x2="157.48" y2="254" width="0.1524" layer="91"/>
-<junction x="160.02" y="254"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="160.02" y1="250.19" x2="160.02" y2="254" width="0.1524" layer="91"/>
-<label x="172.72" y="256.54" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="C10" gate="G$1" pin="P$1"/>
-<wire x1="180.374375" y1="251.37125" x2="180.34" y2="251.37125" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="251.37125" x2="180.34" y2="254" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="254" x2="172.72" y2="254" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="P$1"/>
-<wire x1="187.994375" y1="251.37125" x2="187.994375" y2="254" width="0.1524" layer="91"/>
-<wire x1="187.994375" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="254" x2="180.34" y2="254" width="0.1524" layer="91"/>
-<junction x="180.34" y="254"/>
-<pinref part="C12" gate="G$1" pin="P$1"/>
-<wire x1="195.614375" y1="251.37125" x2="195.58" y2="251.37125" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="251.37125" x2="195.58" y2="254" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
-<junction x="187.96" y="254"/>
 </segment>
 </net>
 <net name="PIXCLK" class="0">
