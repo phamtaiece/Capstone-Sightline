@@ -617,14 +617,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="1.4" y="-0.4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="DILR-4">
-<smd name="8" x="-0.85" y="0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="1" x="-0.85" y="-0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="5" x="0.8" y="0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="4" x="0.8" y="-0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="7" x="-0.3" y="0.325" dx="0.35" dy="0.45" layer="1"/>
-<smd name="6" x="0.25" y="0.325" dx="0.35" dy="0.45" layer="1"/>
-<smd name="2" x="-0.3" y="-0.325" dx="0.35" dy="0.45" layer="1"/>
-<smd name="3" x="0.25" y="-0.325" dx="0.35" dy="0.45" layer="1"/>
+<smd name="8" x="-0.85" y="0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="1" x="-0.85" y="-0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="5" x="0.8" y="0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="4" x="0.8" y="-0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="7" x="-0.3" y="0.325" dx="0.3" dy="0.45" layer="1"/>
+<smd name="6" x="0.25" y="0.325" dx="0.3" dy="0.45" layer="1"/>
+<smd name="2" x="-0.3" y="-0.325" dx="0.3" dy="0.45" layer="1"/>
+<smd name="3" x="0.25" y="-0.325" dx="0.3" dy="0.45" layer="1"/>
 <wire x1="-1" y1="0.2" x2="-1" y2="-0.2" width="0.1016" layer="21"/>
 <wire x1="-1" y1="-0.2" x2="0.95" y2="-0.2" width="0.1016" layer="21"/>
 <wire x1="0.95" y1="0.2" x2="-1" y2="0.2" width="0.1016" layer="21"/>
@@ -4565,13 +4565,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:15796/1" type="box" library_version="2">
-<description>CHICAGO MINIATURE LAMP, INC.
-7022X Series SMT LEDs 1206 Package Size</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
 <package3d name="LD260" urn="urn:adsk.eagle:package:15794/1" type="box" library_version="2">
 <description>LED
 5 mm, square, Siemens</description>
@@ -4860,16 +4853,22 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <packageinstance name="SML0603"/>
 </packageinstances>
 </package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model" library_version="4">
+<description>CHICAGO MINIATURE LAMP, INC.
+7022X Series SMT LEDs 1206 Package Size</description>
+<packageinstances>
+<packageinstance name="1206"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/1" library_version="2">
+<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/2" library_version="4">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
 <text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
@@ -4889,7 +4888,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:15916/7" prefix="LED" uservalue="yes" library_version="2">
+<deviceset name="LED" urn="urn:adsk.eagle:component:15916/9" prefix="LED" uservalue="yes" library_version="4">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -4975,7 +4974,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15796/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15796/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5708,12 +5707,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="B1,27" urn="urn:adsk.eagle:package:27944/1" type="box" library_version="1">
-<description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="B1,27"/>
-</packageinstances>
-</package3d>
 <package3d name="B2,54" urn="urn:adsk.eagle:package:27948/1" type="box" library_version="1">
 <description>TEST PAD</description>
 <packageinstances>
@@ -5936,6 +5929,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <packageinstance name="TP20SQ"/>
 </packageinstances>
 </package3d>
+<package3d name="B1,27" urn="urn:adsk.eagle:package:27944/2" type="box" library_version="2">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="B1,27"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PS" urn="urn:adsk.eagle:symbol:27897/1" library_version="1">
@@ -5965,7 +5964,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PTR1" urn="urn:adsk.eagle:component:27989/1" prefix="TP" library_version="1">
+<deviceset name="PTR1" urn="urn:adsk.eagle:component:27989/2" prefix="TP" library_version="2">
 <description>&lt;b&gt;TEST PIN&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PS" x="0" y="0"/>
@@ -5976,7 +5975,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
