@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -267,6 +267,7 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <text x="4.71" y="-3.05" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <wire x1="-0.5" y1="7.6" x2="1" y2="7.6" width="0.0635" layer="21"/>
 <wire x1="-0.5" y1="-7.6" x2="1" y2="-7.6" width="0.0635" layer="21"/>
+<circle x="-2.2352" y="6.8834" radius="0.331175" width="0.127" layer="21"/>
 </package>
 <package name="2.5X2.0_SMDCRYSTAL">
 <smd name="3" x="0.925" y="0.725" dx="1.05" dy="0.95" layer="1"/>
@@ -616,14 +617,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="1.4" y="-0.4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="DILR-4">
-<smd name="8" x="-0.85" y="0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="1" x="-0.85" y="-0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="5" x="0.8" y="0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="4" x="0.8" y="-0.325" dx="0.5" dy="0.45" layer="1"/>
-<smd name="7" x="-0.3" y="0.325" dx="0.35" dy="0.45" layer="1"/>
-<smd name="6" x="0.25" y="0.325" dx="0.35" dy="0.45" layer="1"/>
-<smd name="2" x="-0.3" y="-0.325" dx="0.35" dy="0.45" layer="1"/>
-<smd name="3" x="0.25" y="-0.325" dx="0.35" dy="0.45" layer="1"/>
+<smd name="8" x="-0.85" y="0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="1" x="-0.85" y="-0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="5" x="0.8" y="0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="4" x="0.8" y="-0.325" dx="0.45" dy="0.45" layer="1"/>
+<smd name="7" x="-0.3" y="0.325" dx="0.3" dy="0.45" layer="1"/>
+<smd name="6" x="0.25" y="0.325" dx="0.3" dy="0.45" layer="1"/>
+<smd name="2" x="-0.3" y="-0.325" dx="0.3" dy="0.45" layer="1"/>
+<smd name="3" x="0.25" y="-0.325" dx="0.3" dy="0.45" layer="1"/>
 <wire x1="-1" y1="0.2" x2="-1" y2="-0.2" width="0.1016" layer="21"/>
 <wire x1="-1" y1="-0.2" x2="0.95" y2="-0.2" width="0.1016" layer="21"/>
 <wire x1="0.95" y1="0.2" x2="-1" y2="0.2" width="0.1016" layer="21"/>
@@ -632,36 +633,35 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="1.25" y="-0.25" size="0.254" layer="27">&gt;VALUE</text>
 </package>
 <package name="M12_HOLDER">
-<wire x1="-7" y1="7" x2="7" y2="7" width="0.127" layer="21" style="shortdash"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0.127" layer="21" style="shortdash"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-8.75" y1="8.75" x2="8.75" y2="8.75" width="0.127" layer="21"/>
-<wire x1="8.75" y1="-8.75" x2="-8.75" y2="-8.75" width="0.127" layer="21"/>
-<wire x1="-8.75" y1="-8.75" x2="-8.75" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="-8.75" y1="8.75" x2="-8.75" y2="2.75" width="0.127" layer="21"/>
-<wire x1="8.75" y1="-8.75" x2="8.75" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="8.75" y1="8.75" x2="8.75" y2="2.75" width="0.127" layer="21"/>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.127" layer="22" style="shortdash"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.127" layer="22" style="shortdash"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-8.75" y1="8.75" x2="8.75" y2="8.75" width="0.127" layer="22"/>
+<wire x1="8.75" y1="-8.75" x2="-8.75" y2="-8.75" width="0.127" layer="22"/>
+<wire x1="-8.75" y1="-8.75" x2="-8.75" y2="-2.75" width="0.127" layer="22"/>
+<wire x1="-8.75" y1="8.75" x2="-8.75" y2="2.75" width="0.127" layer="22"/>
+<wire x1="8.75" y1="-8.75" x2="8.75" y2="-2.75" width="0.127" layer="22"/>
+<wire x1="8.75" y1="8.75" x2="8.75" y2="2.75" width="0.127" layer="22"/>
 <hole x="-10" y="0" drill="1.4"/>
 <hole x="10" y="0" drill="1.4"/>
-<wire x1="10" y1="2.75" x2="10" y2="-2.75" width="0.127" layer="21" curve="-180"/>
-<wire x1="8.75" y1="2.75" x2="10" y2="2.75" width="0.127" layer="21"/>
-<wire x1="8.75" y1="-2.75" x2="10" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="-10" y1="2.75" x2="-10" y2="-2.75" width="0.127" layer="21" curve="180"/>
-<wire x1="-8.75" y1="2.75" x2="-10" y2="2.75" width="0.127" layer="21"/>
-<wire x1="-8.75" y1="-2.75" x2="-10" y2="-2.75" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="6" width="0.127" layer="21"/>
-<text x="-5.95" y="-12.9" size="2.54" layer="21">FRONT</text>
-<text x="-8.6" y="10.6" size="2.54" layer="25">&gt;NAME</text>
-<text x="-8.75" y="-16.9" size="2.54" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" radius="7.40354375" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
+<wire x1="10" y1="2.75" x2="10" y2="-2.75" width="0.127" layer="22" curve="-180"/>
+<wire x1="8.75" y1="2.75" x2="10" y2="2.75" width="0.127" layer="22"/>
+<wire x1="8.75" y1="-2.75" x2="10" y2="-2.75" width="0.127" layer="22"/>
+<wire x1="-10" y1="2.75" x2="-10" y2="-2.75" width="0.127" layer="22" curve="180"/>
+<wire x1="-8.75" y1="2.75" x2="-10" y2="2.75" width="0.127" layer="22"/>
+<wire x1="-8.75" y1="-2.75" x2="-10" y2="-2.75" width="0.127" layer="22"/>
+<circle x="0" y="0" radius="6" width="0.127" layer="22"/>
+<text x="-2.902" y="-10.614" size="1.27" layer="22">FRONT</text>
+<circle x="0" y="0" radius="7.40354375" width="0.127" layer="22"/>
+<polygon width="0.127" layer="22">
 <vertex x="-1.35" y="-8.75"/>
 <vertex x="-1.35" y="-7.35"/>
-<vertex x="-1.3" y="-7.35"/>
 <vertex x="1.35" y="-7.35"/>
 <vertex x="1.35" y="-8.75"/>
 </polygon>
+<text x="8.128" y="9.652" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<text x="1.27" y="9.652" size="1.27" layer="28" rot="MR0">&gt;VALUE</text>
 </package>
 <package name="SLA_MOUNTING">
 <pad name="P$1" x="0" y="0" drill="1.016"/>
@@ -4565,13 +4565,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:15796/1" type="box" library_version="2">
-<description>CHICAGO MINIATURE LAMP, INC.
-7022X Series SMT LEDs 1206 Package Size</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
 <package3d name="LD260" urn="urn:adsk.eagle:package:15794/1" type="box" library_version="2">
 <description>LED
 5 mm, square, Siemens</description>
@@ -4860,16 +4853,22 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <packageinstance name="SML0603"/>
 </packageinstances>
 </package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model" library_version="4">
+<description>CHICAGO MINIATURE LAMP, INC.
+7022X Series SMT LEDs 1206 Package Size</description>
+<packageinstances>
+<packageinstance name="1206"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/1" library_version="2">
+<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/2" library_version="4">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
 <text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
@@ -4889,7 +4888,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:15916/7" prefix="LED" uservalue="yes" library_version="2">
+<deviceset name="LED" urn="urn:adsk.eagle:component:15916/9" prefix="LED" uservalue="yes" library_version="4">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -4975,7 +4974,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15796/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15796/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5708,12 +5707,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="B1,27" urn="urn:adsk.eagle:package:27944/1" type="box" library_version="1">
-<description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="B1,27"/>
-</packageinstances>
-</package3d>
 <package3d name="B2,54" urn="urn:adsk.eagle:package:27948/1" type="box" library_version="1">
 <description>TEST PAD</description>
 <packageinstances>
@@ -5936,6 +5929,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <packageinstance name="TP20SQ"/>
 </packageinstances>
 </package3d>
+<package3d name="B1,27" urn="urn:adsk.eagle:package:27944/2" type="box" library_version="2">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="B1,27"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PS" urn="urn:adsk.eagle:symbol:27897/1" library_version="1">
@@ -5965,7 +5964,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PTR1" urn="urn:adsk.eagle:component:27989/1" prefix="TP" library_version="1">
+<deviceset name="PTR1" urn="urn:adsk.eagle:component:27989/2" prefix="TP" library_version="2">
 <description>&lt;b&gt;TEST PIN&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PS" x="0" y="0"/>
@@ -5976,7 +5975,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
