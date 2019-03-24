@@ -976,43 +976,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.6096" layer="94"/>
 </symbol>
-<symbol name="HEADER_V3">
-<wire x1="0" y1="7.62" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="17.78" width="0.254" layer="94"/>
-<wire x1="101.6" y1="17.78" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
-<text x="5.08" y="20.32" size="2.54" layer="94">Title</text>
-<text x="25.4" y="20.32" size="2.54" layer="94">SLA-1500-CAM</text>
-<text x="68.58" y="20.32" size="2.54" layer="94">REV 3.0</text>
-<wire x1="22.86" y1="17.78" x2="66.04" y2="17.78" width="0.254" layer="94"/>
-<wire x1="66.04" y1="17.78" x2="101.6" y2="17.78" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
-<text x="5.08" y="10.16" size="2.54" layer="94">Date</text>
-<wire x1="22.86" y1="15.24" x2="66.04" y2="15.24" width="0.254" layer="94"/>
-<wire x1="66.04" y1="15.24" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<text x="68.58" y="10.16" size="2.54" layer="94">Sheet 1 of 1</text>
-<text x="25.4" y="10.16" size="2.54" layer="94">03/13/2019</text>
-<text x="5.08" y="2.54" size="2.54" layer="94">File </text>
-<text x="25.4" y="2.54" size="2.54" layer="94">SLA_1500_CAM_V3.sch</text>
-<wire x1="0" y1="17.78" x2="0" y2="25.4" width="0.254" layer="94"/>
-<wire x1="0" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
-<wire x1="22.86" y1="25.4" x2="66.04" y2="25.4" width="0.254" layer="94"/>
-<wire x1="66.04" y1="25.4" x2="101.6" y2="25.4" width="0.254" layer="94"/>
-<wire x1="101.6" y1="25.4" x2="101.6" y2="17.78" width="0.254" layer="94"/>
-<wire x1="66.04" y1="17.78" x2="66.04" y2="25.4" width="0.254" layer="94"/>
-<wire x1="22.86" y1="17.78" x2="22.86" y2="25.4" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
-<wire x1="22.86" y1="7.62" x2="66.04" y2="7.62" width="0.254" layer="94"/>
-<wire x1="66.04" y1="7.62" x2="101.6" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
-<wire x1="22.86" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="7.62" width="0.254" layer="94"/>
-<wire x1="22.86" y1="7.62" x2="22.86" y2="15.24" width="0.254" layer="94"/>
-<wire x1="66.04" y1="7.62" x2="66.04" y2="15.24" width="0.254" layer="94"/>
-<wire x1="22.86" y1="0" x2="22.86" y2="7.62" width="0.254" layer="94"/>
-</symbol>
 <symbol name="TXS0102DQM">
 <pin name="VCCA" x="-2.54" y="7.62" length="short"/>
 <pin name="A2" x="-2.54" y="12.7" length="short"/>
@@ -1158,6 +1121,43 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.6096" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.6096" layer="94"/>
 <text x="-10.16" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="HEADER_V4">
+<wire x1="0" y1="7.62" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="101.6" y1="17.78" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<text x="5.08" y="20.32" size="2.54" layer="94">Title</text>
+<text x="25.4" y="20.32" size="2.54" layer="94">SLA-1500-CAM</text>
+<text x="68.58" y="20.32" size="2.54" layer="94">REV 4.0</text>
+<wire x1="22.86" y1="17.78" x2="66.04" y2="17.78" width="0.254" layer="94"/>
+<wire x1="66.04" y1="17.78" x2="101.6" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<text x="5.08" y="10.16" size="2.54" layer="94">Date</text>
+<wire x1="22.86" y1="15.24" x2="66.04" y2="15.24" width="0.254" layer="94"/>
+<wire x1="66.04" y1="15.24" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<text x="68.58" y="10.16" size="2.54" layer="94">Sheet 1 of 1</text>
+<text x="25.4" y="10.16" size="2.54" layer="94">03/20/2019</text>
+<text x="5.08" y="2.54" size="2.54" layer="94">File </text>
+<text x="25.4" y="2.54" size="2.54" layer="94">SLA_1500_CAM_V4.sch</text>
+<wire x1="0" y1="17.78" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="25.4" x2="66.04" y2="25.4" width="0.254" layer="94"/>
+<wire x1="66.04" y1="25.4" x2="101.6" y2="25.4" width="0.254" layer="94"/>
+<wire x1="101.6" y1="25.4" x2="101.6" y2="17.78" width="0.254" layer="94"/>
+<wire x1="66.04" y1="17.78" x2="66.04" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="66.04" y2="7.62" width="0.254" layer="94"/>
+<wire x1="66.04" y1="7.62" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<wire x1="66.04" y1="7.62" x2="66.04" y2="15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1606,18 +1606,6 @@ LOW DROPOUT LINEAR REGULATOR, ADJUSTABLE OUTPUT, 5V to 2.8V, 3.1 x 1.7mm&lt;/li&
 </device>
 </devices>
 </deviceset>
-<deviceset name="HEADER_V3">
-<gates>
-<gate name="G$1" symbol="HEADER_V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TXS0102DQM" prefix="U" uservalue="yes">
 <description>&lt;li&gt;&lt;b&gt;TXS0102DQM 1.8 X 1.2 mm&lt;/b&gt;
 &lt;li&gt;TXS0102 2-Bit Bidirectional Voltage-Level Translator&lt;/li&gt;
@@ -1801,6 +1789,18 @@ Protection 5.5 to 3.3V, SOT-223 6-pin, 6.5 x 3.5 mm&lt;/li&gt;
 <attribute name="MANF" value="TEXAS INSTRUMENTS" constant="no"/>
 <attribute name="MANF#" value="TPS73633DCQR" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER_V4">
+<gates>
+<gate name="G$1" symbol="HEADER_V4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6621,7 +6621,6 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="C15" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2"/>
 <part name="C16" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2"/>
-<part name="U$1" library="Sightline" deviceset="HEADER_V3" device=""/>
 <part name="C6" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100NF-25V-10%-X7R(0402)" device="" package3d_urn="urn:adsk.eagle:package:32379/1" value="100nf"/>
 <part name="C17" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100NF-25V-10%-X7R(0402)" device="" package3d_urn="urn:adsk.eagle:package:32379/1" value="100nf"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6670,6 +6669,7 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="U2" library="Sightline" deviceset="TPS73633DCQR" device=""/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1"/>
+<part name="U$1" library="Sightline" deviceset="HEADER_V4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7005,7 +7005,6 @@ FOR TESTING</text>
 <instance part="C16" gate="G$1" x="50.8" y="66.04" smashed="yes">
 <attribute name="NAME" x="54.61" y="62.23" size="1.27" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="325.12" y="2.54" smashed="yes"/>
 <instance part="C6" gate="G$1" x="312.42" y="193.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="313.69" y="189.23" size="1.27" layer="95" ratio="10" rot="R180" align="top-right"/>
 <attribute name="VALUE" x="313.69" y="195.58" size="1.27" layer="96" ratio="10" rot="R180" align="top-right"/>
@@ -7059,8 +7058,8 @@ FOR TESTING</text>
 <attribute name="VALUE" x="149.86" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="R19" gate="G$1" x="218.44" y="111.76" smashed="yes">
-<attribute name="NAME" x="218.44" y="113.284" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="218.44" y="110.236" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="NAME" x="213.36" y="113.284" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="213.36" y="110.236" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R20" gate="G$1" x="124.46" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="122.936" y="152.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -7184,6 +7183,7 @@ FOR TESTING</text>
 <attribute name="NAME" x="371.475" y="152.654" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="366.649" y="152.654" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$1" gate="G$1" x="322.58" y="5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -7686,14 +7686,6 @@ FOR TESTING</text>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <label x="134.62" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM_GPIO175" class="0">
-<segment>
-<wire x1="381" y1="78.74" x2="378.46" y2="78.74" width="0.1524" layer="91"/>
-<label x="375.92" y="78.74" size="1.27" layer="97" rot="R180" xref="yes"/>
-<wire x1="378.46" y1="78.74" x2="375.92" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="P5V" class="0">
@@ -8588,6 +8580,18 @@ FOR TESTING</text>
 <wire x1="381" y1="175.26" x2="378.46" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="175.26" x2="378.46" y2="177.8" width="0.1524" layer="91"/>
 <junction x="378.46" y="177.8"/>
+</segment>
+</net>
+<net name="CAM_GPIO178" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="381" y1="78.74" x2="375.92" y2="78.74" width="0.1524" layer="91"/>
+<label x="375.92" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="CAM_GPIO178"/>
+<wire x1="233.68" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
+<label x="231.14" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
