@@ -562,10 +562,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </polygon>
 </package>
 <package name="SOT-143-4">
-<smd name="3" x="0.96" y="0.88" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-0.96" y="0.88" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="0.96" y="-0.88" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="1" x="-0.76" y="-0.88" dx="0.76" dy="0.45" layer="1"/>
+<smd name="3" x="0.96" y="0.88" dx="0.85" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="-0.96" y="0.88" dx="0.85" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="0.96" y="-0.88" dx="0.85" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="-0.76" y="-0.88" dx="1.06" dy="0.85" layer="1"/>
 <wire x1="-1.45" y1="-0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="-0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="0.65" x2="-1.45" y2="0.65" width="0.127" layer="51"/>
@@ -601,20 +601,27 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="1.4" y="-0.4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="DILR-4">
-<smd name="8" x="-0.85" y="0.325" dx="0.45" dy="0.45" layer="1"/>
-<smd name="1" x="-0.85" y="-0.325" dx="0.45" dy="0.45" layer="1"/>
-<smd name="5" x="0.8" y="0.325" dx="0.45" dy="0.45" layer="1"/>
-<smd name="4" x="0.8" y="-0.325" dx="0.45" dy="0.45" layer="1"/>
-<smd name="7" x="-0.3" y="0.325" dx="0.3" dy="0.45" layer="1"/>
-<smd name="6" x="0.25" y="0.325" dx="0.3" dy="0.45" layer="1"/>
-<smd name="2" x="-0.3" y="-0.325" dx="0.3" dy="0.45" layer="1"/>
-<smd name="3" x="0.25" y="-0.325" dx="0.3" dy="0.45" layer="1"/>
-<wire x1="-1" y1="0.2" x2="-1" y2="-0.2" width="0.1016" layer="21"/>
-<wire x1="-1" y1="-0.2" x2="0.95" y2="-0.2" width="0.1016" layer="21"/>
-<wire x1="0.95" y1="0.2" x2="-1" y2="0.2" width="0.1016" layer="21"/>
-<wire x1="0.95" y1="-0.2" x2="0.95" y2="0.2" width="0.1016" layer="21"/>
+<smd name="8" x="-0.75" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="1" x="-0.75" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="5" x="0.75" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="4" x="0.75" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="7" x="-0.25" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="6" x="0.25" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="2" x="-0.25" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="3" x="0.25" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
 <text x="1.25" y="0.2" size="0.254" layer="25">&gt;NAME</text>
 <text x="1.25" y="-0.25" size="0.254" layer="27">&gt;VALUE</text>
+<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.0762" layer="51"/>
+<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.127" layer="51"/>
+<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.0762" layer="51"/>
+<wire x1="-1" y1="0.625" x2="-1.125" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-1.125" y1="0.625" x2="-1.125" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1.125" y1="-0.5" x2="-1.125" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1.125" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1.125" y2="0.625" width="0.127" layer="21"/>
+<wire x1="1.125" y1="0.625" x2="1.125" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1.125" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
 </package>
 <package name="M12_HOLDER">
 <hole x="-10" y="0" drill="1.4"/>
@@ -7770,17 +7777,6 @@ FOR TESTING</text>
 <junction x="53.374375" y="71.03125"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="VCC"/>
-<wire x1="48.26" y1="111.76" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="111.76" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="119.38" x2="22.86" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
-<junction x="22.86" y="119.38"/>
-<label x="17.78" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="340.36" y1="203.2" x2="345.44" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="VCCB"/>
@@ -7814,6 +7810,14 @@ FOR TESTING</text>
 <wire x1="347.98" y1="101.6" x2="353.06" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="95.25" x2="347.98" y2="101.6" width="0.1524" layer="91"/>
 <junction x="347.98" y="101.6"/>
+</segment>
+<segment>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="118.11" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
+<label x="22.86" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="VCC"/>
+<wire x1="22.86" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="119.38" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
