@@ -1991,9 +1991,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="-21.5538" y1="7.5592" x2="2.9746" y2="-10.563" width="0" layer="19" extent="1-1"/>
 <wire x1="9.5292" y1="43.5102" x2="-21.5538" y2="7.5592" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CAM_GPIO175">
-<contactref element="J4" pad="4"/>
-</signal>
 <signal name="P5V">
 <contactref element="J1" pad="50"/>
 <contactref element="J1" pad="48"/>
@@ -2470,6 +2467,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J6" pad="2"/>
 <wire x1="13.6798" y1="-4.0232" x2="13.6798" y2="-2.7732" width="0" layer="19" extent="16-16"/>
 <wire x1="13.716" y1="-1.25" x2="13.6798" y2="-4.0232" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="CAM_GPIO178">
+<contactref element="J4" pad="4"/>
+<contactref element="J1" pad="19"/>
+<wire x1="1.4746" y1="-6.963" x2="-21.5538" y2="8.8092" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
