@@ -384,103 +384,47 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="-2.1" y="-3.2" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.2" y="-3.2" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="ILCC48">
-<smd name="7" x="-4.6" y="3.85" dx="0.6" dy="0.4" layer="1"/>
-<smd name="8" x="-4.5" y="3.15" dx="0.8" dy="0.4" layer="1"/>
-<smd name="9" x="-4.5" y="2.45" dx="0.8" dy="0.4" layer="1"/>
-<smd name="10" x="-4.5" y="1.75" dx="0.8" dy="0.4" layer="1"/>
-<smd name="11" x="-4.5" y="1.05" dx="0.8" dy="0.4" layer="1"/>
-<smd name="12" x="-4.5" y="0.35" dx="0.8" dy="0.4" layer="1"/>
-<smd name="13" x="-4.5" y="-0.35" dx="0.8" dy="0.4" layer="1"/>
-<smd name="14" x="-4.5" y="-1.05" dx="0.8" dy="0.4" layer="1"/>
-<smd name="15" x="-4.5" y="-1.75" dx="0.8" dy="0.4" layer="1"/>
-<smd name="16" x="-4.5" y="-2.45" dx="0.8" dy="0.4" layer="1"/>
-<smd name="17" x="-4.5" y="-3.15" dx="0.8" dy="0.4" layer="1"/>
-<smd name="18" x="-4.6" y="-3.85" dx="0.6" dy="0.4" layer="1"/>
-<smd name="40" x="4.5" y="2.45" dx="0.8" dy="0.4" layer="1"/>
-<smd name="39" x="4.5" y="1.75" dx="0.8" dy="0.4" layer="1"/>
-<smd name="38" x="4.5" y="1.05" dx="0.8" dy="0.4" layer="1"/>
-<smd name="37" x="4.5" y="0.35" dx="0.8" dy="0.4" layer="1"/>
-<smd name="36" x="4.5" y="-0.35" dx="0.8" dy="0.4" layer="1"/>
-<smd name="35" x="4.5" y="-1.05" dx="0.8" dy="0.4" layer="1"/>
-<smd name="34" x="4.5" y="-1.75" dx="0.8" dy="0.4" layer="1"/>
-<smd name="6" x="-3.85" y="4.6" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="5" x="-3.15" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="4" x="-2.45" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="3" x="-1.75" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="2" x="-1.05" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="1" x="-0.35" y="4.2" dx="1.4" dy="0.4" layer="1" rot="R90"/>
-<smd name="48" x="0.35" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="47" x="1.05" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="46" x="1.75" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="45" x="2.45" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="44" x="3.15" y="4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="19" x="-3.85" y="-4.6" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="22" x="-1.75" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="23" x="-1.05" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="24" x="-0.35" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="25" x="0.35" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="26" x="1.05" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="27" x="1.75" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="28" x="2.45" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="29" x="3.15" y="-4.5" dx="0.8" dy="0.4" layer="1" rot="R90"/>
-<smd name="30" x="3.85" y="-4.6" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="-4.05" y="4.9"/>
-<vertex x="-3.65" y="4.9"/>
-<vertex x="-3.65" y="4.1"/>
-<vertex x="-3.85" y="4.1"/>
-<vertex x="-4.05" y="4.3"/>
-</polygon>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="-4.9" y="4.05"/>
-<vertex x="-4.3" y="4.05"/>
-<vertex x="-4.1" y="3.85"/>
-<vertex x="-4.1" y="3.65"/>
-<vertex x="-4.9" y="3.65"/>
-</polygon>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="-4.9" y="-3.65"/>
-<vertex x="-4.1" y="-3.65"/>
-<vertex x="-4.1" y="-3.85"/>
-<vertex x="-4.3" y="-4.05"/>
-<vertex x="-4.9" y="-4.05"/>
-</polygon>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="-4.05" y="-4.3"/>
-<vertex x="-3.85" y="-4.1"/>
-<vertex x="-3.65" y="-4.1"/>
-<vertex x="-3.65" y="-4.9"/>
-<vertex x="-4.05" y="-4.9"/>
-</polygon>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="3.65" y="-4.1"/>
-<vertex x="3.85" y="-4.1"/>
-<vertex x="4.05" y="-4.3"/>
-<vertex x="4.05" y="-4.9"/>
-<vertex x="3.65" y="-4.9"/>
-</polygon>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="4.1" y="-3.65"/>
-<vertex x="4.9" y="-3.65"/>
-<vertex x="4.9" y="-4.05"/>
-<vertex x="4.3" y="-4.05"/>
-<vertex x="4.1" y="-3.85"/>
-</polygon>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="4.1" y="3.85"/>
-<vertex x="4.3" y="4.05"/>
-<vertex x="4.9" y="4.05"/>
-<vertex x="4.9" y="3.65"/>
-<vertex x="4.1" y="3.65"/>
-</polygon>
-<polygon width="0.01" layer="1" locked="yes">
-<vertex x="3.65" y="4.9"/>
-<vertex x="4.05" y="4.9"/>
-<vertex x="4.05" y="4.3"/>
-<vertex x="3.85" y="4.1"/>
-<vertex x="3.65" y="4.1"/>
-</polygon>
+<package name="ILCC48_KD">
+<smd name="7" x="-4.55" y="3.85" dx="0.95" dy="0.45" layer="1" roundness="100"/>
+<smd name="8" x="-4.5" y="3.15" dx="1" dy="0.45" layer="1"/>
+<smd name="9" x="-4.5" y="2.45" dx="1" dy="0.45" layer="1"/>
+<smd name="10" x="-4.5" y="1.75" dx="1" dy="0.45" layer="1"/>
+<smd name="11" x="-4.5" y="1.05" dx="1" dy="0.45" layer="1"/>
+<smd name="12" x="-4.5" y="0.35" dx="1" dy="0.45" layer="1"/>
+<smd name="13" x="-4.5" y="-0.35" dx="1" dy="0.45" layer="1"/>
+<smd name="14" x="-4.5" y="-1.05" dx="1" dy="0.45" layer="1"/>
+<smd name="15" x="-4.5" y="-1.75" dx="1" dy="0.45" layer="1"/>
+<smd name="16" x="-4.5" y="-2.45" dx="1" dy="0.45" layer="1"/>
+<smd name="17" x="-4.5" y="-3.15" dx="1" dy="0.45" layer="1"/>
+<smd name="18" x="-4.55" y="-3.85" dx="0.95" dy="0.45" layer="1" roundness="100"/>
+<smd name="40" x="4.5" y="2.45" dx="1" dy="0.45" layer="1"/>
+<smd name="39" x="4.5" y="1.75" dx="1" dy="0.45" layer="1"/>
+<smd name="38" x="4.5" y="1.05" dx="1" dy="0.45" layer="1"/>
+<smd name="37" x="4.5" y="0.35" dx="1" dy="0.45" layer="1"/>
+<smd name="36" x="4.5" y="-0.35" dx="1" dy="0.45" layer="1"/>
+<smd name="35" x="4.5" y="-1.05" dx="1" dy="0.45" layer="1"/>
+<smd name="34" x="4.5" y="-1.75" dx="1" dy="0.45" layer="1"/>
+<smd name="6" x="-3.85" y="4.55" dx="0.95" dy="0.45" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-3.15" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="-2.45" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="-1.75" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="-1.05" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="1" x="-0.35" y="4.2" dx="1.6" dy="0.45" layer="1" rot="R90"/>
+<smd name="48" x="0.35" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="47" x="1.05" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="46" x="1.75" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="45" x="2.45" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="44" x="3.15" y="4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="19" x="-3.85" y="-4.55" dx="0.95" dy="0.45" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="-1.75" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="23" x="-1.05" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="24" x="-0.35" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="25" x="0.35" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="26" x="1.05" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="27" x="1.75" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="28" x="2.45" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="29" x="3.15" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="30" x="3.85" y="-4.55" dx="0.95" dy="0.45" layer="1" roundness="100" rot="R90"/>
 <wire x1="-5" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
 <wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
 <wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
@@ -490,10 +434,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="3.5" x2="0" y2="3.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="5" x2="-5" y2="-5" width="0.08" layer="21"/>
-<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.08" layer="21"/>
-<wire x1="5" y1="-5" x2="5" y2="5" width="0.08" layer="21"/>
-<wire x1="5" y1="5" x2="-5" y2="5" width="0.08" layer="21"/>
+<wire x1="-5.1" y1="5.1" x2="-5.1" y2="-5.1" width="0.08" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="5.1" y2="-5.1" width="0.08" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="5.1" y2="5.1" width="0.08" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="-5.1" y2="5.1" width="0.08" layer="21"/>
 <wire x1="-2.4" y1="-1.8" x2="-2.1" y2="-1.8" width="0.08" layer="21"/>
 <wire x1="-2.1" y1="-1.8" x2="-1.5" y2="-1.8" width="0.08" layer="21"/>
 <wire x1="-1.5" y1="-1.8" x2="-0.9" y2="-1.8" width="0.08" layer="21"/>
@@ -530,36 +474,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="1.4" y1="-1.8" x2="2.4" y2="-0.4" width="0.08" layer="21"/>
 <text x="-1" y="2.4" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.38" y="-2.67" size="0.4064" layer="27">ARO134CS</text>
-<polygon width="0.01" layer="1">
-<vertex x="-2.95" y="-4.9"/>
-<vertex x="-2.95" y="-4.1"/>
-<vertex x="-3.35" y="-4.1"/>
-<vertex x="-3.35" y="-4.9"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-2.25" y="-4.9"/>
-<vertex x="-2.25" y="-4.1"/>
-<vertex x="-2.65" y="-4.1"/>
-<vertex x="-2.65" y="-4.9"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="4.1" y="-3.35"/>
-<vertex x="4.9" y="-3.35"/>
-<vertex x="4.9" y="-2.95"/>
-<vertex x="4.1" y="-2.95"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="4.1" y="-2.65"/>
-<vertex x="4.9" y="-2.65"/>
-<vertex x="4.9" y="-2.25"/>
-<vertex x="4.1" y="-2.25"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="4.1" y="2.95"/>
-<vertex x="4.9" y="2.95"/>
-<vertex x="4.9" y="3.35"/>
-<vertex x="4.1" y="3.35"/>
-</polygon>
+<smd name="43" x="3.85" y="4.55" dx="0.95" dy="0.45" layer="1" roundness="100" rot="R90"/>
+<smd name="42" x="4.5" y="3.85" dx="0.95" dy="0.45" layer="1" roundness="100" rot="R180"/>
+<smd name="41" x="4.5" y="3.15" dx="1" dy="0.45" layer="1"/>
+<smd name="33" x="4.5" y="-2.45" dx="1" dy="0.45" layer="1"/>
+<smd name="32" x="4.5" y="-3.15" dx="1" dy="0.45" layer="1"/>
+<smd name="31" x="4.55" y="-3.85" dx="0.95" dy="0.45" layer="1" roundness="100" rot="R180"/>
+<smd name="20" x="-3.15" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="21" x="-2.45" y="-4.5" dx="1" dy="0.45" layer="1" rot="R90"/>
 </package>
 <package name="SOT-143-4">
 <smd name="3" x="0.96" y="0.88" dx="0.85" dy="0.5" layer="1" rot="R90"/>
@@ -1492,7 +1414,7 @@ LOW DROPOUT LINEAR REGULATOR, ADJUSTABLE OUTPUT, 5V to 2.8V, 3.1 x 1.7mm&lt;/li&
 <gate name="G$1" symbol="AR0134CS-ILCC-48" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ILCC48">
+<device name="" package="ILCC48_KD">
 <connects>
 <connect gate="G$1" pin="A_GND(0)" pad="39"/>
 <connect gate="G$1" pin="A_GND(1)" pad="35"/>
@@ -8590,10 +8512,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.5" severity="warning">
-Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
-The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
