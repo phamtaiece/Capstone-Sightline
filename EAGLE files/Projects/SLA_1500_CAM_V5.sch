@@ -968,43 +968,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <text x="0" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="HEADER_V4">
-<wire x1="0" y1="7.62" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="17.78" width="0.254" layer="94"/>
-<wire x1="101.6" y1="17.78" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
-<text x="5.08" y="20.32" size="2.54" layer="94">Title</text>
-<text x="25.4" y="20.32" size="2.54" layer="94">SLA-1500-CAM</text>
-<text x="68.58" y="20.32" size="2.54" layer="94">REV 4.0</text>
-<wire x1="22.86" y1="17.78" x2="66.04" y2="17.78" width="0.254" layer="94"/>
-<wire x1="66.04" y1="17.78" x2="101.6" y2="17.78" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
-<text x="5.08" y="10.16" size="2.54" layer="94">Date</text>
-<wire x1="22.86" y1="15.24" x2="66.04" y2="15.24" width="0.254" layer="94"/>
-<wire x1="66.04" y1="15.24" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<text x="68.58" y="10.16" size="2.54" layer="94">Sheet 1 of 1</text>
-<text x="25.4" y="10.16" size="2.54" layer="94">03/20/2019</text>
-<text x="5.08" y="2.54" size="2.54" layer="94">File </text>
-<text x="25.4" y="2.54" size="2.54" layer="94">SLA_1500_CAM_V4.sch</text>
-<wire x1="0" y1="17.78" x2="0" y2="25.4" width="0.254" layer="94"/>
-<wire x1="0" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
-<wire x1="22.86" y1="25.4" x2="66.04" y2="25.4" width="0.254" layer="94"/>
-<wire x1="66.04" y1="25.4" x2="101.6" y2="25.4" width="0.254" layer="94"/>
-<wire x1="101.6" y1="25.4" x2="101.6" y2="17.78" width="0.254" layer="94"/>
-<wire x1="66.04" y1="17.78" x2="66.04" y2="25.4" width="0.254" layer="94"/>
-<wire x1="22.86" y1="17.78" x2="22.86" y2="25.4" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
-<wire x1="22.86" y1="7.62" x2="66.04" y2="7.62" width="0.254" layer="94"/>
-<wire x1="66.04" y1="7.62" x2="101.6" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
-<wire x1="22.86" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="7.62" width="0.254" layer="94"/>
-<wire x1="22.86" y1="7.62" x2="22.86" y2="15.24" width="0.254" layer="94"/>
-<wire x1="66.04" y1="7.62" x2="66.04" y2="15.24" width="0.254" layer="94"/>
-<wire x1="22.86" y1="0" x2="22.86" y2="7.62" width="0.254" layer="94"/>
-</symbol>
 <symbol name="TPS73633DBVR">
 <pin name="IN" x="-10.16" y="2.54" length="short"/>
 <pin name="OUT" x="10.16" y="2.54" length="short" rot="R180"/>
@@ -1035,6 +998,43 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-4.572" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="HEADER_V5">
+<wire x1="0" y1="7.62" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="101.6" y1="17.78" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
+<text x="5.08" y="20.32" size="2.54" layer="94">Title</text>
+<text x="25.4" y="20.32" size="2.54" layer="94">SLA-1500-CAM</text>
+<text x="68.58" y="20.32" size="2.54" layer="94">REV 5.0</text>
+<wire x1="22.86" y1="17.78" x2="66.04" y2="17.78" width="0.254" layer="94"/>
+<wire x1="66.04" y1="17.78" x2="101.6" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<text x="5.08" y="10.16" size="2.54" layer="94">Date</text>
+<wire x1="22.86" y1="15.24" x2="66.04" y2="15.24" width="0.254" layer="94"/>
+<wire x1="66.04" y1="15.24" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<text x="68.58" y="10.16" size="2.54" layer="94">Sheet 1 of 1</text>
+<text x="25.4" y="10.16" size="2.54" layer="94">4/3/2019</text>
+<text x="5.08" y="2.54" size="2.54" layer="94">File </text>
+<text x="25.4" y="2.54" size="2.54" layer="94">SLA_1500_CAM_V5.sch</text>
+<wire x1="0" y1="17.78" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="25.4" x2="66.04" y2="25.4" width="0.254" layer="94"/>
+<wire x1="66.04" y1="25.4" x2="101.6" y2="25.4" width="0.254" layer="94"/>
+<wire x1="101.6" y1="25.4" x2="101.6" y2="17.78" width="0.254" layer="94"/>
+<wire x1="66.04" y1="17.78" x2="66.04" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="17.78" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="66.04" y2="7.62" width="0.254" layer="94"/>
+<wire x1="66.04" y1="7.62" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="7.62" width="0.254" layer="94"/>
+<wire x1="22.86" y1="7.62" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<wire x1="66.04" y1="7.62" x2="66.04" y2="15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1607,18 +1607,6 @@ Plating
 </device>
 </devices>
 </deviceset>
-<deviceset name="HEADER_V4">
-<gates>
-<gate name="G$1" symbol="HEADER_V4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TPS73633DBVR" prefix="U">
 <description>&lt;li&gt;&lt;b&gt;TPS73633DBVR&lt;/b&gt;
 &lt;li&gt; Cap-Free, NMOS, 400-mA Low-Dropout Regulator with Reverse Current
@@ -1671,6 +1659,18 @@ Protection 5.5 to 3.3V, SOT-23 5-pin, 2.9 x 1.6 mm&lt;/li&gt;
 <attribute name="MANF" value="AVX" constant="no"/>
 <attribute name="MANF#" value="F980G106MUA" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER_V5">
+<gates>
+<gate name="G$1" symbol="HEADER_V5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10736,7 +10736,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="J2" library="Sightline" deviceset="JST_GH_SM06B-GHS-TB" device="" value="JST GH SM06B"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1"/>
-<part name="U$1" library="Sightline" deviceset="HEADER_V4" device=""/>
 <part name="C36" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2"/>
 <part name="C37" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2"/>
 <part name="C41" library="Sightline" deviceset="CAP0201" device="100NF" package3d_urn="urn:adsk.eagle:package:26117/2"/>
@@ -10771,11 +10770,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08SQ" package3d_urn="urn:adsk.eagle:package:27960/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08SQ" package3d_urn="urn:adsk.eagle:package:27960/1"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08SQ" package3d_urn="urn:adsk.eagle:package:27960/1"/>
+<part name="U$1" library="Sightline" deviceset="HEADER_V5" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="393.7" y="177.8" size="1.778" layer="97">AUXILIARY POWER IN</text>
+<text x="393.7" y="175.26" size="1.778" layer="97">AUXILIARY POWER IN
+5VDC</text>
 <text x="393.7" y="106.68" size="1.778" layer="97">AUXILIARY I2C BUS 
 TO SIGHTLINE</text>
 <text x="393.7" y="78.74" size="1.778" layer="97">DISCRETE GPIO</text>
@@ -11149,7 +11150,6 @@ FOR TESTING</text>
 <attribute name="NAME" x="371.475" y="152.654" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="366.649" y="152.654" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="322.58" y="5.08" smashed="yes"/>
 <instance part="C36" gate="G$1" x="309.88" y="193.04" smashed="yes">
 <attribute name="NAME" x="313.69" y="189.23" size="1.27" layer="95"/>
 </instance>
@@ -11169,52 +11169,52 @@ FOR TESTING</text>
 <attribute name="NAME" x="349.25" y="90.17" size="1.27" layer="95"/>
 </instance>
 <instance part="R26" gate="G$1" x="215.9" y="160.02" smashed="yes">
-<attribute name="NAME" x="212.09" y="161.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="156.718" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="158.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="159.258" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="215.9" y="157.48" smashed="yes">
-<attribute name="NAME" x="212.09" y="158.9786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="154.178" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="156.4386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="156.718" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="215.9" y="154.94" smashed="yes">
-<attribute name="NAME" x="212.09" y="156.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="151.638" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="153.8986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="154.178" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="215.9" y="152.4" smashed="yes">
-<attribute name="NAME" x="212.09" y="153.8986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="149.098" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="151.3586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="151.638" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="215.9" y="149.86" smashed="yes">
-<attribute name="NAME" x="212.09" y="151.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="146.558" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="148.8186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="149.098" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="215.9" y="147.32" smashed="yes">
-<attribute name="NAME" x="212.09" y="148.8186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="144.018" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="146.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="146.558" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="215.9" y="144.78" smashed="yes">
-<attribute name="NAME" x="212.09" y="146.2786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="141.478" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="143.7386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="144.018" size="1.778" layer="96"/>
 </instance>
 <instance part="R17" gate="G$1" x="215.9" y="142.24" smashed="yes">
-<attribute name="NAME" x="212.09" y="143.7386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="138.938" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="141.1986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="141.478" size="1.778" layer="96"/>
 </instance>
 <instance part="R21" gate="G$1" x="215.9" y="139.7" smashed="yes">
-<attribute name="NAME" x="212.09" y="141.1986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="136.398" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="138.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="138.938" size="1.778" layer="96"/>
 </instance>
 <instance part="R22" gate="G$1" x="215.9" y="137.16" smashed="yes">
-<attribute name="NAME" x="212.09" y="138.6586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="133.858" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="136.1186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="136.398" size="1.778" layer="96"/>
 </instance>
 <instance part="R23" gate="G$1" x="215.9" y="134.62" smashed="yes">
-<attribute name="NAME" x="212.09" y="136.1186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="131.318" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="133.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="133.858" size="1.778" layer="96"/>
 </instance>
 <instance part="R24" gate="G$1" x="215.9" y="132.08" smashed="yes">
-<attribute name="NAME" x="212.09" y="133.5786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="212.09" y="128.778" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="131.0386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="131.318" size="1.778" layer="96"/>
 </instance>
 <instance part="U10" gate="G$1" x="58.42" y="208.28" smashed="yes">
 <attribute name="NAME" x="50.8" y="218.44" size="1.778" layer="95"/>
@@ -11280,6 +11280,7 @@ FOR TESTING</text>
 <attribute name="NAME" x="219.456" y="49.53" size="1.778" layer="95" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" x="217.17" y="45.72" size="1.778" layer="97" rot="R180"/>
 </instance>
+<instance part="U$1" gate="G$1" x="322.58" y="5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
