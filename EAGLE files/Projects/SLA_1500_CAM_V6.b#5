@@ -998,12 +998,12 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="-1.45" y1="7.05" x2="-1.45" y2="6.23" width="0.127" layer="21"/>
 </package>
 <package name="JST_SM06B-GHS-TB">
-<smd name="1" x="-3.23" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="2" x="-1.98" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="3" x="-0.73" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="4" x="0.52" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="5" x="1.77" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="6" x="3.02" y="1.95" dx="0.6" dy="1.7" layer="1"/>
+<smd name="1" x="-3.23" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.98" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.73" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.52" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="5" x="1.77" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="6" x="3.02" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
 <smd name="P$7" x="-5.08" y="-1.25" dx="1" dy="2.7" layer="1"/>
 <smd name="P$8" x="4.87" y="-1.25" dx="1" dy="2.7" layer="1"/>
 <wire x1="-5.48" y1="-2.35" x2="5.27" y2="-2.35" width="0.127" layer="51"/>
@@ -1024,6 +1024,84 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <wire x1="-4.9" y1="1.9" x2="4.7" y2="1.9" width="0.127" layer="51"/>
 <wire x1="4.7" y1="1.9" x2="4.7" y2="0" width="0.127" layer="51"/>
 <wire x1="4.7" y1="0" x2="5.25" y2="0" width="0.127" layer="51"/>
+<polygon width="0.01" layer="31">
+<vertex x="-3.03" y="1.58"/>
+<vertex x="-3.03" y="2.68"/>
+<vertex x="-3.04" y="2.68"/>
+<vertex x="-3.43" y="2.68"/>
+<vertex x="-3.43" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-3.53" y="1.09"/>
+<vertex x="-2.93" y="1.09"/>
+<vertex x="-2.93" y="2.8"/>
+<vertex x="-3.53" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.78" y="1.58"/>
+<vertex x="-1.78" y="2.68"/>
+<vertex x="-1.79" y="2.68"/>
+<vertex x="-2.18" y="2.68"/>
+<vertex x="-2.18" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-2.28" y="1.09"/>
+<vertex x="-1.68" y="1.09"/>
+<vertex x="-1.68" y="2.8"/>
+<vertex x="-2.28" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.53" y="1.58"/>
+<vertex x="-0.53" y="2.68"/>
+<vertex x="-0.54" y="2.68"/>
+<vertex x="-0.93" y="2.68"/>
+<vertex x="-0.93" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-1.03" y="1.09"/>
+<vertex x="-0.43" y="1.09"/>
+<vertex x="-0.43" y="2.8"/>
+<vertex x="-1.03" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.72" y="1.58"/>
+<vertex x="0.72" y="2.68"/>
+<vertex x="0.71" y="2.68"/>
+<vertex x="0.32" y="2.68"/>
+<vertex x="0.32" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="0.22" y="1.09"/>
+<vertex x="0.82" y="1.09"/>
+<vertex x="0.82" y="2.8"/>
+<vertex x="0.22" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.97" y="1.59"/>
+<vertex x="1.97" y="2.69"/>
+<vertex x="1.96" y="2.69"/>
+<vertex x="1.57" y="2.69"/>
+<vertex x="1.57" y="1.59"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.47" y="1.1"/>
+<vertex x="2.07" y="1.1"/>
+<vertex x="2.07" y="2.81"/>
+<vertex x="1.47" y="2.81"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.22" y="1.59"/>
+<vertex x="3.22" y="2.69"/>
+<vertex x="3.21" y="2.69"/>
+<vertex x="2.82" y="2.69"/>
+<vertex x="2.82" y="1.59"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="2.72" y="1.1"/>
+<vertex x="3.32" y="1.1"/>
+<vertex x="3.32" y="2.81"/>
+<vertex x="2.72" y="2.81"/>
+</polygon>
 </package>
 <package name="53261-03">
 <description>&lt;b&gt;1.25mm Pitch PicoBlade™ Header, Surface Mount, Right Angle, 3 Circuits&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/532610371_sd.pdf&gt;Datasheet &lt;/a&gt;</description>

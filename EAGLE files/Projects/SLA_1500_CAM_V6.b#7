@@ -3398,12 +3398,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="12.816" y="-2.5304" size="0.6096" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="12.841" y="-0.7304" size="0.6096" layer="28" rot="MR180"/>
 </element>
-<element name="C5" library="Sightline" package="0402" value="10uf" x="12.0396" y="7.6454" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10uF 4V 20% 0402, 1.1x0.6x0.35mm" x="12.0396" y="7.6454" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANF" value="AVX" x="12.0396" y="7.6454" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANF#" value="F980G106MUA" x="12.0396" y="7.6454" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="12.9396" y="8.2454" size="0.6096" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="12.9146" y="6.4454" size="0.6096" layer="28" rot="MR0"/>
+<element name="C5" library="Sightline" package="0402" value="10uf" x="11.9888" y="7.6708" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10uF 4V 20% 0402, 1.1x0.6x0.35mm" x="11.9888" y="7.6708" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF" value="AVX" x="11.9888" y="7.6708" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANF#" value="F980G106MUA" x="11.9888" y="7.6708" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="12.8888" y="8.2708" size="0.6096" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="12.8638" y="6.4708" size="0.6096" layer="28" rot="MR0"/>
 </element>
 <element name="C17" library="Sightline" package="0402" value="10uf" x="11.9888" y="8.8392" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10uF 4V 20% 0402, 1.1x0.6x0.35mm" x="11.9888" y="8.8392" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4101,8 +4101,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <via x="11.5824" y="-0.5842" extent="1-16" drill="0.25"/>
 <wire x1="13.316" y1="-1.9304" x2="12.3444" y2="-1.9304" width="0.254" layer="16"/>
 <via x="12.3444" y="-1.9304" extent="1-16" drill="0.25"/>
-<wire x1="12.4396" y1="7.6454" x2="12.8968" y2="7.1882" width="0.254" layer="16"/>
-<wire x1="12.8968" y1="7.1882" x2="13.7922" y2="7.1882" width="0.254" layer="16"/>
+<wire x1="12.3888" y1="7.6708" x2="12.8714" y2="7.1882" width="0.254" layer="16"/>
+<wire x1="12.8714" y1="7.1882" x2="13.7922" y2="7.1882" width="0.254" layer="16"/>
 <wire x1="12.3888" y1="8.8392" x2="13.5128" y2="8.8392" width="0.254" layer="16"/>
 <wire x1="13.5128" y1="8.8392" x2="13.5382" y2="8.8138" width="0.254" layer="16"/>
 <via x="13.5382" y="8.8138" extent="1-16" drill="0.25"/>
