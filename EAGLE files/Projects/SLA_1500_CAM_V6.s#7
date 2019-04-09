@@ -964,12 +964,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <rectangle x1="0.79" y1="-1.42" x2="1.12" y2="-0.67" layer="51"/>
 </package>
 <package name="JST_SM06B-GHS-TB">
-<smd name="1" x="-3.23" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="2" x="-1.98" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="3" x="-0.73" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="4" x="0.52" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="5" x="1.77" y="1.95" dx="0.6" dy="1.7" layer="1"/>
-<smd name="6" x="3.02" y="1.95" dx="0.6" dy="1.7" layer="1"/>
+<smd name="1" x="-3.23" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.98" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.73" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.52" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="5" x="1.77" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
+<smd name="6" x="3.02" y="1.95" dx="0.6" dy="1.7" layer="1" stop="no" cream="no"/>
 <smd name="P$7" x="-5.08" y="-1.25" dx="1" dy="2.7" layer="1"/>
 <smd name="P$8" x="4.87" y="-1.25" dx="1" dy="2.7" layer="1"/>
 <wire x1="-5.48" y1="-2.35" x2="5.27" y2="-2.35" width="0.127" layer="51"/>
@@ -990,6 +990,84 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-4.9" y1="1.9" x2="4.7" y2="1.9" width="0.127" layer="51"/>
 <wire x1="4.7" y1="1.9" x2="4.7" y2="0" width="0.127" layer="51"/>
 <wire x1="4.7" y1="0" x2="5.25" y2="0" width="0.127" layer="51"/>
+<polygon width="0.01" layer="31">
+<vertex x="-3.03" y="1.58"/>
+<vertex x="-3.03" y="2.68"/>
+<vertex x="-3.04" y="2.68"/>
+<vertex x="-3.43" y="2.68"/>
+<vertex x="-3.43" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-3.53" y="1.09"/>
+<vertex x="-2.93" y="1.09"/>
+<vertex x="-2.93" y="2.8"/>
+<vertex x="-3.53" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.78" y="1.58"/>
+<vertex x="-1.78" y="2.68"/>
+<vertex x="-1.79" y="2.68"/>
+<vertex x="-2.18" y="2.68"/>
+<vertex x="-2.18" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-2.28" y="1.09"/>
+<vertex x="-1.68" y="1.09"/>
+<vertex x="-1.68" y="2.8"/>
+<vertex x="-2.28" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.53" y="1.58"/>
+<vertex x="-0.53" y="2.68"/>
+<vertex x="-0.54" y="2.68"/>
+<vertex x="-0.93" y="2.68"/>
+<vertex x="-0.93" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-1.03" y="1.09"/>
+<vertex x="-0.43" y="1.09"/>
+<vertex x="-0.43" y="2.8"/>
+<vertex x="-1.03" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.72" y="1.58"/>
+<vertex x="0.72" y="2.68"/>
+<vertex x="0.71" y="2.68"/>
+<vertex x="0.32" y="2.68"/>
+<vertex x="0.32" y="1.58"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="0.22" y="1.09"/>
+<vertex x="0.82" y="1.09"/>
+<vertex x="0.82" y="2.8"/>
+<vertex x="0.22" y="2.8"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="1.97" y="1.59"/>
+<vertex x="1.97" y="2.69"/>
+<vertex x="1.96" y="2.69"/>
+<vertex x="1.57" y="2.69"/>
+<vertex x="1.57" y="1.59"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="1.47" y="1.1"/>
+<vertex x="2.07" y="1.1"/>
+<vertex x="2.07" y="2.81"/>
+<vertex x="1.47" y="2.81"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.22" y="1.59"/>
+<vertex x="3.22" y="2.69"/>
+<vertex x="3.21" y="2.69"/>
+<vertex x="2.82" y="2.69"/>
+<vertex x="2.82" y="1.59"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="2.72" y="1.1"/>
+<vertex x="3.32" y="1.1"/>
+<vertex x="3.32" y="2.81"/>
+<vertex x="2.72" y="2.81"/>
+</polygon>
 </package>
 <package name="TI-SC70-5">
 <smd name="5" x="-0.65" y="1.1" dx="0.4" dy="0.9" layer="1"/>
