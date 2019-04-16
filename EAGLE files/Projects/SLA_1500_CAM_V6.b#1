@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="2" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -360,6 +360,10 @@
 <circle x="-4.717009375" y="1.008134375" radius="0.357634375" width="0" layer="29"/>
 <circle x="-5.007271875" y="2.44191875" radius="0.357634375" width="0" layer="29"/>
 <circle x="-5.5877875" y="0.31846875" radius="0.357634375" width="0" layer="29"/>
+<dimension x1="-18.796" y1="-16.764" x2="19.05" y2="-16.764" x3="0.127" y3="-18.542" textsize="1.778" layer="51" unit="inch"/>
+<dimension x1="20.32" y1="11.176" x2="20.32" y2="-15.24" x3="22.86" y3="-2.032" textsize="1.778" layer="51" unit="inch"/>
+<dimension x1="-18.796" y1="-16.764" x2="19.05" y2="-16.764" x3="0.127" y3="-18.288" textsize="1.778" layer="52" unit="inch"/>
+<dimension x1="20.574" y1="11.176" x2="20.574" y2="-15.24" x3="22.606" y3="-2.032" textsize="1.778" layer="52" unit="inch"/>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor" urn="urn:adsk.eagle:library:464">
@@ -3578,9 +3582,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="PIXCLK">
 <contactref element="U1" pad="13"/>
 <via x="-5.58981875" y="0.319521875" extent="1-16" drill="0.256540625" diameter="0.510540625"/>
-<wire x1="-5.41856875" y1="0.352684375" x2="-3.5781" y2="0.317996875" width="0.1524" layer="16"/>
-<wire x1="-5.41856875" y1="0.352684375" x2="-5.45173125" y2="0.319521875" width="0.1524" layer="16"/>
-<wire x1="-5.58981875" y1="0.319521875" x2="-5.45173125" y2="0.319521875" width="0.1524" layer="16"/>
+<wire x1="-5.58981875" y1="0.319521875" x2="-5.58829375" y2="0.317996875" width="0.1524" layer="16"/>
+<wire x1="-5.58829375" y1="0.317996875" x2="-3.5781" y2="0.317996875" width="0.1524" layer="16"/>
 <contactref element="R21" pad="1"/>
 <wire x1="-3.8532875" y1="1.97856875" x2="-4.5889375" y2="1.97856875" width="0.1524" layer="1"/>
 <wire x1="-4.5889375" y1="1.97856875" x2="-5.678196875" y2="0.889309375" width="0.1524" layer="1"/>
@@ -4018,7 +4021,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="-5.84454375" y1="-1.0668" x2="-5.8166" y2="-1.09474375" width="0.1524" layer="1"/>
 <via x="-5.8166" y="-1.09474375" extent="1-16" drill="0.256540625" diameter="0.510540625"/>
 <wire x1="-5.8166" y1="-1.09474375" x2="-4.58284375" y2="-1.09474375" width="0.1524" layer="16"/>
-<wire x1="-4.58284375" y1="-1.09474375" x2="-3.5781" y2="-1.082003125" width="0.1524" layer="16"/>
+<wire x1="-3.581915625" y1="-1.0781875" x2="-4.578928125" y2="-1.090828125" width="0.1524" layer="16"/>
+<wire x1="-4.58284375" y1="-1.09474375" x2="-4.578928125" y2="-1.090828125" width="0.1524" layer="16"/>
+<wire x1="-3.581915625" y1="-1.0781875" x2="-3.5781" y2="-1.082003125" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$49">
 <contactref element="J1" pad="23"/>
