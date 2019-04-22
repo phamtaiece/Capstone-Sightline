@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
@@ -7285,6 +7285,9 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="R8" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-0R-5%-1/16W(0402)" device="" package3d_urn="urn:adsk.eagle:package:32792/1" value="0R"/>
 <part name="R4" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-1.5K-5%-1/16W(0402)" device="" package3d_urn="urn:adsk.eagle:package:32792/1" value="1.5K"/>
 <part name="C33" library="Sightline" deviceset="F980J106MUALZT" device="" value="10uf"/>
+<part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R26" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-0R-5%-1/16W(0402)" device="" package3d_urn="urn:adsk.eagle:package:32792/1" value="0R"/>
+<part name="R27" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-0R-5%-1/16W(0402)" device="" package3d_urn="urn:adsk.eagle:package:32792/1" value="0R"/>
 </parts>
 <sheets>
 <sheet>
@@ -7324,6 +7327,7 @@ FOR TESTING</text>
 <text x="162.56" y="256.54" size="1.778" layer="97">VAA</text>
 <text x="218.44" y="256.54" size="1.778" layer="97">VAA_PIX</text>
 <text x="71.12" y="256.54" size="1.778" layer="97">VDD_IO</text>
+<text x="112.2172" y="102.8192" size="1.778" layer="97" align="center-left">DNP</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0.2" smashed="yes"/>
@@ -7793,6 +7797,17 @@ FOR TESTING</text>
 <attribute name="NAME" x="376.682" y="252.476" size="2.54" layer="95"/>
 <attribute name="VALUE" x="376.174" y="241.3" size="2.54" layer="96"/>
 </instance>
+<instance part="GND44" gate="1" x="119.38" y="88.9" smashed="yes">
+<attribute name="VALUE" x="116.84" y="86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="R26" gate="G$1" x="114.3" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="113.8682" y="100.33" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="116.6114" y="100.3554" size="1.27" layer="96" ratio="10" rot="R180"/>
+</instance>
+<instance part="R27" gate="G$1" x="119.38" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.65" y="96.0882" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="120.6246" y="98.8314" size="1.27" layer="96" ratio="10" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8159,6 +8174,11 @@ FOR TESTING</text>
 <pinref part="C33" gate="G$1" pin="P$2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="373.38" y1="244.094" x2="373.38" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND44" gate="1" pin="GND"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="91.44" x2="119.38" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -8737,8 +8757,8 @@ FOR TESTING</text>
 <net name="STANDBY" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="STANDBY"/>
-<wire x1="149.86" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<label x="144.78" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="109.22" x2="135.1026" y2="109.22" width="0.1524" layer="91"/>
+<label x="135.1026" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="CAM_GPIO175"/>
@@ -8931,6 +8951,13 @@ FOR TESTING</text>
 <pinref part="J1" gate="G$1" pin="CAM_GPIO178"/>
 <wire x1="233.68" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
 <label x="231.14" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="110.49" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="101.6" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
+<label x="106.68" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9128,6 +9155,18 @@ FOR TESTING</text>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="J1" gate="G$1" pin="CAM_D5"/>
 <wire x1="219.71" y1="147.32" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="OE_BAR"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="111.76" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="101.6" x2="119.38" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<junction x="119.38" y="101.6"/>
 </segment>
 </net>
 </nets>
