@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-04-22T03:40:12Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.4276,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "SLA_1500_CAM_V7"
+        },
+        "Owner": "Kimball Davis <kimball4@pdx.edu>",
+        "Size": {
+            "X": 37.846,
+            "Y": 26.416
+        }
+    }
+}

@@ -8,8 +8,8 @@
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,17 +22,17 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -384,6 +384,7 @@
 <circle x="-16.7767" y="-11.303" radius="0.343134375" width="0" layer="30"/>
 <circle x="14.224" y="-13.081" radius="0.301875" width="0" layer="30"/>
 <circle x="16.8783" y="-4.826" radius="0.369171875" width="0" layer="30"/>
+<text x="15.7988" y="-14.4272" size="0.6096" layer="26" rot="MR0">SLA-1500-CAM-REV 7.0</text>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor" urn="urn:adsk.eagle:library:464">
@@ -2087,7 +2088,7 @@ Source: www.st.com, BAT60J.pdf</description>
 This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requirements for our 4 layer MLB products. For questions, comments, suggestions, please contact Sunstone Customer Support:&lt;p&gt;&lt;b&gt;Email:&lt;/b&gt; mailto:support@sunstone.com&lt;b&gt;&lt;br&gt;Phone:&lt;/b&gt; 800-228-8198&lt;p&gt; v1.1Mod10/16/07~Layers-core reversal.Distance C/D.Restring%.Supply G
 &lt;p&gt;v1.2Mod12/06/07~Distance C/D to 20mils.&lt;p&gt;v1.3Mod12/12/07~Supply/Annulus Value to 12.5mils&lt;p&gt;1/15/08 SSC-EAGLE-4Lyr_v1.0.0.3~For Release&lt;p&gt;10/03/08 Description Edit&lt;p&gt;
 &lt;i&gt;Attention: Upon running the design check and making modifications, please remember to save any changes before closing the application and sending in your board file to Sunstone Circuits for conversion.&lt;i&gt;</description>
-<param name="layerSetup" value="([2:[15:1+2*15+16:2]:15])"/>
+<param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.0178mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0178mm"/>
 <param name="mtIsolate" value="12mil 28mil 12mil 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 12mil"/>
 <param name="mdWireWire" value="6mil"/>
@@ -2382,7 +2383,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="DESCRIPTION" value="TXS0102 2-Bit Bidirectional Voltage-Level Translator for Open-Drain and Push-Pull  Applications " x="54.4068" y="54.1147" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="Texas Instruments" x="54.4068" y="54.1147" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="TXS0102DQM " x="54.4068" y="54.1147" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-9.8552" y="3.0607" size="0.6096" layer="25"/>
+<attribute name="NAME" x="-11.3792" y="3.1369" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-8.6932" y="4.7147" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U3" library="Sightline" package="TI-SC70-5" value="" x="-12.5984" y="7.2644" smashed="yes" rot="R270">
@@ -2424,14 +2425,14 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="DESCRIPTION" value="TXS0102 2-Bit Bidirectional Voltage-Level Translator for Open-Drain and Push-Pull  Applications " x="-35.4838" y="-73.3425" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANF" value="Texas Instruments" x="-35.4838" y="-73.3425" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANF#" value="TXS0102DQM " x="-35.4838" y="-73.3425" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-5.3529" y="-10.5694" size="0.6096" layer="26" rot="MR180" align="top-right"/>
+<attribute name="NAME" x="-6.6229" y="-11.306" size="0.6096" layer="26" rot="MR180" align="top-right"/>
 <attribute name="VALUE" x="-8.9438" y="-10.2425" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U9" library="Sightline" package="X2SON(8)1.8X1.2MM" value="TXS0102" x="10.4902" y="-6.7564" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="TXS0102 2-Bit Bidirectional Voltage-Level Translator for Open-Drain and Push-Pull  Applications " x="-53.0098" y="32.6136" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANF" value="Texas Instruments" x="-53.0098" y="32.6136" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANF#" value="TXS0102DQM " x="-53.0098" y="32.6136" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="11.0206" y="-7.0296" size="0.6096" layer="26" rot="MR180" align="top-right"/>
+<attribute name="NAME" x="12.4938" y="-6.8264" size="0.6096" layer="26" rot="MR180" align="top-right"/>
 <attribute name="VALUE" x="10.0902" y="-5.3564" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD323_ST" package3d_urn="urn:adsk.eagle:package:43461/1" value="BAT60J" x="-11.8364" y="-5.7912" smashed="yes" rot="MR90">
@@ -2718,12 +2719,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="R26" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" package="R0402" package3d_urn="urn:adsk.eagle:package:32792/1" value="0R" x="11.176" y="7.8994" smashed="yes" rot="MR270">
 <attribute name="MPN" value="RC0402JR-070RL" x="11.176" y="7.8994" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="9.906" y="7.2644" size="0.889" layer="26" ratio="11" rot="MR180"/>
+<attribute name="NAME" x="12.0142" y="6.7818" size="0.6096" layer="26" ratio="11" rot="MR180" align="top-right"/>
 <attribute name="VALUE" x="9.906" y="9.4234" size="0.889" layer="28" font="vector" ratio="11" rot="MR180"/>
 </element>
 <element name="R27" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" package="R0402" package3d_urn="urn:adsk.eagle:package:32792/1" value="0R" x="10.2362" y="9.271" smashed="yes" rot="MR90">
 <attribute name="MPN" value="RC0402JR-070RL" x="10.2362" y="9.271" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="11.5062" y="9.906" size="0.889" layer="26" ratio="11" rot="MR0"/>
+<attribute name="NAME" x="11.0236" y="9.8298" size="0.6096" layer="26" ratio="11" rot="MR180" align="top-right"/>
 <attribute name="VALUE" x="11.5062" y="7.747" size="0.889" layer="28" font="vector" ratio="11" rot="MR0"/>
 </element>
 </elements>
@@ -3333,10 +3334,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="4.16513125" y1="-0.154146875" x2="4.37068125" y2="-0.359696875" width="0.254" layer="16"/>
 <wire x1="4.37068125" y1="-0.359696875" x2="5.4981" y2="-0.382003125" width="0.254" layer="16"/>
 <via x="4.1901875" y="0.705846875" extent="1-16" drill="0.256540625" diameter="0.510540625"/>
-<wire x1="4.192778125" y1="0.490884375" x2="4.1901875" y2="0.48829375" width="0.254" layer="16"/>
+<wire x1="4.357878125" y1="0.655984375" x2="4.1901875" y2="0.48829375" width="0.254" layer="16"/>
 <wire x1="4.1901875" y1="0.705846875" x2="4.1901875" y2="0.48829375" width="0.254" layer="16"/>
-<wire x1="4.192778125" y1="0.490884375" x2="4.3656625" y2="0.317996875" width="0.254" layer="16"/>
-<wire x1="4.3656625" y1="0.317996875" x2="5.4981" y2="0.317996875" width="0.254" layer="16"/>
+<wire x1="4.357878125" y1="0.655984375" x2="4.6958625" y2="0.317996875" width="0.254" layer="16"/>
+<wire x1="4.6958625" y1="0.317996875" x2="5.4981" y2="0.317996875" width="0.254" layer="16"/>
 <via x="4.23216875" y="1.67645625" extent="1-16" drill="0.256540625" diameter="0.510540625"/>
 <wire x1="5.4981" y1="1.717996875" x2="5.456559375" y2="1.67645625" width="0.254" layer="16"/>
 <wire x1="5.456559375" y1="1.67645625" x2="4.23216875" y2="1.67645625" width="0.254" layer="16"/>
