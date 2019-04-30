@@ -31,7 +31,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -385,6 +385,8 @@
 <circle x="14.224" y="-13.081" radius="0.301875" width="0" layer="30"/>
 <circle x="16.8783" y="-4.826" radius="0.369171875" width="0" layer="30"/>
 <text x="15.7988" y="-14.4272" size="0.6096" layer="26" rot="MR0">SLA-1500-CAM-REV 8.0</text>
+<dimension x1="-19.7612" y1="11.176" x2="-19.7612" y2="-15.1384" x3="-23.0378" y3="-1.9812" textsize="1.778" layer="52" unit="inch"/>
+<dimension x1="18.923" y1="-15.748" x2="-18.923" y2="-15.748" x3="0" y3="-18.97440625" textsize="1.778" layer="52" unit="inch"/>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor" urn="urn:adsk.eagle:library:464">
@@ -2274,6 +2276,43 @@
 <rectangle x1="-1.5" y1="1" x2="-1" y2="1.875" layer="21"/>
 <rectangle x1="-0.25" y1="1" x2="0.25" y2="1.875" layer="21"/>
 <rectangle x1="1" y1="1" x2="1.5" y2="1.875" layer="21"/>
+<polygon width="0.0762" layer="51">
+<vertex x="-2.7178" y="2.2352"/>
+<vertex x="-2.7178" y="2.2606"/>
+<vertex x="-4.6482" y="2.2606"/>
+<vertex x="-4.6482" y="-0.7366"/>
+<vertex x="-2.7178" y="-0.7366"/>
+<vertex x="-2.7178" y="2.2606"/>
+<vertex x="-2.7686" y="2.2606"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="2.6416" y="2.2352"/>
+<vertex x="4.6228" y="2.2352"/>
+<vertex x="4.6228" y="2.2098"/>
+<vertex x="4.6228" y="-0.7366"/>
+<vertex x="2.6416" y="-0.7366"/>
+<vertex x="2.6416" y="2.2352"/>
+<vertex x="2.667" y="2.2352"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-1.4986" y="-1.3716"/>
+<vertex x="-1.4986" y="-2.8448"/>
+<vertex x="-1.016" y="-2.8448"/>
+<vertex x="-1.016" y="-1.3716"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-0.2286" y="-1.3716"/>
+<vertex x="-0.2286" y="-2.8448"/>
+<vertex x="0.254" y="-2.8448"/>
+<vertex x="0.254" y="-1.3716"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="0.9906" y="-1.3716"/>
+<vertex x="0.9906" y="-2.8194"/>
+<vertex x="1.4986" y="-2.8194"/>
+<vertex x="1.4986" y="-1.3716"/>
+<vertex x="1.016" y="-1.3716"/>
+</polygon>
 </package>
 <package name="53261-04">
 <description>&lt;b&gt;1.25mm Pitch PicoBlade™ Header, Surface Mount, Right Angle, 4 Circuits&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/532610471_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
@@ -2737,6 +2776,294 @@
 <vertex x="-3.675" y="4.2"/>
 <vertex x="-3.675" y="4.925"/>
 </polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-0.508" y="4.9784"/>
+<vertex x="-0.508" y="3.4036"/>
+<vertex x="-0.1778" y="3.4036"/>
+<vertex x="-0.1778" y="4.9784"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="0.1778" y="4.9784"/>
+<vertex x="0.1778" y="4.1148"/>
+<vertex x="0.508" y="4.1148"/>
+<vertex x="0.508" y="4.9784"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="0.8636" y="5.0038"/>
+<vertex x="1.2192" y="5.0038"/>
+<vertex x="1.2192" y="4.1148"/>
+<vertex x="0.8636" y="4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="1.5748" y="4.9784"/>
+<vertex x="1.9304" y="4.9784"/>
+<vertex x="1.9304" y="4.0894"/>
+<vertex x="1.5748" y="4.0894"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="2.2606" y="4.9784"/>
+<vertex x="2.6162" y="4.9784"/>
+<vertex x="2.6162" y="4.0894"/>
+<vertex x="2.2606" y="4.0894"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="2.9718" y="4.9784"/>
+<vertex x="3.3274" y="4.9784"/>
+<vertex x="3.3274" y="4.0894"/>
+<vertex x="2.9718" y="4.0894"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="3.683" y="5.0038"/>
+<vertex x="4.0386" y="5.0038"/>
+<vertex x="4.0386" y="4.1148"/>
+<vertex x="3.683" y="4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1656" y="3.6576"/>
+<vertex x="4.1656" y="4.0132"/>
+<vertex x="5.0546" y="4.0132"/>
+<vertex x="5.0546" y="3.6576"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1148" y="2.9718"/>
+<vertex x="4.1148" y="3.3274"/>
+<vertex x="5.0038" y="3.3274"/>
+<vertex x="5.0038" y="2.9718"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1148" y="2.2606"/>
+<vertex x="4.1148" y="2.6162"/>
+<vertex x="5.0038" y="2.6162"/>
+<vertex x="5.0038" y="2.2606"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1148" y="1.5748"/>
+<vertex x="4.1148" y="1.9304"/>
+<vertex x="5.0038" y="1.9304"/>
+<vertex x="5.0038" y="1.5748"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1148" y="0.8636"/>
+<vertex x="4.1148" y="1.2192"/>
+<vertex x="5.0038" y="1.2192"/>
+<vertex x="5.0038" y="0.8636"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1148" y="0.1524"/>
+<vertex x="4.1148" y="0.508"/>
+<vertex x="5.0038" y="0.508"/>
+<vertex x="5.0038" y="0.1524"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.0894" y="-0.5334"/>
+<vertex x="4.0894" y="-0.1778"/>
+<vertex x="4.9784" y="-0.1778"/>
+<vertex x="4.9784" y="-0.5334"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.0894" y="-1.2446"/>
+<vertex x="4.0894" y="-0.889"/>
+<vertex x="4.9784" y="-0.889"/>
+<vertex x="4.9784" y="-1.2446"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1148" y="-1.9304"/>
+<vertex x="4.1148" y="-1.5748"/>
+<vertex x="5.0038" y="-1.5748"/>
+<vertex x="5.0038" y="-1.9304"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.1148" y="-2.6162"/>
+<vertex x="4.1148" y="-2.2606"/>
+<vertex x="5.0038" y="-2.2606"/>
+<vertex x="5.0038" y="-2.6162"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="5.0038" y="-2.9718"/>
+<vertex x="5.0038" y="-3.3274"/>
+<vertex x="4.1148" y="-3.3274"/>
+<vertex x="4.1148" y="-2.9718"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="5.0292" y="-3.683"/>
+<vertex x="5.0292" y="-4.0386"/>
+<vertex x="4.1402" y="-4.0386"/>
+<vertex x="4.1402" y="-3.683"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="4.0132" y="-5.0292"/>
+<vertex x="3.6576" y="-5.0292"/>
+<vertex x="3.6576" y="-4.1402"/>
+<vertex x="4.0132" y="-4.1402"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="3.3274" y="-5.0038"/>
+<vertex x="2.9718" y="-5.0038"/>
+<vertex x="2.9718" y="-4.1148"/>
+<vertex x="3.3274" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="2.6416" y="-5.0038"/>
+<vertex x="2.286" y="-5.0038"/>
+<vertex x="2.286" y="-4.1148"/>
+<vertex x="2.6416" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="1.9304" y="-4.9784"/>
+<vertex x="1.5748" y="-4.9784"/>
+<vertex x="1.5748" y="-4.0894"/>
+<vertex x="1.9304" y="-4.0894"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="1.2192" y="-5.0038"/>
+<vertex x="0.8636" y="-5.0038"/>
+<vertex x="0.8636" y="-4.1148"/>
+<vertex x="1.2192" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="0.5334" y="-5.0038"/>
+<vertex x="0.1778" y="-5.0038"/>
+<vertex x="0.1778" y="-4.1148"/>
+<vertex x="0.5334" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-0.1778" y="-5.0038"/>
+<vertex x="-0.5334" y="-5.0038"/>
+<vertex x="-0.5334" y="-4.1148"/>
+<vertex x="-0.1778" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-0.8636" y="-5.0038"/>
+<vertex x="-1.2192" y="-5.0038"/>
+<vertex x="-1.2192" y="-4.1148"/>
+<vertex x="-0.8636" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-1.5748" y="-5.0038"/>
+<vertex x="-1.9304" y="-5.0038"/>
+<vertex x="-1.9304" y="-4.1148"/>
+<vertex x="-1.5748" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-2.2606" y="-5.0038"/>
+<vertex x="-2.6162" y="-5.0038"/>
+<vertex x="-2.6162" y="-4.1148"/>
+<vertex x="-2.2606" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-2.9718" y="-5.0038"/>
+<vertex x="-3.3274" y="-5.0038"/>
+<vertex x="-3.3274" y="-4.1148"/>
+<vertex x="-2.9718" y="-4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-3.6576" y="-5.0292"/>
+<vertex x="-4.0132" y="-5.0292"/>
+<vertex x="-4.0132" y="-4.1402"/>
+<vertex x="-3.6576" y="-4.1402"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1402" y="-3.683"/>
+<vertex x="-4.1402" y="-4.0386"/>
+<vertex x="-5.0292" y="-4.0386"/>
+<vertex x="-5.0292" y="-3.683"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="-2.9718"/>
+<vertex x="-4.1148" y="-3.3274"/>
+<vertex x="-5.0038" y="-3.3274"/>
+<vertex x="-5.0038" y="-2.9718"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="-2.286"/>
+<vertex x="-4.1148" y="-2.6416"/>
+<vertex x="-5.0038" y="-2.6416"/>
+<vertex x="-5.0038" y="-2.286"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="-1.5748"/>
+<vertex x="-4.1148" y="-1.9304"/>
+<vertex x="-5.0038" y="-1.9304"/>
+<vertex x="-5.0038" y="-1.5748"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="-0.8636"/>
+<vertex x="-4.1148" y="-1.2192"/>
+<vertex x="-5.0038" y="-1.2192"/>
+<vertex x="-5.0038" y="-0.8636"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="-0.1778"/>
+<vertex x="-4.1148" y="-0.5334"/>
+<vertex x="-5.0038" y="-0.5334"/>
+<vertex x="-5.0038" y="-0.1778"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="0.5334"/>
+<vertex x="-4.1148" y="0.1778"/>
+<vertex x="-5.0038" y="0.1778"/>
+<vertex x="-5.0038" y="0.5334"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="1.2192"/>
+<vertex x="-4.1148" y="0.8636"/>
+<vertex x="-5.0038" y="0.8636"/>
+<vertex x="-5.0038" y="1.2192"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="1.9304"/>
+<vertex x="-4.1148" y="1.5748"/>
+<vertex x="-5.0038" y="1.5748"/>
+<vertex x="-5.0038" y="1.9304"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="2.6162"/>
+<vertex x="-4.1148" y="2.2606"/>
+<vertex x="-5.0038" y="2.2606"/>
+<vertex x="-5.0038" y="2.6162"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1148" y="3.3274"/>
+<vertex x="-4.1148" y="2.9718"/>
+<vertex x="-5.0038" y="2.9718"/>
+<vertex x="-5.0038" y="3.3274"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.1402" y="4.0132"/>
+<vertex x="-4.1402" y="3.6576"/>
+<vertex x="-5.0292" y="3.6576"/>
+<vertex x="-5.0292" y="4.0132"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-4.0132" y="5.0292"/>
+<vertex x="-3.6576" y="5.0292"/>
+<vertex x="-3.6576" y="4.1402"/>
+<vertex x="-4.0132" y="4.1402"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-3.3274" y="5.0038"/>
+<vertex x="-2.9718" y="5.0038"/>
+<vertex x="-2.9718" y="4.1148"/>
+<vertex x="-3.3274" y="4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-2.6162" y="5.0038"/>
+<vertex x="-2.2606" y="5.0038"/>
+<vertex x="-2.2606" y="4.1148"/>
+<vertex x="-2.6162" y="4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-1.9304" y="5.0038"/>
+<vertex x="-1.5748" y="5.0038"/>
+<vertex x="-1.5748" y="4.1148"/>
+<vertex x="-1.9304" y="4.1148"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-1.2192" y="5.0038"/>
+<vertex x="-0.8636" y="5.0038"/>
+<vertex x="-0.8636" y="4.1148"/>
+<vertex x="-1.2192" y="4.1148"/>
+</polygon>
 </package>
 <package name="X2SON(8)1.8X1.2MM">
 <smd name="7" x="-0.2" y="0.45" dx="0.2" dy="0.7" layer="1"/>
@@ -2957,6 +3284,31 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="1.4" y1="0.6" x2="-1.4" y2="0.6" width="0.05" layer="21"/>
 <text x="-7.8" y="-0.55" size="1.27" layer="25">&gt;NAME</text>
 <text x="1.5" y="-0.5" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.0762" layer="51">
+<vertex x="-1.1684" y="1.27"/>
+<vertex x="-1.1684" y="0.508"/>
+<vertex x="-0.762" y="0.508"/>
+<vertex x="-0.762" y="1.27"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="0.762" y="1.27"/>
+<vertex x="0.762" y="0.508"/>
+<vertex x="1.1684" y="0.508"/>
+<vertex x="1.1684" y="0.5334"/>
+<vertex x="1.1684" y="1.27"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="0.762" y="-0.508"/>
+<vertex x="0.762" y="-1.27"/>
+<vertex x="1.1684" y="-1.27"/>
+<vertex x="1.1684" y="-0.508"/>
+</polygon>
+<polygon width="0.0762" layer="51">
+<vertex x="-1.27" y="-0.508"/>
+<vertex x="-1.27" y="-1.27"/>
+<vertex x="-0.254" y="-1.27"/>
+<vertex x="-0.254" y="-0.508"/>
+</polygon>
 </package>
 <package name="0402">
 <smd name="1" x="-0.4" y="0" dx="0.4" dy="0.35" layer="1"/>
@@ -3501,7 +3853,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="DESCRIPTION" value="OSC, CRYSTAL CLOCK, SMD, CMOS, 2.25V TO 3.63V, 4mA, 27.0000MHz, 2.5MM x 2.0MM " x="71.628" y="62.5602" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="Kyocera" x="71.628" y="62.5602" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="KC2520B27.0000C2GE00  " x="71.628" y="62.5602" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="9.5123" y="7.7851" size="0.6096" layer="25"/>
+<attribute name="NAME" x="7.0739" y="9.5885" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="10.128" y="6.3502" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k" x="-3.7592" y="8.9916" smashed="yes" rot="R180">
@@ -3586,7 +3938,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="DESCRIPTION" value="TXS0102 2-Bit Bidirectional Voltage-Level Translator for Open-Drain and Push-Pull  Applications " x="-35.4838" y="-73.3425" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANF" value="Texas Instruments" x="-35.4838" y="-73.3425" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANF#" value="TXS0102DQM " x="-35.4838" y="-73.3425" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-7.0293" y="-8.5628" size="0.6096" layer="26" rot="MR180" align="top-right"/>
+<attribute name="NAME" x="-7.0801" y="-8.6136" size="0.6096" layer="26" rot="MR180" align="top-right"/>
 <attribute name="VALUE" x="-8.9438" y="-10.2425" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U9" library="Sightline" package="X2SON(8)1.8X1.2MM" value="TXS0102" x="10.4902" y="-6.7564" smashed="yes" rot="MR90">
@@ -3597,7 +3949,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="10.0902" y="-5.3564" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD323_ST" package3d_urn="urn:adsk.eagle:package:43461/1" value="BAT60J" x="-11.8364" y="-5.7912" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-12.699" y="-6.211" size="0.6096" layer="26" rot="MR180" align="top-right"/>
+<attribute name="NAME" x="-10.0574" y="-6.0332" size="0.6096" layer="26" rot="MR180" align="top-right"/>
 <attribute name="VALUE" x="-13.8364" y="-7.4412" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD323_ST" package3d_urn="urn:adsk.eagle:package:43461/1" value="BAT60J" x="12.065" y="-10.5283" smashed="yes" rot="R90">
@@ -3773,7 +4125,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="C1" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" package="C0402" package3d_urn="urn:adsk.eagle:package:32379/1" value="100nF " x="-14.1478" y="9.3726" smashed="yes" rot="MR270">
 <attribute name="MPN" value="CC0402KRX5R6BB104" x="-14.1478" y="9.3726" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-13.335" y="8.3058" size="0.6096" layer="26" ratio="11" rot="MR180" align="top-right"/>
+<attribute name="NAME" x="-13.4112" y="9.8806" size="0.6096" layer="26" ratio="11" rot="MR180" align="top-right"/>
 <attribute name="VALUE" x="-15.5448" y="10.8966" size="0.635" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
 <element name="C10" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" package="C0402" package3d_urn="urn:adsk.eagle:package:32379/1" value="100nF " x="-6.9596" y="5.8039" smashed="yes" rot="R90">
