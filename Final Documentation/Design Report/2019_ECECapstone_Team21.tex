@@ -1,0 +1,196 @@
+
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+\usepackage{mathpazo} % Palatino font
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{tabu}
+\usepackage{array}
+\usepackage{cellspace}
+\usepackage[table]{xcolor}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{placeins}
+\usepackage{blindtext}
+\renewcommand{\baselinestretch}{1.25}
+\geometry{margin=.75 in}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
+	
+	\center % Centre everything on the page
+	
+	%------------------------------------------------
+	%	Headings
+	%------------------------------------------------
+	
+	\textsc{\LARGE Portland State University
+}\\[.25cm] % Main heading such as the name of your university/college
+	
+	\textsc{\Large Department of Electrical and Computer Engineering }\\[1cm] % Major heading such as course name
+\includegraphics[width=0.2\textwidth]{psuLOGO.jpg}\\[1cm]	
+	\textsc{\LARGE2019  ECE Capstone }\\[0.12cm] % Minor heading such as course title
+	\textsc{\LARGE Team 21 }\\[0.12cm]	
+		\textsc{\Large Faculty Advisor: Roy Kravitz, M.S. }\\[0.12cm]
+		\textsc{\Large Sponsor: Sightline Applications }\\[1cm]
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\HRule\\[0.4cm]
+	
+	{\huge\bfseries UAV Landing Aid - Design Report}\\[0.4cm] % Title of your document
+	
+	\HRule\\[1.5cm]
+	
+	%------------------------------------------------
+	%	Author(s)
+	%------------------------------------------------
+	
+%	\begin{minipage}{0.4\textwidth}
+%		\begin{flushleft}
+%			\large
+%			\textit{By:}\\
+%		 \textsc{Kimball S. Davis} % Your name
+%		\end{flushleft}
+%	\end{minipage}
+%	~
+%	\begin{minipage}{0.4\textwidth}
+%		\begin{flushright}
+%			\large
+%			\textit{Professor of Electrical \& Computer Engineering}\\
+%		 \textsc{Professor Branimir Pejcinovic, Ph.D.} % Supervisor's name
+%		\end{flushright}
+%	\end{minipage}
+	
+	% If you don't want a supervisor, uncomment the two lines below and comment the code above
+	{\Large\textit{Authors:}}\\
+ 	\Large\textsc{Tai Pham}\\
+	 \Large\textsc{Kimball S. Davis} % Your name
+	
+	%------------------------------------------------
+	%	Date
+	%------------------------------------------------
+	
+	\vfill\vfill\vfill % Position the date 3/4 down the remaining page
+	
+	{\large\today} % Date, change the \today to a set date if you want to be precise
+	
+	%------------------------------------------------
+	%	Logo
+	%------------------------------------------------
+	
+	%\vfill\vfill
+	%\includegraphics[width=0.2\textwidth]{PSULOGO}\\[1cm] % Include a department/university logo - this will require the graphicx package
+	 
+	%----------------------------------------------------------------------------------------
+	
+	\vfill % Push the date up 1/4 of the remaining page
+	
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+
+
+\section*{Abstract}
+
+\blindtext
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\listoffigures
+
+\pagebreak
+
+\section{Project Overview}
+\blindtext
+\subsection{Problem Definition}
+\blindtext
+\subsection{Solution(10,000ft view)}
+\blindtext
+
+    \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+%    \begin{figure}[H]
+%	\centering	
+%	\includegraphics[width=3.5 in]{Simple_SatR}
+%	\caption{\textit{Simple saturable reactor[1]}}	
+%	\end{figure}
+
+\section{Results(Technical Detail)}
+\subsection{Quadcopter}
+
+\blindtext
+
+    \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+\subsection{Hardware}
+
+\blindtext
+
+    \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+\subsection{Software}
+
+\blindtext
+
+    \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+
+
+\section{Conclusion/What's Left to do}
+
+\blindtext
+
+
+     \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+\pagebreak
+
+\section{Appendix}
+\subsection{I}
+\subsection{II}
+\subsection{II}
+\subsection{IV}
+\subsection{V}	
+
+\pagebreak
+
+\section{References}
+\begin{enumerate}
+\item Mali, P. (1960).\textit{ Magnetic Amplifiers}. New York, NY: John F. Rider.
+\item Figure 1. Simple saturable reactor. Reprinted from \textit{Magnetic Amplifiers}(pg. 27), by Paul Mali, 1960, New York, NY, John F. Rider Publisher, Inc.
+\item Figure 2. Full-wave self-saturating magnetic amplifier. Reprinted from \textit{Magnetic Amplifiers}(pg. 35), by Paul Mali, 1960, New York, NY, John F. Rider Publisher, Inc.
+\end{enumerate}	
+\end{document}
