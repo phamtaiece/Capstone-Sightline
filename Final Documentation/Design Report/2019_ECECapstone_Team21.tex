@@ -106,7 +106,30 @@
 
 \section*{Abstract}
 
-\blindtext
+SightLine Applications has developed a precision visual landing aid for UAV's. The Landing Aid supports autonomous landing operations by automatically finding and tracking an easy to place landing pattern. Integration of the SightLine Landing Aid for end users is problematic for two main reasons: 
+\begin{enumerate}
+\item Connectivity issues with a wide range of cameras. 
+\item Communication issues with a wide range of filght controller hardware and software.
+\end{enumerate} 
+Currently the end user selects a camera to be used with the SightLine processing hardware. A wide range of cameras must be supported, and custom A/B boards must be designed for each one to interface with the SightLine hardware. Each of these A/B boards can have cable, power, and electrical connectivity issues that are problematic for the end user.
+There is also a wide range of flight controller hardware and software, each with a myriad of different communication protocols. Installing software components to facillitate this communication is fine for the end user, but if any programming needs to be done this is usually a complete show stopper. The proposed solution to these problems is to develop an all in one unit with plug and play capabilities that can be directly connected to a consumer level flight controller. By doing so camera connectivity and selection problems are eliminated, and communication and software deployment are made much easier for the end user.
+ \\
+The project is divided into three sections:
+\begin{enumerate}
+ \item Choosing and building an "off the shelf" quadcopter that uses a Pixhawk 4 flight controller that can be used for testing
+ \item Designing a camera based on the On-Semi AR0134CS optical sensor that connects directly to the SightLine hardware, distributes power, and facilitates communication  between the flight controller and SightLine hardware
+ \item Research and development of documentation and software installers to meet plug and play expectations using QGroundControl flight control and mission planning software
+\end{enumerate}
+
+We quickly found that none of these tasks  are easy or simple. The selection, build, and testing of a custom quadcopter is a complicated task with many variables. GPS signal degradation made indoor flight tests impossible, and safe outdoor testing locations were hard to find. We did succseffully autonomously fly the built drone using QGroundcontrol mission planning. A camera board, The SLA1500CAM was designed and tested. 
+
+*Insert Hardware Test Results Here*
+
+*Insert Software Results Here*
+
+*What are the limitations?*
+
+*Future implications of project?*
 
 \pagebreak
 
