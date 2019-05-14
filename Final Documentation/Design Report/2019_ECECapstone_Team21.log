@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.9)  13 MAY 2019 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.9)  13 MAY 2019 17:30
 entering extended mode
 **./2019_ECECapstone_Team21.tex
 (2019_ECECapstone_Team21.tex
@@ -363,8 +363,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count141
 \c@blind@pangramcount=\count142
 \c@blind@pangrammax=\count143
-)
-No file 2019_ECECapstone_Team21.aux.
+) (2019_ECECapstone_Team21.aux)
 \openout1 = `2019_ECECapstone_Team21.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -380,6 +379,7 @@ LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 23.
+
 ("C:\Users\kimba\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -510,17 +510,41 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 pg>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 107.
- [1]
-No file 2019_ECECapstone_Team21.toc.
+ [1] (2019_ECECapstone_Team21.toc
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 2.
+
+("C:\Users\kimba\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 2.
+("C:\Users\kimba\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 2.
+ ("C:\Users\kimba\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd
+"
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 2.
+
+("C:\Users\kimba\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 2.
+ ("C:\Users\kimba\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd
+"
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+))
 \tf@toc=\write3
 \openout3 = `2019_ECECapstone_Team21.toc'.
 
-[2]
-No file 2019_ECECapstone_Team21.lof.
+ [2] (2019_ECECapstone_Team21.lof)
 \tf@lof=\write4
 \openout4 = `2019_ECECapstone_Team21.lof'.
 
-[3]
+ [3]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 145.
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 148.
@@ -533,11 +557,11 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
 [4] [5] [6] [7] [8] (2019_ECECapstone_Team21.aux) ) 
 Here is how much of TeX's memory you used:
- 4941 strings out of 492970
- 69361 string characters out of 3126594
+ 5032 strings out of 492970
+ 71455 string characters out of 3126594
  155622 words of memory out of 3000000
- 8709 multiletter control sequences out of 15000+200000
- 24918 words of font info for 40 fonts, out of 3000000 for 9000
+ 8773 multiletter control sequences out of 15000+200000
+ 32037 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,5n,65p,954b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/kimba/AppData/Loca
@@ -547,7 +571,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users
 /kimba/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C
 :/Users/kimba/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8
 a.pfb>
-Output written on 2019_ECECapstone_Team21.pdf (9 pages, 90289 bytes).
+Output written on 2019_ECECapstone_Team21.pdf (9 pages, 91496 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
