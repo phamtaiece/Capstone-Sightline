@@ -1,0 +1,230 @@
+
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+\usepackage{mathpazo} % Palatino font
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{tabu}
+\usepackage{array}
+\usepackage{cellspace}
+\usepackage[table]{xcolor}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{placeins}
+\usepackage{blindtext}
+\renewcommand{\baselinestretch}{1.25}
+\geometry{margin=.75 in}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
+	
+	\center % Centre everything on the page
+	
+	%------------------------------------------------
+	%	Headings
+	%------------------------------------------------
+	
+	\textsc{\LARGE Portland State University
+}\\[.25cm] % Main heading such as the name of your university/college
+	
+	\textsc{\Large Department of Electrical and Computer Engineering }\\[1cm] % Major heading such as course name
+\includegraphics[width=0.2\textwidth]{psuLOGO.jpg}\\[1cm]	
+	\textsc{\LARGE2019  ECE Capstone }\\[0.12cm] % Minor heading such as course title
+	\textsc{\LARGE Team 21 }\\[0.12cm]	
+		\textsc{\Large Faculty Advisor: Roy Kravitz, M.S. }\\[0.12cm]
+		\textsc{\Large Sponsor: Jeremy Sarao, Sightline Applications }\\[1cm]
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\HRule\\[0.4cm]
+	
+	{\huge\bfseries UAV Landing Aid - Design Report}\\[0.4cm] % Title of your document
+	
+	\HRule\\[1.5cm]
+	
+	%------------------------------------------------
+	%	Author(s)
+	%------------------------------------------------
+	
+
+	{\Large\textit{Authors:}}\\
+ 	\Large\textsc{Kimball S. Davis}\\
+	 \Large\textsc{Tai Pham} % Your name
+	
+	%------------------------------------------------
+	%	Date
+	%------------------------------------------------
+	
+	\vfill\vfill\vfill % Position the date 3/4 down the remaining page
+	
+	{\large\today} % Date, change the \today to a set date if you want to be precise
+	
+	%------------------------------------------------
+	%	Logo
+	%------------------------------------------------
+	
+	%\vfill\vfill
+	%\includegraphics[width=0.2\textwidth]{PSULOGO}\\[1cm] % Include a department/university logo - this will require the graphicx package
+	 
+	%----------------------------------------------------------------------------------------
+	
+	\vfill % Push the date up 1/4 of the remaining page
+	
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+
+
+\section*{Abstract}
+
+
+SightLine Applications has developed a precision visual landing aid for UAV's. The Landing Aid supports autonomous landing operations by automatically finding and tracking an easy to place landing pattern. Integration of the SightLine Landing Aid for end users is problematic.  Often drone operators want to just “plug in” a component and fly their mission.  Installing software components is acceptable, but any requirement for programming is a barrier to entry or a complete show stopper.  Various cables, power, and other electrical connectivity issues are also difficult for vehicle integrators.  Rugged or at least robust mechanical enclosures, easy mounting, and environmental reliability are equally important.  Lastly, choice of optical system (camera) for the greatest range has cause adoption delays in that it has been a decision left to the integrator. Recognizing the needs from the end-users, Sightline wants to develop a plug and play precision landing aid for UAVs and expect that this new project will be highly valuable to a wide range of multi-copter integrators.
+\\
+ Our solution to the problem involves: I. Selecting, and building a consumer level quadcopter that will  be easily customizable for testing II. Designing a camera that will connect directly to the SightLine hardware, distribute power, and facilitate communication III. Research and development of documentation and software to meet plug and play expectations.
+\\
+ The selection, build, and testing of a custom quadcopter is a complicated task with many variables. GPS signal degradation made indoor flight tests impossible, and safe outdoor testing locations were hard to find. We did successfully build, and autonomously fly the Pixhawk 4 controlled quadcopter using QGroundControl mission planning software. In the meantime, a camera for the SightLine hardware was designed utilizing an AR0134CS optical sensor. The camera board was also designed to provide power distribution, and facilitate communication between the Pixhawk 4 flight controller and the SightLine hardware.
+
+*Insert SLA1500CAM Test Results summary Here*
+
+*Insert Software Results summary Here*
+
+*What are the limitations?*
+
+*What are the Future implications of the project?*
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\listoffigures
+
+\pagebreak
+
+\section{Project Overview}
+\subsection{Background}
+SightLine Applications has developed a precision visual landing algorithm that provides an excellent set of benefits:
+\begin{itemize}
+\item Works in degraded and denied GPS environments – Safety and reliability
+\item	Reduces operator training and landing phase complexity.
+\item	Provides detection functions for landing zone safety - detect people, animals, or objects from entering the landing zone
+\item   Provides a rich set of telemetry for flight controllers.  30 Hz data with range, XY offsets, relative azimuth, etc.
+\item	Supports landing on moving platforms - ground vehicles, marine.
+\item	Is not impacted by bright sun or low light conditions.
+\item	Can be used with Thermal (IR) cameras as well as visible (EO) cameras
+\item	Effective range of operation (distance to target) only limited by the size of the landing pattern used
+\end{itemize}
+
+\subsection{Problem Definition}
+
+Integration of the SightLine Landing Aid for end users is problematic for two main reasons: 
+
+\begin{enumerate}
+\item Connectivity issues with a wide range of cameras. 
+\item Communication issues with a wide range of filght controller hardware and software.
+\end{enumerate} 
+
+Currently the end user selects a camera to be used with the SightLine processing hardware. A wide range of cameras must be supported, and custom AB boards must be designed for each one to interface with the SightLine hardware. Each of these AB boards can have cable, power, and electrical connectivity issues that are problematic for the end user.
+There is also a wide range of flight controller hardware and software, each with a myriad of different communication protocols. Installing software components to facillitate this communication is fine for the end user, but if any programming needs to be done this is usually a complete show stopper. 
+
+\subsection{Solution}
+
+The proposed solution to these problems is to develop an all in one unit (SightLine Hardware w/Camera) with plug and play capabilities that can be directly connected to a consumer level flight controller. By doing so camera connectivity and selection problems are eliminated, and communication and software deployment are made much easier for the end user. We will build an off the shelf quadcopter with autonomous flight capabilities to test communication between current SightLine hardware, and our newly designed camera interface.
+
+\subsection{Project Management}
+
+The project is divided into three sections:
+\begin{enumerate}
+ \item Choosing and building an "off the shelf" quadcopter that uses a Pixhawk 4 flight controller that can be used for testing
+ \item Designing a camera based on the On-Semi AR0134CS optical sensor that connects directly to the SightLine hardware, distributes power, and facilitates communication  between the flight controller and SightLine hardware
+ \item Research and development of documentation and software installers to meet plug and play expectations using QGroundControl flight control and mission planning software
+\end{enumerate}
+*Insert Project Roles and Responsibilities here*
+
+\subsubsection{Project Timeline}
+
+*Insert Project Timeline here*
+
+
+
+
+
+
+%    \begin{figure}[H]
+%	\centering	
+%	\includegraphics[width=3.5 in]{Simple_SatR}
+%	\caption{\textit{Simple saturable reactor[1]}}	
+%	\end{figure}
+
+\section{Results(Technical Detail)}
+\subsection{Quadcopter}
+
+\blindtext
+
+    \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+\subsection{Hardware}
+
+\blindtext
+
+    \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+\subsection{Software}
+
+\blindtext
+
+    \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+
+
+\section{Conclusion/What's Left to do}
+
+\blindtext
+
+
+     \begin{figure}[H]
+	\centering	
+	\caption{\textit{This is a caption for a blank figure}}	
+	\end{figure}
+
+\pagebreak
+
+\section{Appendix}
+\subsection{I}
+\subsection{II}
+\subsection{II}
+\subsection{IV}
+\subsection{V}	
+
+\pagebreak
+
+\section{References}
+\begin{enumerate}
+\item Mali, P. (1960).\textit{ Magnetic Amplifiers}. New York, NY: John F. Rider.
+\item Figure 1. Simple saturable reactor. Reprinted from \textit{Magnetic Amplifiers}(pg. 27), by Paul Mali, 1960, New York, NY, John F. Rider Publisher, Inc.
+\item Figure 2. Full-wave self-saturating magnetic amplifier. Reprinted from \textit{Magnetic Amplifiers}(pg. 35), by Paul Mali, 1960, New York, NY, John F. Rider Publisher, Inc.
+\end{enumerate}	
+\end{document}
