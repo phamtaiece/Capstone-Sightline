@@ -1,0 +1,1 @@
+This Poster was created using LibreOffice Draw on a Windows 10 computer.
