@@ -17,6 +17,7 @@
 \usepackage{multicol}
 \usepackage{placeins}
 \usepackage{blindtext}
+\usepackage{hyperref}
 \renewcommand{\baselinestretch}{1.25}
 \geometry{margin=.75 in}
 
@@ -91,21 +92,21 @@
 \section*{Abstract}
 
 
-SightLine Applications has developed a precision visual landing aid for UAV's. The Landing Aid supports autonomous landing operations by automatically finding and tracking an easy to place landing pattern. Integration of the SightLine Landing Aid for end users is problematic.  Often drone operators want to just “plug in” a component and fly their mission.  Installing software components is acceptable, but any requirement for programming is a barrier to entry or a complete show stopper.  Various cables, power, and other electrical connectivity issues are also difficult for vehicle integrators.  Rugged or at least robust mechanical enclosures, easy mounting, and environmental reliability are equally important.  Lastly, choice of optical system (camera) for the greatest range has cause adoption delays in that it has been a decision left to the integrator. Recognizing the needs from the end-users, Sightline wants to develop a plug and play precision landing aid for UAVs and expect that this new project will be highly valuable to a wide range of multi-copter integrators.
+ Integration of the SightLine Landing Aid for end users is problematic.  Often drone operators want to just “plug in” a component and fly their mission.  Installing software components is acceptable, but any requirement for programming is a barrier to entry or a complete show stopper.  Various cables, power, and other electrical connectivity issues are also difficult for vehicle integrator.  Rugged or at least robust mechanical enclosures, easy mounting, and environmental reliability are equally important.  Lastly, choice of optical system (camera) for the greatest range has cause adoption delays in that it has been a decision left to the integrator. Recognizing the needs from the end-users, SightLine wants to develop a plug and play precision landing aid for UAVs and expect that this new project will be highly valuable to a wide range of multi-copter integrator.
 \\
- Our solution to the problem involves: I. Selecting, and building a consumer level quadcopter that will  be easily customizable for testing II. Designing a camera that will connect directly to the SightLine hardware, distribute power, and facilitate communication III. Research and development of documentation and software to meet plug and play expectations.
+ Our solution to the problem involves: I. Selecting, and building a consumer level quad-copter that will  be easily customizable for testing II. Designing a camera that will connect directly to the SightLine hardware, distribute power, and facilitate communication III. Research and development of documentation and software to meet plug and play expectations.
 \\
- The selection, build, and testing of a custom quadcopter is a complicated task with many variables. GPS signal degradation made indoor flight tests impossible, and safe outdoor testing locations were hard to find. We did successfully build, and autonomously fly the Pixhawk 4 controlled quadcopter using QGroundControl mission planning software. In the meantime, a camera for the SightLine hardware was designed utilizing an AR0134CS optical sensor. The camera board was also designed to provide power distribution, and facilitate communication between the Pixhawk 4 flight controller and the SightLine hardware.
+ The selection, build, and testing of a custom quad-copter is a complicated task with many variables. GPS signal degradation made indoor flight tests impossible, and safe outdoor testing locations were hard to find. We did successfully build, and autonomously fly the Pixhawk4 controlled quad-copter using QGroundControl mission planning software. In the meantime, a camera for the SightLine hardware was designed utilizing an AR0134CS optical sensor. The camera board was also designed to provide power distribution, and facilitate communication between the Pixhawk 4 flight controller and the SightLine hardware.
 
 *Insert SLA1500CAM Test Results summary Here*
 
-Based on our project, the Qgroundcontrol has demonstrated a great ability to control our quadcopter autonomously. The Qgroundcontrol provides the ability to fully control all quadcopter parameters and as well as setting up a mission. We have succesfully flied the drone autonomously using Qgroundcontrol includes takeoff, land, fly the mission, and return to land. The precision landing feature on Qgroundcontrol is not very promising. For the simple function like takeoff and landing, the position between takeoff and land was about 1 meter. For the flying to a destination and return, the difference in position was 2 meter. Additionally, before doing the flight test, we also use Mission Planner to simulate the flight and learn how to control the quadcopter's parameters.
+Based on our project, the QGroundControl has demonstrated a great ability to control our quad-copter autonomously. The QGroundControl provides the ability to fully control all quad-copter parameters and as well as setting up a mission. We have successfully flied the drone autonomously using QGroundControl includes takeoff, land, fly the mission, and return to land. The precision landing feature on QGroundControl is not very promising. For the simple function like takeoff and landing, the position between takeoff and land was about 1 meter. For the flying to a destination and return, the difference in position was 2 meter. Additionally, before doing the flight test, we also use Mission Planner to simulate the flight and learn how to control the quad-copter's parameters.
    
 *What are the limitations?
-The limitation comes from both Qgroundcontrol and Sightline hardware. Since Sightline hardware, or 1500-SLA-kit, is unable to talk with Qgroundcontrol and as well as, we don't know if Qgroundcontrol is capable of talking to Sightline hardware. There will be some works that Sightline need to be done with their hardware  so it will be able to talk with Qgroundcontrol.  
+The limitation comes from both QGroundControl and SightLine hardware. Since SightLine hardware, or 1500-SLA-kit, is unable to talk with QGroundControl and as well as, we don't know if QGroundControl is capable of talking to SightLine hardware. There will be some works that SightLine need to be done with their hardware  so it will be able to talk with QGroundControl.  
 
 *What are the Future implications of the project?*
-The project is now divided into two parts. The first part is understand the Ground Control State software (Qgroundcontrol) and hardware  such as Pixhawk 4, and SLA-CAM. The second part will emphasize in software and communication development. Sightline and our team has determined to leave the second part of the project for the future capstone team. With our achievements on this project, we have a strong belief that the future team will be succesful in this project and future function developemnt.
+The project is now divided into two parts. The first part is understand the Ground Control State software (QGroundControl) and hardware  such as Pixhawk 4, and SLA1500CAM. The second part will emphasize in software and communication development. SightLine and our team has determined to leave the second part of the project for the future capstone team. With our achievements on this project, we have a strong belief that the future team will be successful in this project and future function development.
 
 \pagebreak
 
@@ -141,17 +142,17 @@ Integration of the SightLine Landing Aid for end users is problematic for two ma
 \end{enumerate} 
 
 Currently the end user selects a camera to be used with the SightLine processing hardware. A wide range of cameras must be supported, and custom AB boards must be designed for each one to interface with the SightLine hardware. Each of these AB boards can have cable, power, and electrical connectivity issues that are problematic for the end user.
-There is also a wide range of flight controller hardware and software, each with a myriad of different communication protocols. Installing software components to facillitate this communication is fine for the end user, but if any programming needs to be done this is usually a complete show stopper. 
+There is also a wide range of flight controller hardware and software, each with a myriad of different communication protocols. Installing software components to facilitate this communication is fine for the end user, but if any programming needs to be done this is usually a complete show stopper. 
 
 \subsection{Solution}
 
-The proposed solution to these problems is to develop an all in one unit (SightLine Hardware w/Camera) with plug and play capabilities that can be directly connected to a consumer level flight controller. By doing so camera connectivity and selection problems are eliminated, and communication and software deployment are made much easier for the end user. We will build an off the shelf quadcopter with autonomous flight capabilities to test communication between current SightLine hardware, and our newly designed camera interface.
+The proposed solution to these problems is to develop an all in one unit (SightLine Hardware w/Camera) with plug and play capabilities that can be directly connected to a consumer level flight controller. By doing so camera connectivity and selection problems are eliminated, and communication and software deployment are made much easier for the end user. We will build an off the shelf quad-copter with autonomous flight capabilities to test communication between current SightLine hardware, and our newly designed camera interface.
 
 \subsection{Project Management}
 
 The project is divided into three sections:
 \begin{enumerate}
- \item Choosing and building an "off the shelf" quadcopter that uses a Pixhawk 4 flight controller that can be used for testing
+ \item Choosing and building an "off the shelf" quad-copter that uses a Pixhawk 4 flight controller that can be used for testing
  \item Designing a camera based on the On-Semi AR0134CS optical sensor that connects directly to the SightLine hardware, distributes power, and facilitates communication  between the flight controller and SightLine hardware
  \item Research and development of documentation and software installers to meet plug and play expectations using QGroundControl flight control and mission planning software
 \end{enumerate}
@@ -184,7 +185,9 @@ The project is divided into three sections:
 
 \subsection{Hardware}
 
-\blindtext
+For this project we developed the SLA1500CAM. The SLA1500CAM is a camera that utilizes an On-Semi AR0134CS optical sensor, connects seamlessly with the SLA1500OEM via a 50-pin Hirose DF12B connector, and provides additional power and communication IO. The schematic and PCB were designed using EAGLE CAD 9.2.1. Many of the component devices, and footprints were unavailable and were designed specifically for the project. The entire EAGLE library can be found in the GitHub repository *HERE*. 
+
+\href{https://www.wikibooks.org}{Wikibooks home}
 
     \begin{figure}[H]
 	\centering	

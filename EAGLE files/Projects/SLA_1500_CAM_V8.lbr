@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Generated from &lt;b&gt;SLA_1500_CAM_V6.sch&lt;/b&gt;&lt;p&gt;
+<description>Generated from &lt;b&gt;SLA_1500_CAM_V8.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 <package name="SEEED-CAPACITOR_C0402">
@@ -3631,7 +3631,7 @@ rectangle, 5.7 x 3.2 mm</description>
 <text x="-2.54" y="27.94" size="1.778" layer="95" rot="R180" align="top-right">&gt;NAME</text>
 <text x="-5.08" y="12.7" size="2.54" layer="96" rot="R180" align="top-right">DF12B</text>
 </symbol>
-<symbol name="SIGHTLINE_HEADER_V6">
+<symbol name="SIGHTLINE_HEADER_V7">
 <wire x1="0" y1="7.62" x2="0" y2="15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="15.24" x2="0" y2="17.78" width="0.254" layer="94"/>
 <wire x1="101.6" y1="17.78" x2="101.6" y2="15.24" width="0.254" layer="94"/>
@@ -3661,12 +3661,12 @@ rectangle, 5.7 x 3.2 mm</description>
 <wire x1="22.86" y1="0" x2="22.86" y2="7.62" width="0.254" layer="94"/>
 <text x="5.08" y="20.32" size="2.54" layer="94">Title</text>
 <text x="25.4" y="20.32" size="2.54" layer="94">SLA-1500-CAM</text>
-<text x="68.58" y="20.32" size="2.54" layer="94">REV 6.0</text>
+<text x="68.58" y="20.32" size="2.54" layer="94">REV 7.0</text>
 <text x="5.08" y="10.16" size="2.54" layer="94">Date</text>
 <text x="68.58" y="10.16" size="2.54" layer="94">Sheet 1 of 1</text>
-<text x="25.4" y="10.16" size="2.54" layer="94">4/8/2019</text>
+<text x="25.4" y="10.16" size="2.54" layer="94">4/21/2019</text>
 <text x="5.08" y="2.54" size="2.54" layer="94">File </text>
-<text x="25.4" y="2.54" size="2.54" layer="94">SLA_1500_CAM_V6.sch</text>
+<text x="25.4" y="2.54" size="2.54" layer="94">SLA_1500_CAM_V7.sch</text>
 </symbol>
 <symbol name="SIGHTLINE_JST_SM06B-GHS-TB">
 <wire x1="-2.54" y1="7.62" x2="-2.54" y2="-10.16" width="0.6096" layer="94"/>
@@ -4007,6 +4007,1963 @@ rectangle, 5.7 x 3.2 mm</description>
 <technology name="">
 <attribute name="MPN" value="CC0402KRX7R9BB103"/>
 <attribute name="VALUE" value="10nf"/>
+</technology>
+</technologies>
+</device>
+<device name="1" package="SEEED-CAPACITOR_C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0402KRX5R6BB104" constant="no"/>
+<attribute name="VALUE" value="100NF 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-RESISTOR_SMD-RES-0R-5%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010000</description>
+<gates>
+<gate name="G$1" symbol="SEEED-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402JR-070RL" constant="no"/>
+<attribute name="VALUE" value="0R"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-RESISTOR_SMD-RES-1.5K-5%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010001</description>
+<gates>
+<gate name="G$1" symbol="SEEED-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402JR-071K5L" constant="no"/>
+<attribute name="VALUE" value="1.5K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-RESISTOR_SMD-RES-22R-1%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010052</description>
+<gates>
+<gate name="G$1" symbol="SEEED-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402FR-0722RL" constant="no"/>
+<attribute name="VALUE" value="22R"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_AP7331-WG-7" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;AP7331-WG-7&lt;/b&gt;
+&lt;li&gt; 300mA, LOW QUIESCENT CURRENT, FAST TRANSIENT
+LOW DROPOUT LINEAR REGULATOR, ADJUSTABLE OUTPUT, 5V to 2.8V, 3.1 x 1.7mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="https://www.diodes.com/assets/Datasheets/AP7331.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;AP7331 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_AP7331-WG-7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_SOT-25">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 300mA, LOW QUIESCENT CURRENT, FAST TRANSIENT LOW DROPOUT LINEAR REGULATOR, ADJUSTABLE OUTPUT, 5V to 2.8V, 3.1 x 1.7mm" constant="no"/>
+<attribute name="MANF" value="DIODES INCORPORATED" constant="no"/>
+<attribute name="MANF#" value="AP7331-WG-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_AR0134CS-ILCC48" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;AR0134CS-1LCC48-10x10&lt;/b&gt;
+&lt;li&gt; 1/3-inch 1.2 Mp CMOS digital image sensor with an active-pixel array of 1280 (H) × 960 (V)&lt;/li&gt;
+&lt;br
+&lt;li&gt;&lt;b&gt;&lt;u&gt;Specifications&lt;/b&gt;
+&lt;ul style="list-style-type:circle"&gt;
+  &lt;li&gt;Manufacturer: On Semiconductor&lt;/li&gt;
+  &lt;li&gt;Manufacturer Part Number: &lt;b&gt;&lt;u&gt;AR0134CSSM00SPCA0&lt;/li&gt;
+  &lt;li&gt;Operating Temperature Range(C): -30 - 70 &lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;&lt;u&gt;Supply Voltage:&lt;/li&gt;
+ &lt;li&gt;I/O:  1.8 or 2.8V &lt;/li&gt;
+&lt;li&gt;Digital: 1.8V&lt;/li&gt;
+&lt;li&gt;Analog: 2.8V&lt;/li&gt;
+&lt;li&gt;HiSPi: 0.4V&lt;/li&gt;
+&lt;li&gt;Body Size(mm): 10 x 10&lt;/li&gt;
+
+&lt;a href="https://www.onsemi.com/pub/Collateral/AR0134CS-D.PDF"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;ARO134CS DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;li&gt;Created by: Kimball S. Davis &lt;A HREF= "mailto: kimball4@pdx.edu"&gt;kimball4@pdx.edu&lt;/a&gt;&lt;/LI&gt;
+&lt;li&gt; 22 January 2019&lt;/li&gt;
+&lt;li&gt; Version 001&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_AR0134CS-ILCC-48" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_ILCC48_KD">
+<connects>
+<connect gate="G$1" pin="A_GND(0)" pad="39"/>
+<connect gate="G$1" pin="A_GND(1)" pad="35"/>
+<connect gate="G$1" pin="D_GND(0)" pad="44"/>
+<connect gate="G$1" pin="D_GND(1)" pad="30"/>
+<connect gate="G$1" pin="D_GND(2)" pad="6"/>
+<connect gate="G$1" pin="D_OUT(0)" pad="45"/>
+<connect gate="G$1" pin="D_OUT(1)" pad="46"/>
+<connect gate="G$1" pin="D_OUT(10)" pad="10"/>
+<connect gate="G$1" pin="D_OUT(11)" pad="11"/>
+<connect gate="G$1" pin="D_OUT(2)" pad="47"/>
+<connect gate="G$1" pin="D_OUT(3)" pad="48"/>
+<connect gate="G$1" pin="D_OUT(4)" pad="1"/>
+<connect gate="G$1" pin="D_OUT(5)" pad="2"/>
+<connect gate="G$1" pin="D_OUT(6)" pad="3"/>
+<connect gate="G$1" pin="D_OUT(7)" pad="7"/>
+<connect gate="G$1" pin="D_OUT(8)" pad="8"/>
+<connect gate="G$1" pin="D_OUT(9)" pad="9"/>
+<connect gate="G$1" pin="EXTCLK" pad="5"/>
+<connect gate="G$1" pin="FLASH" pad="26"/>
+<connect gate="G$1" pin="FRAME_VALID" pad="28"/>
+<connect gate="G$1" pin="LINE_VALID" pad="29"/>
+<connect gate="G$1" pin="OE_BAR" pad="23"/>
+<connect gate="G$1" pin="PIXCLK" pad="13"/>
+<connect gate="G$1" pin="RESET_BAR" pad="17"/>
+<connect gate="G$1" pin="STANDBY" pad="22"/>
+<connect gate="G$1" pin="S_ADDR" pad="24"/>
+<connect gate="G$1" pin="S_CLK" pad="15"/>
+<connect gate="G$1" pin="S_DATA" pad="16"/>
+<connect gate="G$1" pin="TEST" pad="25"/>
+<connect gate="G$1" pin="TRIGGER" pad="27"/>
+<connect gate="G$1" pin="VDD(0)" pad="14"/>
+<connect gate="G$1" pin="VDD(1)" pad="19"/>
+<connect gate="G$1" pin="VDD_IO(0)" pad="12"/>
+<connect gate="G$1" pin="VDD_IO(1)" pad="18"/>
+<connect gate="G$1" pin="VDD_PLL" pad="4"/>
+<connect gate="G$1" pin="V_AA(0)" pad="40"/>
+<connect gate="G$1" pin="V_AA(1)" pad="36"/>
+<connect gate="G$1" pin="V_AA(2)" pad="34"/>
+<connect gate="G$1" pin="V_AA_PIX(0)" pad="38"/>
+<connect gate="G$1" pin="V_AA_PIX(1)" pad="37"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1/3-inch 1.2 Mp CMOS digital image sensor with an active-pixel array of 1280 (H) × 960 (V)" constant="no"/>
+<attribute name="MANF" value="On Semiconductor" constant="no"/>
+<attribute name="MANF#" value="AR0134CSSM00SPCA0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_CAT811" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;CAT811-SOT-143-4&lt;/b&gt;
+&lt;li&gt; IC, SUPERVISOR, MICROPROCESSOR POWER SUPPLY, 2.93V, ACTIVE LOW RESET, SOT143-4
+&lt;/li&gt;
+&lt;br
+&lt;li&gt;&lt;b&gt;&lt;u&gt;Specifications&lt;/b&gt;
+&lt;ul style="list-style-type:circle"&gt;
+  &lt;li&gt;Manufacturer: On Semiconductor&lt;/li&gt;
+  &lt;li&gt;Manufacturer Part Number: &lt;b&gt;&lt;u&gt;CAT811STBI&lt;/B&gt;
+
+&lt;li&gt;Body Size(mm): 2.9 x 1.3&lt;/li&gt;
+
+&lt;a href="https://www.onsemi.com/pub/Collateral/CAT811-D.PDF"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;CAT811 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;li&gt;Created by: Kimball S. Davis &lt;/LI&gt;
+&lt;li&gt; 23 January 2019&lt;/li&gt;
+&lt;li&gt; Version 001&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_CAT811" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_SOT-143-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="MR_BAR" pad="3"/>
+<connect gate="G$1" pin="RESET_BAR" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="IC, SUPERVISOR, MICROPROCESSOR POWER SUPPLY, 2.93V, ACTIVE LOW RESET, SOT143-4 " constant="no"/>
+<attribute name="MANF" value="On Semiconductor" constant="no"/>
+<attribute name="MANF#" value="CAT811STBI" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_DF12B(5.0)-50DS-0.5(86)" prefix="J" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;DF12B(5.0)-50DS-0.5(86)&lt;/b&gt;
+&lt;li&gt; DF12 Series 0.5 mm Pitch SMT Board-to-Board Connector (MALE)&lt;/li&gt;
+&lt;br
+&lt;li&gt;&lt;b&gt;&lt;u&gt;Specifications&lt;/b&gt;
+&lt;ul style="list-style-type:circle"&gt;
+  &lt;li&gt;Manufacturer: Hirose&lt;/li&gt;
+  &lt;li&gt;Manufacturer Part Number: &lt;b&gt;&lt;u&gt;537-0309-6 86&lt;/li&gt;
+  &lt;li&gt;Operating Temperature Range(C): -45 - 125 &lt;/li&gt;
+  &lt;li&gt;Current Rating: 0.3A&lt;/li&gt;
+  &lt;li&gt;Voltage Rating: 50V AC&lt;/li&gt;
+  &lt;li&gt;Body Size(mm): 14.6 x 3.6&lt;/li&gt;
+
+&lt;a href="https://www.hirose.com/product/en/products/DF12/"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;DF12B(5.0)-50DS DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;li&gt;Created by: Kimball S. Davis &lt;A HREF= "mailto: kimball4@pdx.edu"&gt;kimball4@pdx.edu&lt;/a&gt;&lt;/LI&gt;
+&lt;li&gt; 21 January 2019&lt;/li&gt;
+&lt;li&gt; Version 001&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_DF12B(5.0)-50DS-0.5V(86)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMT" package="SIGHTLINE_DF12B(5.0)-50DS-0.5V(86)">
+<connects>
+<connect gate="G$1" pin="AGND1" pad="42"/>
+<connect gate="G$1" pin="AGND2" pad="44"/>
+<connect gate="G$1" pin="CAM_D0" pad="36"/>
+<connect gate="G$1" pin="CAM_D1" pad="35"/>
+<connect gate="G$1" pin="CAM_D10" pad="24"/>
+<connect gate="G$1" pin="CAM_D11" pad="23"/>
+<connect gate="G$1" pin="CAM_D12" pad="22"/>
+<connect gate="G$1" pin="CAM_D13" pad="20"/>
+<connect gate="G$1" pin="CAM_D2" pad="34"/>
+<connect gate="G$1" pin="CAM_D3" pad="33"/>
+<connect gate="G$1" pin="CAM_D4" pad="32"/>
+<connect gate="G$1" pin="CAM_D5" pad="31"/>
+<connect gate="G$1" pin="CAM_D6" pad="30"/>
+<connect gate="G$1" pin="CAM_D7" pad="29"/>
+<connect gate="G$1" pin="CAM_D8" pad="26"/>
+<connect gate="G$1" pin="CAM_D9" pad="25"/>
+<connect gate="G$1" pin="CAM_FLD" pad="10"/>
+<connect gate="G$1" pin="CAM_FSYNC" pad="11"/>
+<connect gate="G$1" pin="CAM_GPIO172" pad="40"/>
+<connect gate="G$1" pin="CAM_GPIO173" pad="14"/>
+<connect gate="G$1" pin="CAM_GPIO174" pad="13"/>
+<connect gate="G$1" pin="CAM_GPIO175" pad="9"/>
+<connect gate="G$1" pin="CAM_GPIO178" pad="19"/>
+<connect gate="G$1" pin="CAM_LSYNC" pad="12"/>
+<connect gate="G$1" pin="CAM_PCLK" pad="39"/>
+<connect gate="G$1" pin="EXT_SYNC" pad="21"/>
+<connect gate="G$1" pin="FRAME_VALID" pad="4"/>
+<connect gate="G$1" pin="GND0" pad="5"/>
+<connect gate="G$1" pin="GND1" pad="6"/>
+<connect gate="G$1" pin="GND10" pad="49"/>
+<connect gate="G$1" pin="GND2" pad="17"/>
+<connect gate="G$1" pin="GND3" pad="27"/>
+<connect gate="G$1" pin="GND4" pad="28"/>
+<connect gate="G$1" pin="GND5" pad="37"/>
+<connect gate="G$1" pin="GND6" pad="38"/>
+<connect gate="G$1" pin="GND7" pad="41"/>
+<connect gate="G$1" pin="GND8" pad="45"/>
+<connect gate="G$1" pin="GND9" pad="47"/>
+<connect gate="G$1" pin="I2C_SCL" pad="7"/>
+<connect gate="G$1" pin="I2C_SDA" pad="8"/>
+<connect gate="G$1" pin="LINE_VALID" pad="3"/>
+<connect gate="G$1" pin="P_5V_0" pad="48"/>
+<connect gate="G$1" pin="P_5V_1" pad="50"/>
+<connect gate="G$1" pin="RXC" pad="15"/>
+<connect gate="G$1" pin="TAU_DET_BAR" pad="18"/>
+<connect gate="G$1" pin="TXC" pad="16"/>
+<connect gate="G$1" pin="UART_RX_CAM" pad="1"/>
+<connect gate="G$1" pin="UART_TX_CAM" pad="2"/>
+<connect gate="G$1" pin="VIDEO_IN1" pad="43"/>
+<connect gate="G$1" pin="VIOSEL" pad="46"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="DF12B-50DS-0.5V(86) Hirose Male 50-pin connector"/>
+<attribute name="MANF" value="Hirose"/>
+<attribute name="MANF#" value="537-0309-6 86" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_F980G106MUA" prefix="C" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;F980G106MUA&lt;/b&gt;
+&lt;li&gt;Tantalum Capacitors - Solid SMD 10uF 4V 20% 0402, 1.1x0.6x0.35mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="https://www.mouser.com/datasheet/2/40/f98-775787.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;F98 SERIES DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_0402_TANTALUM_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10uF 4V 20% 0402, 1.1x0.6x0.35mm" constant="no"/>
+<attribute name="MANF" value="AVX" constant="no"/>
+<attribute name="MANF#" value="F980G106MUA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_F980J106MUALZT" prefix="C" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;F980G106MUALZT&lt;/b&gt;
+&lt;li&gt;Tantalum Capacitors - Solid SMD 10uF 6.3V 20% 0402, 1.1x0.6x0.35mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="https://www.mouser.com/datasheet/2/40/f98-775787.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;F98 SERIES DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_0402_TANTALUM_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10uF 6.3V 20% 0402, 1.1x0.6x0.35mm" constant="no"/>
+<attribute name="MANF" value="AVX" constant="no"/>
+<attribute name="MANF#" value="F980J106MUALZT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_HEADER_V7">
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_HEADER_V7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_JST_GH_SM06B-GHS-TB" prefix="J" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;JST SM06B-GHS-TB&lt;/b&gt;
+&lt;li&gt; JST Type GH 1.25mm side-entry smt 6-pin connector&lt;/li&gt;
+&lt;br
+&lt;li&gt;&lt;b&gt;&lt;u&gt;Specifications&lt;/b&gt;
+&lt;ul style="list-style-type:circle"&gt;
+  &lt;li&gt;Manufacturer: JST&lt;/li&gt;
+  &lt;li&gt;Manufacturer Part Number: &lt;b&gt;&lt;u&gt;SM06B-GHS-TB&lt;/li&gt;
+
+&lt;li&gt;Body Size(mm): 10.75 X 4.25&lt;/li&gt;
+
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eGH.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;JST TYPE GH DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;li&gt;Created by: Kimball S. Davis 
+&lt;li&gt; 5 February 2019&lt;/li&gt;
+&lt;li&gt; Version 001&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_JST_SM06B-GHS-TB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_JST_SM06B-GHS-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1.25 MM SIDE-ENTRY 6-PIN SMT CONNECTOR" constant="no"/>
+<attribute name="MANF" value="JST" constant="no"/>
+<attribute name="MANF#" value="SM06B-GHS-TB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_KC2520B-27MHZ" prefix="OSC" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;KC2520B-27MHz-2.5X2.0&lt;/b&gt;
+&lt;li&gt;27 MHz SMT Clock Oscillator with CMOS output&lt;/li&gt;
+&lt;br
+&lt;li&gt;&lt;b&gt;&lt;u&gt;Specifications&lt;/b&gt;
+&lt;ul style="list-style-type:circle"&gt;
+  &lt;li&gt;Manufacturer: Kyocera&lt;/li&gt;
+  &lt;li&gt;Manufacturer Part Number: &lt;b&gt;&lt;u&gt;KC2520B27.0000C2GE00 
+&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;&lt;u&gt;Supply Voltage:&lt;/b&gt; 1.8 to 3.3V&lt;/li&gt;
+&lt;li&gt;Body Size(mm): 2.5 x 2.0&lt;/li&gt;
+
+&lt;a href="https://www.mouser.com/datasheet/2/909/kc2520b_c1_e-1388834.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;KC2520B DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;li&gt;Created by: Kimball S. Davis 
+&lt;li&gt; 25 January 2019&lt;/li&gt;
+&lt;li&gt; Version 001&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_KC2520B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_2.5X2.0_SMDCRYSTAL">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NH" pad="1"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="OSC, CRYSTAL CLOCK, SMD, CMOS, 2.25V TO 3.63V, 4mA, 27.0000MHz, 2.5MM x 2.0MM " constant="no"/>
+<attribute name="MANF" value="Kyocera" constant="no"/>
+<attribute name="MANF#" value="KC2520B27.0000C2GE00  " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_M12_LENS_MOUNT" prefix="SKT" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;PT-LH001P&lt;/b&gt;
+&lt;li&gt; PT-LH001P Plastic M12 Lens Holder, 20mm Hole Spacing&lt;/li&gt;
+&lt;br</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_M12_LENS_MOUNT" x="10.16" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_M12_HOLDER">
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="PT-LH001P Plastic M12 Lens Holder, 20mm Hole Spacing" constant="no"/>
+<attribute name="MANF" value="M12 LENSES" constant="no"/>
+<attribute name="MANF#" value="PT-LH001P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_MOLEX53261-03" prefix="J" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;MOLEX 53261-03&lt;/b&gt;
+&lt;li&gt;1.25mm Pitch PicoBlade Header, Surface Mount, Right-Angle, 3 Circuits, Tin (Sn)
+Plating&lt;/li&gt;
+&lt;br
+
+&lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/0532610371_PCB_HEADERS.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;53261-03 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_MOLEX53261-03" x="2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_53261-03">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1.25mm Pitch PicoBlade Header, Surface Mount, Right-Angle, 3 Circuits, Tin (Sn) Plating" constant="no"/>
+<attribute name="MANF" value="MOLEX" constant="no"/>
+<attribute name="MANF#" value="532610371" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_MOLEX53261-04" prefix="J" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;MOLEX 53261-04&lt;/b&gt;
+&lt;li&gt; 1.25mm Pitch PicoBlade Header, Surface Mount, Right-Angle, 4 Circuits, Tin (Sn)
+Plating
+&lt;/li&gt;
+&lt;br
+
+&lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/0532610471_PCB_HEADERS.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;53261-04 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_MOLEX53261-04" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_53261-04">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1.25mm Pitch PicoBlade Header, Surface Mount, Right-Angle, 4 Circuits, Tin (Sn) Plating" constant="no"/>
+<attribute name="MANF" value="MOLEX" constant="no"/>
+<attribute name="MANF#" value="532610471" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_SLA_MOUNTING" prefix="MTG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_SLA_MOUNTING" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_SLA_MOUNTING">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_SN74AUC1G08" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;SN74AUC1G08-SOT23-5&lt;/b&gt;
+&lt;li&gt; Single 2-Input Positive-AND Gate
+&lt;/li&gt;
+&lt;br
+&lt;li&gt;&lt;b&gt;&lt;u&gt;Specifications&lt;/b&gt;
+&lt;ul style="list-style-type:circle"&gt;
+  &lt;li&gt;Manufacturer: Texas Instruments&lt;/li&gt;
+  &lt;li&gt;Manufacturer Part Number: &lt;b&gt;&lt;u&gt;SN74AUC1G08DBVR
+&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;&lt;u&gt;Supply Voltage:&lt;/b&gt; 1.65 - 1.95V&lt;/li&gt;
+&lt;li&gt;Body Size(mm): 2.9 x 1.6&lt;/li&gt;
+
+&lt;a href="http://www.ti.com/lit/ds/symlink/sn74auc1g08.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;SN74AUC1G08 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_SN74AUC1G08" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_SOT23-5">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="IC, AND GATE, SINGLE, 2 INPUT POSITIVE, SGL, SOT23-5 " constant="no"/>
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="SN74AUC1G08DBVR " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_SN74AUC1G17" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;SN74AUC1G17-SOT23-5&lt;/b&gt;
+&lt;li&gt; IC, BUFFER, SINGLE SCHMITT-TRIGGER, 9mA, 0.8V TO 2.7V, SOT23-5
+&lt;/li&gt;
+&lt;br
+&lt;li&gt;&lt;b&gt;&lt;u&gt;Specifications&lt;/b&gt;
+&lt;ul style="list-style-type:circle"&gt;
+  &lt;li&gt;Manufacturer: Texas Instruments&lt;/li&gt;
+  &lt;li&gt;Manufacturer Part Number: &lt;b&gt;&lt;u&gt;SN74AUC1G17DBVR
+&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;&lt;u&gt;Supply Voltage:&lt;/b&gt; 3.6V Max&lt;/li&gt;
+
+&lt;li&gt;Body Size(mm): 2.9 x 1.6&lt;/li&gt;
+
+&lt;a href="http://www.ti.com/lit/ds/symlink/sn74auc1g17.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;SN74AUC1G17 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;li&gt;Created by: Kimball S. Davis 
+&lt;li&gt; 24 January 2019&lt;/li&gt;
+&lt;li&gt; Version 001&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_SN74AUC1G17" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_SOT23-5">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="IC, BUFFER, SINGLE SCHMITT-TRIGGER, 9mA, 0.8V TO 2.7V, SOT23-5 " constant="no"/>
+<attribute name="MANF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MANF#" value="SN74AUC1G17DBV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_TPS71518DCKR" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;TPS71518DCKR&lt;/b&gt;
+&lt;li&gt;50-mA, 24-V, 3.2-μA Supply Current Low-Dropout Linear Regulator
+in SC70 5-Pin Package, 3.3 to 1.8V, 2.15 x 1.4mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="http://www.ti.com/lit/ds/symlink/tps715.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;TPS71518DCKR DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_TPS71518DCKR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_TI-SC70-5">
+<connects>
+<connect gate="G$1" pin="FB/NC" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="50-mA, 24-V, 3.2-μA Supply Current Low-Dropout Linear Regulator in SC70 5-Pin Package, 3.3 to 1.8V, 2.15 x 1.4mm" constant="no"/>
+<attribute name="MANF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MANF#" value="TPS71518DCKR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_TPS73633DBVR" prefix="U">
+<description>&lt;li&gt;&lt;b&gt;TPS73633DBVR&lt;/b&gt;
+&lt;li&gt; Cap-Free, NMOS, 400-mA Low-Dropout Regulator with Reverse Current
+Protection 5.5 to 3.3V, SOT-23 5-pin, 2.9 x 1.6 mm&lt;/li&gt;
+&lt;br
+
+&lt;a href="http://www.ti.com/lit/ds/symlink/tps736.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;TPS73633DBVR DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_TPS73633DBVR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NR" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Cap-Free, NMOS, 400-mA Low-Dropout Regulator with Reverse Current Protection 5.5 to 3.3V, SOT-23 5-pin, 2.9 x 1.6 mm" constant="no"/>
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="TPS73633DBVR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGHTLINE_TXS0102DQM" prefix="U" uservalue="yes">
+<description>&lt;li&gt;&lt;b&gt;TXS0102DQM 1.8 X 1.2 mm&lt;/b&gt;
+&lt;li&gt;TXS0102 2-Bit Bidirectional Voltage-Level Translator&lt;/li&gt;
+&lt;br
+
+&lt;a href="http://www.ti.com/lit/ds/symlink/txs0102.pdf"&gt;&lt;p style="color:blue;"&gt;&lt;u&gt;TXS0102 DATASHEET&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGHTLINE_TXS0102DQM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIGHTLINE_X2SON(8)1.8X1.2MM">
+<connects>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="B1" pad="7"/>
+<connect gate="G$1" pin="B2" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="OE" pad="5"/>
+<connect gate="G$1" pin="VCCA" pad="1"/>
+<connect gate="G$1" pin="VCCB" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TXS0102 2-Bit Bidirectional Voltage-Level Translator for Open-Drain and Push-Pull  Applications " constant="no"/>
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="TXS0102DQM " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-CAPACITORS_470NF" prefix="C">
+<description>&lt;h3&gt;0.47uF/470nF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPARKFUN-CAPACITORS_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402-16V-10%" package="SPARKFUN-CAPACITORS_0402:1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09041"/>
+<attribute name="VALUE" value="470nF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-RESISTORS_10KOHM" prefix="R">
+<description>&lt;h3&gt;10kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPARKFUN-RESISTORS_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="SPARKFUN-RESISTORS_0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-00824"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ-1/4W-1%" package="SPARKFUN-RESISTORS_AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ-1/4W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ-1/6W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-1%" package="SPARKFUN-RESISTORS_AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/6W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-1%" package="SPARKFUN-RESISTORS_AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/6W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-1%" package="SPARKFUN-RESISTORS_AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/6W-5%" package="SPARKFUN-RESISTORS_AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-RESISTORS_62KOHM" prefix="R">
+<description>&lt;h3&gt;62kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPARKFUN-RESISTORS_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-5%" package="SPARKFUN-RESISTORS_0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-RESISTORS_680OHM" prefix="R">
+<description>&lt;h3&gt;680Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPARKFUN-RESISTORS_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-5%" package="SPARKFUN-RESISTORS_0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09333"/>
+<attribute name="VALUE" value="680"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-SWITCHES_MOMENTARY-SWITCH-SPST" prefix="S">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
+&lt;h4&gt;Variants&lt;/h4&gt;
+&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9190"&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/97"&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;
+&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10791"&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href="https://www.sparkfun.com/products/11734"&gt;
+SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12993"&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;
+&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11888"&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13169"&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8720"&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;
+&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11114"&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8229"&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12992"&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/12651"&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13036"&gt;SparkFun Block for Intel® Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPARKFUN-SWITCHES_SWITCH-MOMENTARY-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-6.0MM" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_PTH_6.0MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value=" SWCH-08441"/>
+<attribute name="SF_SKU" value="COM-00097"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-6.0MM-KIT" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_PTH_6.0MM_KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08441"/>
+<attribute name="SF_SKU" value="COM-00097 "/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-12MM" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_PTH_12MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-09185"/>
+<attribute name="SF_SKU" value="COM-09190"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-RIGHT-ANGLE-KIT" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-10672"/>
+<attribute name="SF_SKU" value="COM-10791"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-4.5MM" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_4.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="2 3"/>
+<connect gate="G$1" pin="2" pad="1 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-09213"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-4.6X2.8MM" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_4.6X2.8MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-13065"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-5.2-REDUNDANT" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_5.2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08247"/>
+<attribute name="SF_SKU" value="COM-08720"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-5.2MM" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_5.2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08247"/>
+<attribute name="SF_SKU" value="COM-08720"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-6.0X3.5MM" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_6.0X3.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-00815"/>
+<attribute name="SF_SKU" value="COM-08229"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-6.2MM-TALL" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_6.2MM_TALL">
+<connects>
+<connect gate="G$1" pin="1" pad="A2"/>
+<connect gate="G$1" pin="2" pad="B2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-11966"/>
+<attribute name="SF_SKU" value="COM-12992"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-12MM" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_12MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-11967"/>
+<attribute name="SF_SKU" value="COM-12993"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-RIGHT-ANGLE" package="SPARKFUN-SWITCHES_TACTILE_SWITCH_SMD_RIGHT_ANGLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-12265" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE_BAT60J" prefix="D">
+<description>&lt;b&gt;Schottky barrier diode&lt;/b&gt;&lt;p&gt;
+Source: www.st.com, BAT60J.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIODE_SOD323_ST">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAMES_FRAME_B_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; B Size , 11 x 17 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAMES_FRAME_B_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="FRAMES_DOCFIELD" x="325.12" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_LED" prefix="LED" uservalue="yes">
+<description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
+&lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
+
+- &lt;u&gt;CHIPLED&lt;/u&gt;&lt;br&gt;
+LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971
+LH N974, LH R974&lt;br&gt;
+LS Q976, LO Q976, LY Q976&lt;br&gt;
+LO Q996&lt;br&gt;
+
+- &lt;u&gt;Hyper CHIPLED&lt;/u&gt;&lt;br&gt;
+LW Q18S&lt;br&gt;
+LB Q993, LB Q99A, LB R99A&lt;br&gt;
+
+- &lt;u&gt;SideLED&lt;/u&gt;&lt;br&gt;
+LS A670, LO A670, LY A670, LG A670, LP A670&lt;br&gt;
+LB A673, LV A673, LT A673, LW A673&lt;br&gt;
+LH A674&lt;br&gt;
+LY A675&lt;br&gt;
+LS A676, LA A676, LO A676, LY A676, LW A676&lt;br&gt;
+LS A679, LY A679, LG A679&lt;br&gt;
+
+-  &lt;u&gt;Hyper Micro SIDELED®&lt;/u&gt;&lt;br&gt;
+LS Y876, LA Y876, LO Y876, LY Y876&lt;br&gt;
+LT Y87S&lt;br&gt;
+
+- &lt;u&gt;SmartLED&lt;/u&gt;&lt;br&gt;
+LW L88C, LW L88S&lt;br&gt;
+LB L89C, LB L89S, LG L890&lt;br&gt;
+LS L89K, LO L89K, LY L89K&lt;br&gt;
+LS L896, LA L896, LO L896, LY L896&lt;br&gt;
+
+- &lt;u&gt;TOPLED&lt;/u&gt;&lt;br&gt;
+LS T670, LO T670, LY T670, LG T670, LP T670&lt;br&gt;
+LSG T670, LSP T670, LSY T670, LOP T670, LYG T670&lt;br&gt;
+LG T671, LOG T671, LSG T671&lt;br&gt;
+LB T673, LV T673, LT T673, LW T673&lt;br&gt;
+LH T674&lt;br&gt;
+LS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676&lt;br&gt;
+LB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C&lt;br&gt;
+LS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C&lt;br&gt;
+LW T67C&lt;br&gt;
+LS T679, LY T679, LG T679&lt;br&gt;
+LS T770, LO T770, LY T770, LG T770, LP T770&lt;br&gt;
+LB T773, LV T773, LT T773, LW T773&lt;br&gt;
+LH T774&lt;br&gt;
+LS E675, LA E675, LY E675, LS T675&lt;br&gt;
+LS T776, LA T776, LO T776, LY T776, LB T776&lt;br&gt;
+LHGB T686&lt;br&gt;
+LT T68C, LB T68C&lt;br&gt;
+
+- &lt;u&gt;Hyper Mini TOPLED®&lt;/u&gt;&lt;br&gt;
+LB M676&lt;br&gt;
+
+- &lt;u&gt;Mini TOPLED Santana®&lt;/u&gt;&lt;br&gt;
+LG M470&lt;br&gt;
+LS M47K, LO M47K, LY M47K
+&lt;p&gt;
+Source: http://www.osram.convergy.de&lt;p&gt;
+
+&lt;u&gt;LUXEON:&lt;/u&gt;&lt;br&gt;
+- &lt;u&gt;LUMILED®&lt;/u&gt;&lt;br&gt;
+LXK2-PW12-R00, LXK2-PW12-S00, LXK2-PW14-U00, LXK2-PW14-V00&lt;br&gt;
+LXK2-PM12-R00, LXK2-PM12-S00, LXK2-PM14-U00&lt;br&gt;
+LXK2-PE12-Q00, LXK2-PE12-R00, LXK2-PE12-S00, LXK2-PE14-T00, LXK2-PE14-U00&lt;br&gt;
+LXK2-PB12-K00, LXK2-PB12-L00, LXK2-PB12-M00, LXK2-PB14-N00, LXK2-PB14-P00, LXK2-PB14-Q00&lt;br&gt;
+LXK2-PR12-L00, LXK2-PR12-M00, LXK2-PR14-Q00, LXK2-PR14-R00&lt;br&gt;
+LXK2-PD12-Q00, LXK2-PD12-R00, LXK2-PD12-S00&lt;br&gt;
+LXK2-PH12-R00, LXK2-PH12-S00&lt;br&gt;
+LXK2-PL12-P00, LXK2-PL12-Q00, LXK2-PL12-R00
+&lt;p&gt;
+Source: www.luxeon.com&lt;p&gt;
+
+&lt;u&gt;KINGBRIGHT:&lt;/U&gt;&lt;p&gt;
+KA-3528ASYC&lt;br&gt;
+Source: www.kingbright.com</description>
+<gates>
+<gate name="G$1" symbol="LED_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_SMARTLED-TTW">
+<connects>
+<connect gate="G$1" pin="A" pad="A@1"/>
+<connect gate="G$1" pin="C" pad="C@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-LUMILED" package="LED_LUMILED">
+<connects>
+<connect gate="G$1" pin="A" pad="2+"/>
+<connect gate="G$1" pin="C" pad="4-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-LUMILED+" package="LED_LUMILED+">
+<connects>
+<connect gate="G$1" pin="A" pad="2+"/>
+<connect gate="G$1" pin="C" pad="4-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3MM" package="LED_LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM" package="LED_LED5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="10MM" package="LED_LED10MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B152" package="LED_Q62902-B152">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B153" package="LED_Q62902-B153">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B155" package="LED_Q62902-B155">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B156" package="LED_Q62902-B156">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHIP-LED0603" package="LED_CHIP-LED0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHIP-LED0805" package="LED_CHIP-LED0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHIPLED-0603-TTW" package="LED_CHIPLED-0603-TTW">
+<connects>
+<connect gate="G$1" pin="A" pad="A@1"/>
+<connect gate="G$1" pin="C" pad="C@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHIPLED_0603" package="LED_CHIPLED_0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHIPLED_0805" package="LED_CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHIPLED_1206" package="LED_CHIPLED_1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IRL80A" package="LED_IRL80A">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KA-3528ASYC" package="LED_KA-3528ASYC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LD260" package="LED_LD260">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LSU260" package="LED_LSU260">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LZR181" package="LED_LZR181">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MICRO-SIDELED" package="LED_MICRO-SIDELED">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINI-TOP" package="LED_OSRAM-MINI-TOP-LED">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P-LCC-2" package="LED_P-LCC-2">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P-LCC-2-BACK" package="LED_P-LCC-2-TOPLED-RG">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P-LCC-4" package="LED_P-LCC-4">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SFH480" package="LED_SFH480">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SFH482" package="LED_SFH482">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SIDELED" package="LED_OSRAM-SIDELED">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMART-LED" package="LED_SMART-LED">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SML0603" package="LED_SML0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SML0805" package="LED_SML0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SML1206" package="LED_SML1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMT1206" package="LED_1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SQR2X5" package="LED_LED2X5">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SQR5.7X3.2" package="LED_U57X32">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TOPLED-SANTANA" package="LED_MINI-TOPLED-SANTANA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPPLY1_GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SUPPLY1_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPAD_PTR1" prefix="TP">
+<description>&lt;b&gt;TEST PIN&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TESTPAD_PS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="B1,27" package="TESTPAD_B1,27">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B2,54" package="TESTPAD_B2,54">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-13" package="TESTPAD_P1-13">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-13Y" package="TESTPAD_P1-13Y">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-17" package="TESTPAD_P1-17">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-17Y" package="TESTPAD_P1-17Y">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-20" package="TESTPAD_P1-20">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-20Y" package="TESTPAD_P1-20Y">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP06R" package="TESTPAD_TP06R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP06SQ" package="TESTPAD_TP06SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP07R" package="TESTPAD_TP07R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP07SQ" package="TESTPAD_TP07SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP08R" package="TESTPAD_TP08R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP08SQ" package="TESTPAD_TP08SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP09R" package="TESTPAD_TP09R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP09SQ" package="TESTPAD_TP09SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP10R" package="TESTPAD_TP10R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP10SQ" package="TESTPAD_TP10SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP11R" package="TESTPAD_TP11R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP11SQ" package="TESTPAD_TP11SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP12R" package="TESTPAD_TP12R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP12SQ" package="TESTPAD_TP12SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP13R" package="TESTPAD_TP13R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP13SQ" package="TESTPAD_TP13SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP14R" package="TESTPAD_TP14R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP14SQ" package="TESTPAD_TP14SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP15R" package="TESTPAD_TP15R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP15SQ" package="TESTPAD_TP15SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP16R" package="TESTPAD_TP16R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP16SQ" package="TESTPAD_TP16SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP17R" package="TESTPAD_TP17R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP17SQ" package="TESTPAD_TP17SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP18R" package="TESTPAD_TP18R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP18SQ" package="TESTPAD_TP18SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP19R" package="TESTPAD_TP19R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP19SQ" package="TESTPAD_TP19SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP20R" package="TESTPAD_TP20R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP20SQ" package="TESTPAD_TP20SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
