@@ -17,6 +17,7 @@
 \usepackage{multicol}
 \usepackage{placeins}
 \usepackage{blindtext}
+\usepackage{pdflscape}
 \usepackage{hyperref}
 \renewcommand{\baselinestretch}{1.25}
 \geometry{margin=.75 in}
@@ -138,7 +139,7 @@ Integration of the SightLine Landing Aid for end users is problematic for two ma
 
 \begin{enumerate}
 \item Connectivity issues with a wide range of cameras. 
-\item Communication issues with a wide range of filght controller hardware and software.
+\item Communication issues with a wide range of flight controller hardware and software.
 \end{enumerate} 
 
 Currently the end user selects a camera to be used with the SightLine processing hardware. A wide range of cameras must be supported, and custom AB boards must be designed for each one to interface with the SightLine hardware. Each of these AB boards can have cable, power, and electrical connectivity issues that are problematic for the end user.
@@ -178,21 +179,63 @@ The project is divided into three sections:
 
 \blindtext
 
-    \begin{figure}[H]
-	\centering	
-	\caption{\textit{This is a caption for a blank figure}}	
-	\end{figure}
 
 \subsection{Hardware}
 
-For this project we developed the SLA1500CAM. The SLA1500CAM is a camera that utilizes an On-Semi AR0134CS optical sensor, connects seamlessly with the SLA1500OEM via a 50-pin Hirose DF12B connector, and provides additional power and communication IO. The schematic and PCB were designed using EAGLE CAD 9.2.1. Many of the component devices, and footprints were unavailable and were designed specifically for the project. The entire EAGLE library can be found in the GitHub repository.
+The 1x1.5” SLA1500CAM utilizes the On-Semi AR0134CS, a monochrome 1/3-inch 1.2 Mp CMOS digital sensor with a 74MHz output. It connects seamlessly with the SightLine SLA1500OEM image processing hardware via a 50-pin Hirose DF12 connector. With a 5V input the SLA1500CAM  converts and distributes the 3.3V, 2.8V, and 1.8V required for operation.
 
-\href{https://github.com/phamtaiece/Capstone-Sightline/tree/master/EAGLE\%20files/Library}{Eagle Library for SLA1500CAM}
+
 
     \begin{figure}[H]
 	\centering	
-	\caption{\textit{This is a caption for a blank figure}}	
+	\includegraphics[width=6 in]{LEVEL1_DIAGRAM_SCHEM_V2}
+	\caption{\textit{Level 1 block diagram of SLA1500CAM REV 8.0}}	
 	\end{figure}
+
+The SLA1500CAM also provides bi-directional level translation for serial and I2C communication between the SightLine hardware, the flight controller, and the optical sensor. There five I/O ports using standard Molex and JST connectors: 
+
+\begin{itemize}
+
+\item Power and serial communication for the flight controller
+\item Auxiliary I2C bus
+\item Auxiliary serial communication
+\item Auxiliary power in 
+
+\end{itemize}
+
+
+
+\subsubsection{Connector Summary}
+
+    \begin{figure}[H]
+	\centering	
+	\includegraphics[width=7 in]{SLA1500CAM_CONN_V3}
+	\caption{\textit{Connector summary for SLA1500CAM REV 8.0}}	
+	\end{figure}
+
+
+\begin{landscape}
+   \begin{figure}[H]
+	\centering	
+	\includegraphics[width=9.5in]{SLA1500CAM_V8_sch}
+	\caption{\textit{SLA 1500 CAM REV 8.0 Schematic}}	
+	\end{figure}
+\end{landscape}
+
+
+    \begin{figure}[H]
+	\centering	
+	\includegraphics[width=7 in]{SLA1500CAM_BOM_V8}
+	\caption{\textit{SLA1500CAM BOM REV 8.0}}	
+	\end{figure}
+
+The schematic and PCB were designed using EAGLE CAD 9.2.1. Many of the component footprints and devices were unavailable and were designed specifically for the project. This involved designing the device, footprint, schematic symbol, and linking material data to each device. The entire EAGLE library for the SLA1500CAM can be found in the GitHub repository.
+
+\href{https://github.com/phamtaiece/Capstone-Sightline/tree/master/EAGLE\%20files/Library}{Eagle Library for SLA1500CAM}
+
+
+
+
 
 \subsection{Software}
 
