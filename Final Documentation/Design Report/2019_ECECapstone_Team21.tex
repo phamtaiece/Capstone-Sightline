@@ -192,7 +192,7 @@ The 1x1.5” SLA1500CAM utilizes the On-Semi AR0134CS, a monochrome 1/3-inch 1.2
 	\caption{\textit{Level 1 block diagram of SLA1500CAM REV 8.0}}	
 	\end{figure}
 
-The SLA1500CAM also provides bi-directional level translation for serial and I2C communication between the SightLine hardware, the flight controller, and the optical sensor. There five I/O ports using standard Molex and JST connectors: 
+The SLA1500CAM also provides bi-directional level translation for serial and I2C communication between the SightLine hardware, the flight controller, and the optical sensor. There are five I/O ports using standard Molex and JST connectors: 
 
 \begin{itemize}
 
@@ -205,13 +205,41 @@ The SLA1500CAM also provides bi-directional level translation for serial and I2C
 
 
 
-\subsubsection{Connector Summary}
+\subsection{Connector Summary}
 
     \begin{figure}[H]
 	\centering	
 	\includegraphics[width=7 in]{SLA1500CAM_CONN_V3}
 	\caption{\textit{Connector summary for SLA1500CAM REV 8.0}}	
 	\end{figure}
+
+\subsubsection{Connector J1}
+
+Digital camera, serial, power for SLA1500OEM
+\\
+This connector is designed to mate with the SLA1500OEM J4 connector. 
+
+    \begin{figure}[H]
+	\centering	
+	\includegraphics[width=6 in]{CONN_J1}
+	\caption{\textit{Connector summary for J1}}	
+	\end{figure}
+
+ The GPIO connections for J1 are as follows:
+
+\begin{itemize}
+
+\item CAMGPIO 172 is connected to DNP Resistor R7 to AR0134 TRIGGER
+\item CAMGPIO 173  is connected to DNP Resistor R8 to AR0134 FLASH
+\item CAMGPIO 174  is connected to AR0134 RESET
+\item CAMGPIO 175  is connected to AR0134 STANDBY
+\item CAMGPIO 178 is connected to DNP resistor R26 to AR0134 OEBAR
+\end{itemize}
+
+AR0134 OEBAR is tied to ground with 0 OHM resistor R27.
+
+\textbf{*R27  MUST BE REMOVED BEFORE R26 IS INSTALLED AND CAMGPIO 178 CAN BE USED.}
+
 
 
 \begin{landscape}
