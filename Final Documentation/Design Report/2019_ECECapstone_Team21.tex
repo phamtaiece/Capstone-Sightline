@@ -161,11 +161,20 @@ The project is divided into three sections:
 
 \subsubsection{Project Timeline}
 
-*Insert Project Timeline here*
+\begin{figure}[h!bt]
+\centering	
+\includegraphics[width=7 in]{timeline1}
+%\caption{\textit{Simple saturable reactor[1]}}	
+\end{figure}
 
+\begin{figure}[h!bt]
+\centering	
+\includegraphics[width=7 in]{timeline2}
+\caption{\textit{Project Timeline}}	
+\end{figure} 
+\break
 
-
-
+Above is the project timeline which was created at the beginning of the Winter term. However, things have changed a lot during our capstone, and the timeline above is just for reference.
 
 
 %    \begin{figure}[H]
@@ -177,8 +186,39 @@ The project is divided into three sections:
 \section{Results(Technical Detail)}
 \subsection{Quadcopter}
 
-\blindtext
+In this project, we used a DJI Flame F450 as the core for our custom quadcopter design. The parts and accessories are indicated in figure below. The total quadcopter's cost is \$989.29. In the end of the project, we have successfully optimized the automonous flight and control using Qgroundcontrol. Therefore, the radio transmitter and its receiver is no longer neccessary which brought the cost down to \$728.3 for the future experiment. \newline 
+With the 4S battery, the quadcopter has 15 minutes flying time, and the maximum take-off weight is  around 800g. Based on our experiment, the custom quadcopter has demonstrated safe and stable flights, and can be fully controlled by Groundcontrol Station.  
+\newpage
+\begin{figure}[h!bt]
+\centering	
+\includegraphics[width=7 in]{quadcopter_part}
+\caption{\textit{Quadcopter's parts and accessories}}	
+\end{figure} 
 
+\begin{figure}[h!bt]
+\centering	
+\includegraphics[width=4.5 in]{quad}
+\caption{\textit{Custom Quadcopter}}	
+\end{figure}
+
+\subsection{Pixhawk 4}
+Pixhawk 4 is a flight controller made by Holybro and PX4. Pixhawk 4 is one of the modest flight controllers and has worked stably with number of autopilot softwares such as Qgroundcontrol and Mission Planner. Pixhawk 4 is our best choice for this project because of following reasons:
+
+\begin{itemize}
+
+\item Light weight - only 15.8g
+\item Multi options for communication protocol such as I$^2$C, CAN, and several SBUS.
+\item Built-in GPS and provide the port for external GPS
+\item Easy to setup with Qgroundcontrol
+\item Provide plug-and-play ability     
+
+\end{itemize}
+
+\begin{figure}[h!bt]
+\centering	
+\includegraphics[width=4.5 in]{pixhawk4}
+\caption{\textit{Pixhawk 4}}	
+\end{figure}
 
 \subsection{Hardware}
 
@@ -267,24 +307,28 @@ The schematic and PCB were designed using EAGLE CAD 9.2.1. Many of the component
 
 \subsection{Software}
 
-\blindtext
+\subsubsection{Qgroundcontrol}
+Qgroundcontrol is an open-source software which allows users/developers design and optimize their own unmanned aerial vehicle. The laptop that installs the Qgroundcontrol is called Ground Control Station (GCS). Qgroundcontrol allows users/ developers adjust and control every single parameter of the drone as well as set up a mission for the drone flying autonomously including take-off and precision landing. Qgroundcontrol is developed by PX4, and it's optimized to work best with Pixhawk family especially Pixhawk 4. By using a transmitter telemetry and a receiver telemetry, Qgroundcontrol can send the command to the Pixhawk 4 and then control the quadcopter wirelessly which provides a great opportunity to develop  plug-and-play ability for quadcopter and Sightline SLA-1500-CAM. \newline
+Our project has proved that Qgroundcontrol can fully control and communicate with the quadcopter even when the quadcopter is up in the air.  
 
-    \begin{figure}[H]
-	\centering	
-	\caption{\textit{This is a caption for a blank figure}}	
-	\end{figure}
-
-
+\begin{figure}[h!bt]
+\centering
+\includegraphics[width=4.5 in]{Qgroundcontrol}
+\caption{\textit{Qgroundcontrol}}	
+\end{figure}
+\subsubsection{Mission Planner}
+Alternatively, Mission Planner is a autopilot software which is developed by Ardupilot team. Similar to Qgroundcontrol, Mission Planner provides a good way to control the drone autonomously as well as adjust the drone's parameters. In this project, the Mission Planner is used to simulate the drone's behavior virtually by using Software In The Loop (SITL) technique. The SITL technique is extremely helpful in understanding the drone's behaviors and how to control the drone wirelessly without crashing an actual drone. The simulation provides varieties of tools and command that can change the speed of drone, speed and direction of wind, precision landing, and flight mode. \newline
+\begin{figure}[h!bt]
+\centering
+\includegraphics[width=4.5 in]{mission}
+\caption{\textit{Setup a mission in Mission Planner}}	
+\end{figure}
+     
 
 \section{Conclusion/What's Left to do}
-
-\blindtext
-
-
-     \begin{figure}[H]
-	\centering	
-	\caption{\textit{This is a caption for a blank figure}}	
-	\end{figure}
+Throughout the capstone project, we have gained a lot of experience which is not only academic experience but only real world experience, and how to deal with some problems in a team. On the project side, we have successfully developed the SLA-1500-CAM. However, due to manufacturing delay, we haven't had a chance to test the board yet. We have also gain insight into communication between Qgroundcontrol, Pixhawk4, and Sightline SLA-1500 kits. \\
+We have successfully completed autonomous flight and landing with custom quadcopter with flight controller, Pixhawk4, and Qgroundcontrol. Importantly, we were able to record the video when the vehicle was up in the air by using SLA-1500 kits which promissingly provides the ability to develop plug-and-play feature in the future with SLA-1500-CAM, Qgroundcontrol and Pixhakw4. \\
+However, The compability issues remain with Qgroundcontrol and Sightline hardware because Sightline SLA-1500 kits wasn't able to send the signal to Qgroundcontrol. Potentially, a new project will focus on software and communication between SLA-1500-CAM and Qgroundcontrol for a future team that is interested in drone communication protocols. With our achievements on this project, we believe that full integration of the SLA-1500-CAM with plug and play capabilities can be achieved.     
 
 \pagebreak
 
